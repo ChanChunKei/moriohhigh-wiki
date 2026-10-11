@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-12",
+  "method": "built-in image_gen",
+  "purpose": "Original editorial illustrations; not actual game screenshots, assets, or evidence of map/item appearance.",
+  "prompts": [
+    {
+      "key": "school",
+      "prompt": "Use case: stylized-concept\nAsset type: original editorial illustration for the independent Morioh High Roblox wiki homepage and game-link article.\nPrimary request: a polished, atmospheric illustration of Japanese high-school life with a subtly bizarre purple mood, drawn as original website artwork, not a screenshot.\nScene: a quiet Japanese school entrance at dusk, glimpses of windows and a paved courtyard, the everyday school architecture takes up the composition.\nStyle: crisp stylized low-poly architecture with hand-painted atmospheric lighting and graphic comic shading; refined, coherent geometry, appealing game-wiki artwork.\nComposition: wide 16:9 landscape, readable school silhouette centered toward the right half, foreground and left edge calm, useful at small thumbnail sizes. No people.\nLighting: violet twilight, warm amber windows, soft lavender edge light, dark navy shadows; use restrained purple to match the existing wiki palette.\nConstraints: fictional editorial school scene; do not recreate an actual game map, specific landmark, JoJo scene, character, logo, Stand, NPC, weapon, item, interface or claimed gameplay feature. No text, letters, signs, logos, watermarks, collage, or border. One complete standalone image."
+    },
+    {
+      "key": "stand",
+      "prompt": "Use case: stylized-concept\nAsset type: article cover for an independent wiki guide to awakening a Stand in Morioh High.\nPrimary request: a refined symbolic editorial still life of a closed dark encyclopedia and a simple abstract arrow, with a restrained violet aura, on a school desk.\nStyle: stylized game editorial illustration, graphic comic shadows, crisp low-poly props, painterly light; dark navy, violet, warm amber highlights.\nComposition: single complete 16:9 landscape; book and arrow form one strong, readable centerpiece, ample margins. Both objects seen from a three-quarter overhead angle. No text on the book.\nConstraints: conceptual symbol only, not the game's actual item sprite or interface; the arrow is a simple plain geometric arrow, no JoJo ornament or canonical weapon design. No characters, humanoid Stand, faces, game map, game UI, stat numbers, icons, captions, logos, watermarks or text. No collage or multi-panel layout."
+    },
+    {
+      "key": "release",
+      "prompt": "Use case: stylized-concept\nAsset type: original editorial cover for Morioh High wiki release and availability information.\nPrimary request: a Japanese school noticeboard with an unmarked paper calendar beside a simple round wall clock, a softly sunlit corridor glimpsed in the background.\nStyle: original stylized game editorial illustration, crisp low-poly shapes with painterly lighting and graphic comic shadows. Dark navy shadows, violet accents, warm amber windows, consistent with a purple school-life wiki.\nComposition: single complete 16:9 landscape; close enough that the clock and calendar read immediately at thumbnail size, avoid tiny clutter.\nConstraints: fictional editorial setting, not a game map screenshot. Calendar has blank squares only, no date, no numbers, no release claims. Clock plain face with no digits. No people, game characters, JoJo material, game logos, letters, writing, interface, watermark or border."
+    },
+    {
+      "key": "community",
+      "prompt": "Use case: stylized-concept\nAsset type: original editorial cover for Morioh High wiki community and developer links.\nPrimary request: a neatly arranged school bulletin board holding three blank cards connected by lavender threads and round pins, with a small stack of notebooks at its base. Clear visual metaphor of community connections.\nStyle: original stylized game editorial illustration, crisp low-poly props and graphic comic shadows, painterly evening light. Dark navy, restrained lavender and warm amber, coherent school-life mood.\nComposition: one complete 16:9 landscape, strong close-up central grouping with a simple school-wall backdrop, high legibility at thumbnail size.\nConstraints: fictional editorial metaphor, not a screenshot or a real Trello board. Blank cards only. No written words, digits, names, social platform logos, Discord logo, game logos, UI, people, JoJo characters, watermark, or frame."
+    }
+  ]
+}

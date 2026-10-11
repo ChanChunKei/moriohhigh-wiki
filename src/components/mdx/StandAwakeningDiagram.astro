@@ -1,0 +1,29 @@
+---
+/** A source-backed HTML diagram; no invented item appearance or gameplay. */
+import { Icon } from 'astro-icon/components';
+---
+
+<figure class="not-prose my-6 rounded-xl border border-border bg-card p-4 sm:p-6" aria-labelledby="stand-paths-title">
+  <figcaption id="stand-paths-title" class="text-lg font-bold text-foreground">Two documented awakening paths</figcaption>
+  <div class="mt-4 grid gap-4 sm:grid-cols-2">
+    <section class="rounded-lg border border-nav/30 bg-nav/5 p-4" aria-label="Fight awakening path">
+      <p class="flex items-center gap-2 font-semibold text-foreground"><Icon name="lucide:swords" class="h-5 w-5 text-nav" /> Fight awakening</p>
+      <ol class="mt-4 space-y-3 text-sm text-foreground">
+        <li class="flex gap-3"><span class="font-bold text-nav">01</span><span>Take part in a real fight.</span></li>
+        <li class="flex gap-3"><span class="font-bold text-nav">02</span><span>Another fighter knocks you out.</span></li>
+        <li class="flex gap-3"><span class="font-bold text-nav">03</span><span><strong>1-in-10 chance</strong> to awaken; one chance per minute.</span></li>
+      </ol>
+      <p class="mt-4 border-t border-border pt-3 text-xs text-muted-foreground">Resetting, falling, and a tap at 1 health do not qualify.</p>
+    </section>
+    <section class="rounded-lg border border-nav/30 bg-nav/5 p-4" aria-label="Stand Arrow path">
+      <p class="flex items-center gap-2 font-semibold text-foreground"><Icon name="lucide:arrow-up-right" class="h-5 w-5 text-nav" /> Stand Arrow</p>
+      <ol class="mt-4 space-y-3 text-sm text-foreground">
+        <li class="flex gap-3"><span class="font-bold text-nav">01</span><span>Obtain the Arrow.</span></li>
+        <li class="flex gap-3"><span class="font-bold text-nav">02</span><span>Keep possession while compatibility fills.</span></li>
+        <li class="flex gap-3"><span class="font-bold text-nav">03</span><span>Reach <strong>100% compatibility</strong> for the documented awakening.</span></li>
+      </ol>
+      <p class="mt-4 border-t border-border pt-3 text-xs text-muted-foreground">A fixed location or exact holding time has not been verified.</p>
+    </section>
+  </div>
+  <p class="mt-4 text-xs text-muted-foreground">Diagram of the Encyclopedia rules shown in <a class="text-nav underline" href="https://www.youtube.com/watch?v=taOqWP56Mrk&t=10s" target="_blank" rel="noopener noreferrer">Abitsane’s footage at 0:10</a>. Evidence checked October 11, 2026; chance not independently measured.</p>
+</figure>

@@ -36,6 +36,9 @@ const wiki = defineCollection({
       date: z.coerce.date(),
       lastModified: z.coerce.date().optional(),
       image: image().optional(),
+      /** Accurate description and visible provenance for editorial cover art. */
+      imageAlt: z.string().max(200).optional(),
+      imageCaption: z.string().max(250).optional(),
       tags: z.array(z.string()).default([]),
       noindex: z.boolean().default(false),
       /**

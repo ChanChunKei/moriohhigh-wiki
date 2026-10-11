@@ -55,12 +55,14 @@ export interface SiteConfig {
     releaseDate?: string;
   };
   /**
-   * Dimensions of the default OG/Twitter share image (public/images/hero.webp).
+   * Dimensions of the configured default OG/Twitter share image.
    * Emitted as og:image:width / og:image:height so social crawlers can render
    * the share card without downloading the image first.
    */
   ogImageWidth: number;
   ogImageHeight: number;
+  /** Public path to the default share image. */
+  ogImage?: string;
   /** Default author name for articles without an explicit `author` in frontmatter (E-E-A-T signal). */
   defaultAuthor?: string;
 }
@@ -89,10 +91,11 @@ export const site: SiteConfig = {
     genre: 'School life / Action',
     releaseDate: '',
   },
-  // og:image dims of the SHIPPED hero.webp — if you replace public/images/hero.webp,
+  // og:image dims of the SHIPPED share image — if you replace that asset,
   // update these in src/config/site.ts to match (wrong dims mis-crop share cards).
   ogImageWidth: 1200,
   ogImageHeight: 630,
+  ogImage: '/images/hero-v2.webp',
 };
 
 /** Absolute site URL (no trailing slash). Falls back to the Astro `site` config. */

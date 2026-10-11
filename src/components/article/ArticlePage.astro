@@ -13,6 +13,8 @@
  *   - Article + BreadcrumbList JSON-LD
  */
 import { Icon } from 'astro-icon/components';
+import { Image } from 'astro:assets';
+import ArticleCover from '~/components/article/ArticleCover.astro';
 import { render } from 'astro:content';
 import LocaleLayout from '~/components/layout/LocaleLayout.astro';
 import InContentAd from '~/components/ads/InContentAd.astro';
@@ -66,7 +68,7 @@ const categoryLabel = overview?.overviewTitle ?? nav[category] ?? category;
 
 const coverUrl = entry.data.image
   ? `${siteUrl}${entry.data.image.src}`
-  : `${siteUrl}/images/hero.webp`;
+  : `${siteUrl}${site.ogImage ?? '/images/hero.webp'}`;
 
 // Related articles come from the SERVED locale's pool — on an English-fallback
 // page (locale=ja serving English) the requested-locale pool doesn't contain
@@ -287,6 +289,24 @@ const jsonLd = [
       </aside>
     )}
 
+    {entry.data.image && (
+      <figure class="mt-6">
+        <Image
+          src={entry.data.image}
+          alt={entry.data.imageAlt ?? ''}
+          width={1200}
+          height={675}
+          widths={[400, 768, 1200]}
+          sizes="(max-width: 767px) calc(100vw - 32px), 768px"
+          format="webp"
+          loading="lazy"
+          decoding="async"
+          class="aspect-video w-full rounded-xl border border-border object-cover"
+        />
+        {entry.data.imageCaption && <figcaption class="mt-2 text-xs text-muted-foreground">{entry.data.imageCaption}</figcaption>}
+      </figure>
+    )}
+
     {/* Stale-content notice — time-sensitive categories older than 90 days */}
     {outdated && (
       <aside class="mt-4 flex items-start gap-2 rounded-lg border border-amber-500/40 bg-amber-500/10 p-3 text-sm text-foreground" role="note">
@@ -420,6 +440,7 @@ const jsonLd = [
               const relCat = rel.data.category;
               return (
                 <a href={detailPath(relCat, relSlug, locale)} class="card p-4">
+                  {rel.data.image && <ArticleCover src={rel.data.image} alt={rel.data.imageAlt} sizes="(max-width: 639px) calc(100vw - 64px), 230px" />}
                   <p class="text-xs uppercase tracking-wider text-muted-foreground">{relCat}</p>
                   <h3 class="mt-1 text-sm font-semibold leading-snug">{rel.data.title}</h3>
                   <p class="mt-1 line-clamp-2 text-xs text-muted-foreground">{rel.data.description}</p>

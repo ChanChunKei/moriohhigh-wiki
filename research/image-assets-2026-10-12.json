@@ -1,0 +1,37 @@
+{
+  "createdAt": "2026-10-11T17:41:07.663Z",
+  "method": "Built-in image_gen; mechanical Sharp resizing and WebP encoding only",
+  "originals": "Local copies in .tools/image-originals/ (Git ignored); generation originals retained",
+  "assets": [
+    {
+      "file": "src/assets/covers/campus-v2.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 98466
+    },
+    {
+      "file": "src/assets/covers/stand-awakening-v2.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 93014
+    },
+    {
+      "file": "src/assets/covers/release-notice-v2.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 56936
+    },
+    {
+      "file": "src/assets/covers/community-board-v2.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 98928
+    },
+    {
+      "file": "public/images/hero-v2.webp",
+      "width": 1200,
+      "height": 630,
+      "bytes": 95980
+    }
+  ]
+}
