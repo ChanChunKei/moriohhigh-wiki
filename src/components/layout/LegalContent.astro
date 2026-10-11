@@ -5,6 +5,7 @@ interface Props {
 }
 const { page } = Astro.props;
 const year = new Date().getFullYear();
+const analyticsEnabled = Boolean(import.meta.env.PUBLIC_GA_ID);
 ---
 
 {
@@ -23,7 +24,7 @@ const year = new Date().getFullYear();
       </p>
       <p>
         The current guide covers the verified Roblox experience, how to open it, release
-        information, and community resources. Gameplay guides are published only when their central
+        information, community resources, and documented Stand acquisition. Gameplay guides are published only when their central
         answer can be supported.
       </p>
       <h2>Corrections and updates</h2>
@@ -62,7 +63,7 @@ const year = new Date().getFullYear();
       </p>
       <h2>Hosting</h2>
       <p>
-        Cloudflare Pages is the intended host. A hosting provider processes network requests,
+        Cloudflare Pages hosts this site. A hosting provider processes network requests,
         including information such as an IP address and browser request headers, to deliver and
         protect the site. See{' '}
         <a
@@ -75,11 +76,28 @@ const year = new Date().getFullYear();
         for its practices.
       </p>
       <h2>Advertising and analytics</h2>
+      {analyticsEnabled ? (
+        <>
+          <p>
+            Google Analytics 4 measures visits, traffic sources, page views, and reading interactions
+            after you allow optional analytics in the cookie banner. Declining leaves the Google
+            Analytics loader disabled. Your choice is saved in browser storage; clearing this site's
+            browser storage lets you choose again on a later visit.
+          </p>
+          <p>
+            Google receives technical request and interaction data and may store analytics cookies
+            after consent. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's privacy policy</a>.
+            This site has no account or submission form and does not ask for personal information.
+            Advertising, Cloudflare Web Analytics, and third-party comments remain disabled.
+          </p>
+        </>
+      ) : (
       <p>
         Advertising, Google Analytics, Cloudflare Web Analytics, and embedded third-party comments
         are disabled in this edition. No advertising or analytics identifier has been configured.
         This notice must be revised before those services are enabled.
       </p>
+      )}
       <h2>External links</h2>
       <p>
         Links to Roblox, Discord, videos, and other sources open third-party services. Those

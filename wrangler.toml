@@ -47,5 +47,7 @@ PUBLIC_CF_BEACON_TOKEN = ""
 #PUBLIC_ADSTERRA_SLOT_STICKY_320X50 = ""
 #PUBLIC_ADSTERRA_SLOT_SIDEBAR_160X300 = ""
 #PUBLIC_ADSTERRA_SLOT_SIDEBAR_160X600 = ""
-#PUBLIC_GA_ID = ""
-#PUBLIC_GSC_VERIFICATION = ""
+# Native consent-gated analytics for this independent site's web stream.
+PUBLIC_GA_ID = "G-MLLG5CEMCG"
+# Public verification identifier for this site's URL-prefix property.
+PUBLIC_GSC_VERIFICATION = "85vq2SGiZSnqZuqjZ8DzIoT_aqdAvxX21XsZIJmGzdg"

@@ -309,13 +309,13 @@
         "competitionScoreBasis": "No exact-keyword Google top-ten audit; numeric score withheld",
         "dedicatedWikiObserved": null,
         "playerDemand": "historical user SERP/Trends signal; current demand unconfirmed",
-        "answerEvidence": "core gameplay answer not verified",
+        "answerEvidence": "E17 readable Encyclopedia rules and E18 independent Arrow footage; live client not tested",
         "contentGap": "tutorial video observed; text-guide gap remains a candidate, not proven exhaustively",
         "evergreen": "unknown until mechanics verified",
-        "pageType": "deferred research",
-        "separatePage": false,
-        "targetUrl": null,
-        "priority": "P0 research / publish blocked"
+        "pageType": "source-checked acquisition guide",
+        "separatePage": true,
+        "targetUrl": "/guides/how-to-get-a-stand/",
+        "priority": "P0 ready"
       }
     },
     {
@@ -1386,5 +1386,6 @@
         "priority": "P0"
       }
     }
-  ]
+  ],
+  "incrementalEvidenceDate": "2026-10-11"
 }

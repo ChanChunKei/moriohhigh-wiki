@@ -35,10 +35,10 @@
     "share": "Share",
     "copyLink": "Copy link",
     "copied": "Copied!",
-    "consentText": "We use cookies for analytics and ads to keep this site free.",
-    "accept": "Accept",
+    "consentText": "Allow Google Analytics to measure visits and reading interactions? Ads are disabled.",
+    "accept": "Allow analytics",
     "decline": "Decline",
-    "consentTitle": "Cookies",
+    "consentTitle": "Optional analytics",
     "bossCard": {
       "title": "Boss Overview",
       "hp": "HP",
@@ -133,13 +133,13 @@
   },
   "home": {
     "meta": {
-      "title": "Morioh High Wiki | Roblox Game & Player Resources",
-      "description": "Find the verified Morioh High Roblox game, release information, and community links. Independent player wiki with clear sources and verification dates."
+      "title": "Morioh High Wiki | Stand Guide & Roblox Resources",
+      "description": "Learn how to get a Stand in Morioh High, find the Roblox game, and check community links. Independent wiki with clear sources and verification dates."
     },
     "hero": {
       "badge": "ROBLOX · INDEPENDENT PLAYER WIKI",
       "title": "Morioh High Wiki",
-      "description": "School life in Morioh, with a bizarre twist. Find the right Roblox game, check its release information, and get connected with other players. Sources checked October 11, 2026.",
+      "description": "School life in Morioh, with a bizarre twist. Find the Roblox game, learn the documented Stand awakening methods, and connect with other players. Sources checked October 11, 2026.",
       "ctaPrimary": "Play on Roblox",
       "ctaSecondary": "Game & community links",
       "videoId": ""
@@ -154,6 +154,10 @@
         {
           "label": "How to play on Roblox",
           "href": "/guides/how-to-play/"
+        },
+        {
+          "label": "How to get a Stand",
+          "href": "/guides/how-to-get-a-stand/"
         },
         {
           "label": "Release & availability",
@@ -182,10 +186,10 @@
         },
         {
           "number": "02",
-          "title": "Check availability",
-          "description": "See what the live Roblox listing confirms and how to read release-date claims.",
-          "icon": "lucide:calendar-days",
-          "href": "/resources/release-information/"
+          "title": "Get your first Stand",
+          "description": "Fight awakening and Stand Arrow rules, checked against the game’s Encyclopedia in footage.",
+          "icon": "lucide:sparkles",
+          "href": "/guides/how-to-get-a-stand/"
         },
         {
           "number": "03",
@@ -288,7 +292,7 @@
         },
         {
           "question": "Where are the Stand and codes guides?",
-          "answer": "Stand acquisition, the Stand roster, and code redemption have not passed this wiki's evidence checks. No untested code, drop chance, or mechanic is presented as confirmed. Use the developer community while those details remain unverified."
+          "answer": "The Stand guide documents qualifying fight knockouts and holding a Stand Arrow to full compatibility, using readable game Encyclopedia footage. A complete Stand roster and working code redemption remain unverified here."
         },
         {
           "question": "Is this an official wiki?",

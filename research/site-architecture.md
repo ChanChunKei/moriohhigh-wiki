@@ -13,3 +13,8 @@
 - /404.html：原生 404。
 
 所有内部 URL 保持尾斜线。未核实的机制路由没有创建，也不会出现在 Sitemap。广告组件保留、广告与分析默认关闭。域名未确定，localhost 仅用于本地；发布时必须使用 Cloudflare 实际分配的网址重建 Canonical、Sitemap、robots 和分享图 URL。
+
+
+## Incremental change
+
+/guides/how-to-get-a-stand/ now answers documented first-Stand acquisition from E17/E18. Actual allocated primary origin is https://moriohhigh-wiki.pages.dev. Earlier localhost text records the initial setup stage.

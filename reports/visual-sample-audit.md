@@ -9,3 +9,9 @@ Pagefind 实际输入 Discord，返回 2 篇对应文章，并点击社区文章
 首页留白经实查缩短；桌面与移动截图保留。未使用受保护的游戏图。封面用于社交分享，正文以文本和表格为主。广告和 Cookie banner 未启用。
 
 **限制：**指定的 How to Get a Stand 样板因事实证据不足没有生成，用可靠的 how-to-play 页面验证共享文章组件；这不代表 Stand 内容门禁通过。移动体验是浏览器视口测试，不是真实手机或游戏支持测试。Lighthouse / 真实 Core Web Vitals 尚未测量，不声明性能分数。
+
+## Incremental Stand sample and live checks — 2026-10-11
+
+The earlier Stand deferral is historical. After E17/E18 were obtained, the actual How to Get a Stand page was created and checked in the real browser at 1440×900 and 390×844. The mobile TOC was expanded successfully; both tables and the Quick Answer were readable. Mobile document scrollWidth 375 <= innerWidth 390, one H1, two tables and no recorded browser error logs. Screenshots: stand-desktop.jpg and stand-mobile.jpg. This passes the requested Stand visual sample for the documented methods, without claiming a live Roblox client test. A community-links data page supplies the third sample; a complete Stand roster remains deferred.
+
+The first production edition was also checked in the real browser: desktop/mobile home, Pagefind Discord results and a successful community article click, mobile community TOC and table. Live screenshots are saved separately. The new six-page edition needs its own upload and final live confirmation.

@@ -1,0 +1,50 @@
+{
+  "collectedDate": "2026-10-11",
+  "incremental": true,
+  "previousState": "Initial E11 had a video title but inaccessible footage/captions. Browser export and viewing later succeeded.",
+  "gameIdentity": {
+    "placeId": "111838814545019",
+    "universeId": "10768944846"
+  },
+  "sources": [
+    {
+      "id": "E17",
+      "url": "https://www.youtube.com/watch?v=taOqWP56Mrk",
+      "author": "Abitsane",
+      "checkedAt": "2026-10-11T12:06:57.115Z",
+      "time": "0:10",
+      "evidence": "Readable in-game Encyclopedia, enlarged in the real browser; auto captions used only as an index.",
+      "facts": [
+        "Start without a Stand",
+        "Real-fight knockout by another fighter: 1 in 10; one chance per minute",
+        "Resetting, falling, and a tap at 1 health are excluded",
+        "Hold Stand Arrow until compatibility is 100%",
+        "Awakening result is random by rarity",
+        "Reroll result differs from current Stand"
+      ],
+      "authority": "Game UI reproduced in same-game player footage; not a developer announcement or a live-client test",
+      "limits": [
+        "Build number unknown",
+        "The second clip does not independently measure the odds"
+      ]
+    },
+    {
+      "id": "E18",
+      "url": "https://www.youtube.com/watch?v=w9rdSW-8ULE",
+      "author": "SuperZydan",
+      "checkedAt": "2026-10-11T12:06:57.119Z",
+      "time": "0:50–1:05; 1:35–1:47",
+      "evidence": "Auto captions plus browser viewing of Arrow competition in a different player recording.",
+      "facts": [
+        "Players contest a Stand Arrow",
+        "Creator reports an awakened Stand later in the clip"
+      ],
+      "authority": "Independent player footage, narrower than Encyclopedia documentation",
+      "limits": [
+        "Does not establish an event interval, fixed spawn route, interaction key or exact holding duration",
+        "Does not independently prove the documented fight probability"
+      ]
+    }
+  ],
+  "publicationDecision": "Publish the documented Stand acquisition methods with source/date/build limits; no oral-only code or probability claim promoted."
+}

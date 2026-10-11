@@ -1,5 +1,5 @@
 Already up to date
-Done in 523ms using pnpm v11.1.1
+Done in 524ms using pnpm v11.1.1
 $ tsx scripts/check-config.ts
 
 🔧 AnvilWiki config consistency check
@@ -16,7 +16,7 @@ $ tsx scripts/check-config.ts
   ✅ all displayTypes valid
 
 4. Deployment domain (wrangler.toml SITE_URL ↔ site.ts domain)
-  ✅ env SITE_URL → https://moriohhigh-wiki.pages.dev matches site.ts domain
+  ✅ wrangler.toml [vars] → https://moriohhigh-wiki.pages.dev matches site.ts domain
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 

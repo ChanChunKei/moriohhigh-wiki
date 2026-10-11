@@ -1,0 +1,11 @@
+Already up to date
+Done in 524ms using pnpm v11.1.1
+
+ RUN  v4.1.11 D:/CursorProjects/moriohhigh-wiki
+
+
+ Test Files  1 passed (1)
+      Tests  45 passed | 1 skipped (46)
+   Start at  20:24:20
+   Duration  1.30s (transform 118ms, setup 0ms, import 252ms, tests 740ms, environment 0ms)
+

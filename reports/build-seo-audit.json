@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-11T11:44:03.369Z",
+  "checkedAt": "2026-10-11T12:40:06.364Z",
   "origin": "https://moriohhigh-wiki.pages.dev",
-  "htmlCount": 19,
-  "indexableCount": 9,
-  "sitemapCount": 9,
+  "htmlCount": 21,
+  "indexableCount": 10,
+  "sitemapCount": 10,
   "failures": [],
   "pages": [
     {
@@ -47,6 +47,14 @@
       "errors": []
     },
     {
+      "file": "dist/guides/how-to-get-a-stand/index.html",
+      "title": "How to Get a Stand in Morioh High",
+      "descriptionLength": 148,
+      "canonical": "https://moriohhigh-wiki.pages.dev/guides/how-to-get-a-stand/",
+      "noindex": false,
+      "errors": []
+    },
+    {
       "file": "dist/guides/how-to-play/index.html",
       "title": "Morioh High Roblox: Game Link and How to Play",
       "descriptionLength": 148,
@@ -64,8 +72,8 @@
     },
     {
       "file": "dist/index.html",
-      "title": "Morioh High Wiki | Roblox Game &amp; Player Resources",
-      "descriptionLength": 151,
+      "title": "Morioh High Wiki | Stand Guide &amp; Roblox Resources",
+      "descriptionLength": 149,
       "canonical": "https://moriohhigh-wiki.pages.dev/",
       "noindex": false,
       "errors": []
@@ -147,6 +155,14 @@
       "title": "Roblox — Morioh High Wiki",
       "descriptionLength": 51,
       "canonical": "https://moriohhigh-wiki.pages.dev/tags/roblox/",
+      "noindex": true,
+      "errors": []
+    },
+    {
+      "file": "dist/tags/stands/index.html",
+      "title": "Stands — Morioh High Wiki",
+      "descriptionLength": 51,
+      "canonical": "https://moriohhigh-wiki.pages.dev/tags/stands/",
       "noindex": true,
       "errors": []
     },

@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 const project=JSON.parse(fs.readFileSync('reports/pages-project.json','utf8'));
 const origin=`https://${project.subdomain}`;
+const analytics=fs.existsSync('reports/analytics.json')?JSON.parse(fs.readFileSync('reports/analytics.json','utf8')):{};
 const files=[];
 function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())walk(p);else if(e.name.endsWith('.html'))files.push(p);}}
 walk('dist');
@@ -17,7 +18,11 @@ const rows=files.map(file=>{
   if(/Anvil Quest|emberfang|placeholder\.png|Coming soon/i.test(html))errors.push('demo/placeholder residue');
   for(const match of html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)){try{JSON.parse(match[1]);}catch{errors.push('invalid JSON-LD');}}
   for(const match of html.matchAll(/<img\b[^>]*>/g)){if(!/\salt(?:\s|=|>)/.test(match[0]))errors.push('missing image ALT');}
-  if(/googletagmanager\.com|adsbygoogle\.js|static\.cloudflareinsights\.com\/beacon/.test(html))errors.push('unexpected enabled tracker/ad');
+  if(/googletagmanager\.com/.test(html)){
+    if(!analytics.measurementId||!html.includes(analytics.measurementId)||!html.includes('__awLoadTrackers')||!html.includes('id="cookie-consent"'))errors.push('analytics identity or consent gate missing');
+    if(/<script[^>]+src="https:\/\/www\.googletagmanager\.com/.test(html))errors.push('analytics loaded before consent');
+  }
+  if(/static\.cloudflareinsights\.com\/beacon/.test(html)||/<script[^>]+src="https:\/\/pagead2\.googlesyndication\.com/.test(html)||/const adsenseClient = "[^"]+"/.test(html))errors.push('unexpected enabled tracker/ad');
   return {file:file.replaceAll('\\','/'),title,descriptionLength:desc?.length,canonical,noindex:/name="robots"[^>]*content="[^"]*noindex/.test(html),errors};
 });
 const indexed=rows.filter(r=>!r.noindex&&r.file!=='dist/404.html');

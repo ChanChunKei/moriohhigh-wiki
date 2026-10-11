@@ -18,6 +18,9 @@ jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      PUBLIC_GSC_VERIFICATION: 85vq2SGiZSnqZuqjZ8DzIoT_aqdAvxX21XsZIJmGzdg
+      PUBLIC_GA_ID: G-MLLG5CEMCG
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 

@@ -1,17 +1,16 @@
 # Current delivery status
 
-Updated 2026-10-11, Asia/Shanghai. Resume at initial source commit, upload and online acceptance.
+Updated 2026-10-11 20:29, Asia/Shanghai. Do not reinitialize.
 
-- 已完成：用户 15 词历史快照 Markdown/JSON 原样继承；36 个研究记录、29 相关候选（不等于实测流量词）、7 排除；20 页矩阵、16 条证据；3 MDX、首页和 FAQ、法律页面。
-- 已验证：AnvilWiki 2.37.0 / MIT / b00859a524a176d60f3982c71b318ac11bc2fd5b；Roblox Place 111838814545019 / Universe 10768944846 / Not A Stand Game。
-- 已验证：最终 lint、check、test（244 passed / 1 skipped）、check-config、build、check-content、check-links、check-i18n 均通过；构建审计 19 HTML / 9 indexable / 9 Sitemap URLs / 0 failures。本地静态 check-sitemap 9 URLs 均 200。
-- 已验证：真实浏览器桌面/移动；导航、目录、数据表、Pagefind Discord 搜索 2 篇并点击打开。线上浏览器验收尚未完成。
-- 内容：5 个编辑页面，3 完整回答、2 明确限定的部分回答；15 候选暂缓。不能称完整机制 Wiki 已完成。
-- GitHub 已创建：https://github.com/ChanChunKei/moriohhigh-wiki。已确认 push 权限；CLI 登录不再阻塞，复用本机已有 Git Credential Manager 凭据。尚未提交或推送。
-- Cloudflare 已创建独立 direct-upload Pages 项目 moriohhigh-wiki；实际分配 https://moriohhigh-wiki.pages.dev，当前 SITE_URL / Canonical 已按此重建。尚未部署。账号凭据仅会话内使用。
-- 域名：moriohhigh.wiki RDAP 已注册，所有权未知；未购买或绑定。价格与续费表见 research/domain-selection.md；没有完整核验的可购买候选。
-- 联系：用户要求域名邮箱，真实域名和邮箱地址待提供；没有猜测邮箱，contact noindex。
-- GSC、GA4、Google 收录与曝光：未配置或未验证，无虚构数据。广告关闭。
-- 代码版本：main 尚无提交；下一步完成提交、推送、上传和线上验收，并保存真实 commit/deployment 状态。
-
-Do not reinitialize or overwrite reviewed evidence. Read reports and Git state before resuming.
+- 当前阶段：第二次生产上传准备；首次 Pages 部署和线上验收已验证。
+- 继承：15 词历史研究原样保留；36 研究记录，29 相关候选（不等于实测流量词），7 排除；20 页矩阵。
+- 本地内容：6 编辑页，4 完整回答、2 明确限定的部分回答；4 MDX；14 候选暂缓。Stand 获取证据 E17/E18 已核验，不代表完整 Stand 图鉴完成。
+- 当前线上：5 编辑页；https://moriohhigh-wiki.pages.dev；首次上传 bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b / 4b1ac254-f0a0-46dc-8e02-a113f68d112f；第二次上传尚未执行。
+- GitHub：https://github.com/ChanChunKei/moriohhigh-wiki；首次 push 和 CI 均已验证；当前本地修改尚未提交。
+- 测试：8 个适用模板门禁通过，244 passed / 1 skipped；最新构建 21 HTML / 10 indexable / 10 Sitemap / 0 failures；434 internal links clean；受影响 workflow 45 passed / 1 skipped。
+- 视觉：首页、Stand 指南、社区数据页真实桌面/移动浏览器通过；首版线上 Pagefind 和内页点击通过。新版本需要部署后复验。
+- GSC：现有账号可访问，本站 URL 前缀属性验证中；专属 public verification 标签已配置并重建；尚未点击成功验证/提交 Sitemap。
+- GA4：现有账号可访问，独立属性创建表单进行中；未取得 Measurement ID，未启用采集。
+- 外部：正式域名所有权和真实域名邮箱待确认；未购买或绑定；Google 收录/曝光、搜索热度上涨仍未验证。
+- 维护：已创建且核查保存的 3/7/14/28 天单次检查；未来执行尚未发生，不自动重写文章。
+- 下一步：完成可访问的统计设置；提交安全扫描后的来源代码，上传，重跑所有线上 URLs/Sitemap/404/Canonical/搜索，保存最终实况报告。

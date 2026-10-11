@@ -1,6 +1,7 @@
 name: IndexNow
 
 on:
+  workflow_dispatch:
   workflow_run:
     workflows: [CI]
     types: [completed]
@@ -18,15 +19,17 @@ jobs:
     # CI never submits URLs. Uninitialized forks stop after checkout/config
     # detection, before installing dependencies or making external requests.
     if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (vars.INDEXNOW_AUTO_SUBMIT == 'true' &&
       github.event.workflow_run.conclusion == 'success' &&
       github.event.workflow_run.event == 'push' &&
-      github.event.workflow_run.head_branch == 'main'
+      github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
         with:
-          ref: ${{ github.event.workflow_run.head_sha }}
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
 
       - name: Detect IndexNow configuration
         id: config
@@ -90,7 +93,7 @@ jobs:
         env:
           SITE_URL: ${{ steps.config.outputs.site_url }}
           INDEXNOW_KEY: ${{ vars.INDEXNOW_KEY }}
-          DEPLOY_SHA: ${{ github.event.workflow_run.head_sha }}
+          DEPLOY_SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
         run: >-
           pnpm submit-indexnow -- --site "$SITE_URL"
           --wait-for-deploy "$DEPLOY_SHA" --wait-for-key

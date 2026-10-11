@@ -1,0 +1,293 @@
+2026-10-11T11:48:08.7249659Z Current runner version: '2.337.0'
+2026-10-11T11:48:08.7278810Z ##[group]Runner Image Provisioner
+2026-10-11T11:48:08.7279753Z Hosted Compute Agent
+2026-10-11T11:48:08.7280731Z Version: 20261002.596
+2026-10-11T11:48:08.7281399Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+2026-10-11T11:48:08.7282284Z Build Date: 2026-10-02T22:28:27Z
+2026-10-11T11:48:08.7282982Z Worker ID: {4f7beb46-bc3a-4bea-b208-27818e0bab6a}
+2026-10-11T11:48:08.7283741Z Region: centralus
+2026-10-11T11:48:08.7284332Z Cloud: Azure
+2026-10-11T11:48:08.7284884Z ##[endgroup]
+2026-10-11T11:48:08.7286503Z ##[group]Operating System
+2026-10-11T11:48:08.7287164Z Ubuntu
+2026-10-11T11:48:08.7287687Z 24.04.5
+2026-10-11T11:48:08.7288308Z LTS
+2026-10-11T11:48:08.7288830Z ##[endgroup]
+2026-10-11T11:48:08.7289516Z ##[group]Runner Image
+2026-10-11T11:48:08.7290430Z Image: ubuntu-24.04
+2026-10-11T11:48:08.7291018Z Version: 20261004.327.1
+2026-10-11T11:48:08.7292364Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-11T11:48:08.7294017Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+2026-10-11T11:48:08.7294992Z ##[endgroup]
+2026-10-11T11:48:08.7296168Z ##[group]GITHUB_TOKEN Permissions
+2026-10-11T11:48:08.7298076Z Contents: read
+2026-10-11T11:48:08.7298722Z Metadata: read
+2026-10-11T11:48:08.7299400Z ##[endgroup]
+2026-10-11T11:48:08.7301817Z Secret source: Actions
+2026-10-11T11:48:08.7302899Z Cache mode: write
+2026-10-11T11:48:08.7303883Z Prepare workflow directory
+2026-10-11T11:48:08.7714725Z Prepare all required actions
+2026-10-11T11:48:08.7788979Z Getting action download info
+2026-10-11T11:48:09.0236761Z Download action repository 'actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09' (SHA:fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09)
+2026-10-11T11:48:09.1366575Z Download action repository 'pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413' (SHA:ea17c68df8912ef543352723c149a84f56e3d413)
+2026-10-11T11:48:09.4657564Z Download action repository 'actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38' (SHA:249970729cb0ef3589644e2896645e5dc5ba9c38)
+2026-10-11T11:48:09.6505970Z Complete job name: submit
+2026-10-11T11:48:09.7291632Z ##[group]Run actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+2026-10-11T11:48:09.7293083Z with:
+2026-10-11T11:48:09.7293604Z   ref: bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b
+2026-10-11T11:48:09.7294251Z   repository: ChanChunKei/moriohhigh-wiki
+2026-10-11T11:48:09.7297967Z   token: ***
+2026-10-11T11:48:09.7298407Z   ssh-strict: true
+2026-10-11T11:48:09.7298850Z   ssh-user: git
+2026-10-11T11:48:09.7299320Z   persist-credentials: true
+2026-10-11T11:48:09.7299807Z   clean: true
+2026-10-11T11:48:09.7300491Z   sparse-checkout-cone-mode: true
+2026-10-11T11:48:09.7301043Z   fetch-depth: 1
+2026-10-11T11:48:09.7301471Z   fetch-tags: false
+2026-10-11T11:48:09.7301917Z   show-progress: true
+2026-10-11T11:48:09.7302378Z   lfs: false
+2026-10-11T11:48:09.7302801Z   submodules: false
+2026-10-11T11:48:09.7303295Z   set-safe-directory: true
+2026-10-11T11:48:09.7303812Z   allow-unsafe-pr-checkout: false
+2026-10-11T11:48:09.7304664Z ##[endgroup]
+2026-10-11T11:48:09.8352524Z Syncing repository: ChanChunKei/moriohhigh-wiki
+2026-10-11T11:48:09.8355103Z ##[group]Getting Git version info
+2026-10-11T11:48:09.8356352Z Working directory is '/home/runner/work/moriohhigh-wiki/moriohhigh-wiki'
+2026-10-11T11:48:09.8358124Z [command]/usr/bin/git version
+2026-10-11T11:48:09.8482088Z git version 2.55.0
+2026-10-11T11:48:09.8498038Z ##[endgroup]
+2026-10-11T11:48:09.8506817Z Temporarily overriding HOME='/home/runner/work/_temp/9bd6bddf-cf96-40de-bd47-0bd4297a6d31' before making global git config changes
+2026-10-11T11:48:09.8509651Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-11T11:48:09.8513905Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/moriohhigh-wiki/moriohhigh-wiki
+2026-10-11T11:48:09.8570918Z Deleting the contents of '/home/runner/work/moriohhigh-wiki/moriohhigh-wiki'
+2026-10-11T11:48:09.8575805Z ##[group]Initializing the repository
+2026-10-11T11:48:09.8581140Z [command]/usr/bin/git init /home/runner/work/moriohhigh-wiki/moriohhigh-wiki
+2026-10-11T11:48:09.8736385Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-11T11:48:09.8738310Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-11T11:48:09.8741519Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-11T11:48:09.8743066Z hint: call:
+2026-10-11T11:48:09.8743841Z hint:
+2026-10-11T11:48:09.8745067Z hint: 	git config --global init.defaultBranch <name>
+2026-10-11T11:48:09.8746235Z hint:
+2026-10-11T11:48:09.8747307Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-11T11:48:09.8749055Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-11T11:48:09.8750645Z hint:
+2026-10-11T11:48:09.8751374Z hint: 	git branch -m <name>
+2026-10-11T11:48:09.8752216Z hint:
+2026-10-11T11:48:09.8753398Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-11T11:48:09.8754542Z Initialized empty Git repository in /home/runner/work/moriohhigh-wiki/moriohhigh-wiki/.git/
+2026-10-11T11:48:09.8758390Z [command]/usr/bin/git remote add origin https://github.com/ChanChunKei/moriohhigh-wiki
+2026-10-11T11:48:09.8810441Z ##[endgroup]
+2026-10-11T11:48:09.8812041Z ##[group]Disabling automatic garbage collection
+2026-10-11T11:48:09.8815237Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-11T11:48:09.8853168Z ##[endgroup]
+2026-10-11T11:48:09.8854570Z ##[group]Setting up auth
+2026-10-11T11:48:09.8862566Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-11T11:48:09.8907906Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-11T11:48:09.9383496Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-11T11:48:09.9422685Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-11T11:48:09.9646967Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-11T11:48:09.9684855Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-11T11:48:09.9909311Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-11T11:48:09.9952347Z ##[endgroup]
+2026-10-11T11:48:09.9953604Z ##[group]Fetching the repository
+2026-10-11T11:48:09.9962070Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b
+2026-10-11T11:48:10.5642149Z From https://github.com/ChanChunKei/moriohhigh-wiki
+2026-10-11T11:48:10.5652141Z  * branch            bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b -> FETCH_HEAD
+2026-10-11T11:48:10.5656566Z ##[endgroup]
+2026-10-11T11:48:10.5658759Z ##[group]Determining the checkout info
+2026-10-11T11:48:10.5661242Z ##[endgroup]
+2026-10-11T11:48:10.5662619Z [command]/usr/bin/git sparse-checkout disable
+2026-10-11T11:48:10.5719511Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-11T11:48:10.5821057Z ##[group]Checking out the ref
+2026-10-11T11:48:10.5825899Z [command]/usr/bin/git checkout --progress --force bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b
+2026-10-11T11:48:10.6338661Z Note: switching to 'bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b'.
+2026-10-11T11:48:10.6340140Z 
+2026-10-11T11:48:10.6340775Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-10-11T11:48:10.6342302Z changes and commit them, and you can discard any commits you make in this
+2026-10-11T11:48:10.6344115Z state without impacting any branches by switching back to a branch.
+2026-10-11T11:48:10.6345040Z 
+2026-10-11T11:48:10.6345675Z If you want to create a new branch to retain commits you create, you may
+2026-10-11T11:48:10.6347101Z do so (now or later) by using -c with the switch command. Example:
+2026-10-11T11:48:10.6348035Z 
+2026-10-11T11:48:10.6348508Z   git switch -c <new-branch-name>
+2026-10-11T11:48:10.6349450Z 
+2026-10-11T11:48:10.6350220Z Or undo this operation with:
+2026-10-11T11:48:10.6350968Z 
+2026-10-11T11:48:10.6351298Z   git switch -
+2026-10-11T11:48:10.6351905Z 
+2026-10-11T11:48:10.6352660Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-10-11T11:48:10.6354162Z 
+2026-10-11T11:48:10.6355073Z HEAD is now at bc2d68f Launch source-checked Morioh High resource wiki from AnvilWiki
+2026-10-11T11:48:10.6359415Z ##[endgroup]
+2026-10-11T11:48:10.6397701Z [command]/usr/bin/git log -1 --format=%H
+2026-10-11T11:48:10.6426950Z bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b
+2026-10-11T11:48:10.6697633Z ##[group]Run set -euo pipefail
+2026-10-11T11:48:10.6699418Z [36;1mset -euo pipefail[0m
+2026-10-11T11:48:10.6700945Z [36;1msite_url=""[0m
+2026-10-11T11:48:10.6702074Z [36;1mif [ -f wrangler.toml ]; then[0m
+2026-10-11T11:48:10.6704136Z [36;1m  site_url="$(sed -nE 's/^[[:space:]]*SITE_URL[[:space:]]*=[[:space:]]*"([^"]+)".*$/\1/p' wrangler.toml | head -n 1)"[0m
+2026-10-11T11:48:10.6706212Z [36;1mfi[0m
+2026-10-11T11:48:10.6707389Z [36;1mif [ -z "$site_url" ] && [ -f src/config/site.ts ]; then[0m
+2026-10-11T11:48:10.6709623Z [36;1m  domain="$(sed -nE "s/^[[:space:]]*domain:[[:space:]]*'([^']+)'.*$/\\1/p" src/config/site.ts | head -n 1)"[0m
+2026-10-11T11:48:10.6712306Z [36;1m  if [ -n "$domain" ]; then site_url="https://$domain"; fi[0m
+2026-10-11T11:48:10.6713808Z [36;1mfi[0m
+2026-10-11T11:48:10.6715214Z [36;1mif [ -z "$site_url" ]; then site_url="$LEGACY_SITE_URL"; fi[0m
+2026-10-11T11:48:10.6716725Z [36;1m[0m
+2026-10-11T11:48:10.6717763Z [36;1mif [ -s .indexnow-key ]; then[0m
+2026-10-11T11:48:10.6719012Z [36;1m  key_source=file[0m
+2026-10-11T11:48:10.6720404Z [36;1melif [ -n "$LEGACY_INDEXNOW_KEY" ]; then[0m
+2026-10-11T11:48:10.6721768Z [36;1m  key_source=env[0m
+2026-10-11T11:48:10.6722851Z [36;1melse[0m
+2026-10-11T11:48:10.6723935Z [36;1m  echo "enabled=false" >> "$GITHUB_OUTPUT"[0m
+2026-10-11T11:48:10.6725968Z [36;1m  echo "[IndexNow] Disabled: no .indexnow-key or legacy INDEXNOW_KEY repository variable."[0m
+2026-10-11T11:48:10.6727912Z [36;1m  exit 0[0m
+2026-10-11T11:48:10.6728870Z [36;1mfi[0m
+2026-10-11T11:48:10.6797206Z [36;1m[0m
+2026-10-11T11:48:10.6798451Z [36;1mif [ -z "$site_url" ]; then[0m
+2026-10-11T11:48:10.6800048Z [36;1m  echo "enabled=false" >> "$GITHUB_OUTPUT"[0m
+2026-10-11T11:48:10.6802204Z [36;1m  echo "[IndexNow] Disabled: site URL is absent from repository config and legacy variables."[0m
+2026-10-11T11:48:10.6804203Z [36;1m  exit 0[0m
+2026-10-11T11:48:10.6805181Z [36;1mfi[0m
+2026-10-11T11:48:10.6806156Z [36;1m[0m
+2026-10-11T11:48:10.6807084Z [36;1m{[0m
+2026-10-11T11:48:10.6808058Z [36;1m  echo "enabled=true"[0m
+2026-10-11T11:48:10.6809289Z [36;1m  echo "site_url=$site_url"[0m
+2026-10-11T11:48:10.6811016Z [36;1m  echo "key_source=$key_source"[0m
+2026-10-11T11:48:10.6812320Z [36;1m} >> "$GITHUB_OUTPUT"[0m
+2026-10-11T11:48:10.6813731Z [36;1mecho "[IndexNow] Enabled (key source: $key_source)."[0m
+2026-10-11T11:48:10.7122622Z shell: /usr/bin/bash -e {0}
+2026-10-11T11:48:10.7123771Z env:
+2026-10-11T11:48:10.7124657Z   LEGACY_SITE_URL: 
+2026-10-11T11:48:10.7125665Z   LEGACY_INDEXNOW_KEY: 
+2026-10-11T11:48:10.7126700Z ##[endgroup]
+2026-10-11T11:48:10.7262120Z [IndexNow] Enabled (key source: file).
+2026-10-11T11:48:10.7459243Z ##[group]Run pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413
+2026-10-11T11:48:10.7461239Z with:
+2026-10-11T11:48:10.7462315Z   run_install: false
+2026-10-11T11:48:10.7463412Z   dest: ~/setup-pnpm
+2026-10-11T11:48:10.7464483Z   cache: false
+2026-10-11T11:48:10.7465812Z   cache_dependency_path: pnpm-lock.yaml
+2026-10-11T11:48:10.7467145Z   package_json_file: package.json
+2026-10-11T11:48:10.7468364Z   standalone: false
+2026-10-11T11:48:10.7469401Z ##[endgroup]
+2026-10-11T11:48:10.9004980Z ##[group]Running self-installer...
+2026-10-11T11:48:12.5099630Z 
+2026-10-11T11:48:12.5100573Z added 1 package, and audited 2 packages in 1s
+2026-10-11T11:48:12.5118898Z 
+2026-10-11T11:48:12.5119716Z 1 package is looking for funding
+2026-10-11T11:48:12.5120661Z   run `npm fund` for details
+2026-10-11T11:48:12.5121025Z 
+2026-10-11T11:48:12.5121229Z found 0 vulnerabilities
+2026-10-11T11:48:13.1605586Z Checking for updates...
+2026-10-11T11:48:13.6396568Z Switching pnpm from v11.25.0 to v11.1.1...
+2026-10-11T11:48:14.2889280Z .../v11/8ff-1a12acac45c-60faaf0f96b5d8cc | Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-10-11T11:48:14.2912665Z .../v11/8ff-1a12acac45c-60faaf0f96b5d8cc |   +1 +
+2026-10-11T11:48:14.5048438Z .../v11/8ff-1a12acac45c-60faaf0f96b5d8cc | Progress: resolved 1, reused 0, downloaded 1, added 1, done
+2026-10-11T11:48:15.0834253Z [WARN] Detected a pnpm v10 installation layout at PNPM_HOME. The pnpm shims at PNPM_HOME have been refreshed so the new version is active, but pnpm v11 expects bins in PNPM_HOME/bin. Run "pnpm setup" to migrate your PATH to the v11 layout.
+2026-10-11T11:48:15.0892856Z Successfully updated pnpm to v11.1.1
+2026-10-11T11:48:15.1198813Z ##[endgroup]
+2026-10-11T11:48:15.1199795Z Installation Completed!
+2026-10-11T11:48:15.1388775Z ##[group]Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+2026-10-11T11:48:15.1389193Z with:
+2026-10-11T11:48:15.1389405Z   node-version-file: .nvmrc
+2026-10-11T11:48:15.1389651Z   cache: pnpm
+2026-10-11T11:48:15.1389857Z   check-latest: false
+2026-10-11T11:48:15.1392493Z   token: ***
+2026-10-11T11:48:15.1392726Z   package-manager-cache: true
+2026-10-11T11:48:15.1392984Z env:
+2026-10-11T11:48:15.1393235Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-11T11:48:15.1393549Z ##[endgroup]
+2026-10-11T11:48:15.2751910Z Resolved .nvmrc as 22
+2026-10-11T11:48:15.2834134Z Found in cache @ /opt/hostedtoolcache/node/22.23.3/x64
+2026-10-11T11:48:15.2834827Z ##[group]Environment details
+2026-10-11T11:48:15.7170916Z node: v22.23.3
+2026-10-11T11:48:15.7171332Z npm: 10.9.9
+2026-10-11T11:48:15.7171611Z yarn: 1.22.22
+2026-10-11T11:48:15.7172147Z ##[endgroup]
+2026-10-11T11:48:15.7193728Z [command]/home/runner/setup-pnpm/node_modules/.bin/bin/pnpm store path --silent
+2026-10-11T11:48:16.1291537Z /home/runner/setup-pnpm/node_modules/.bin/store/v11
+2026-10-11T11:48:16.2921132Z Cache hit for: node-cache-Linux-x64-pnpm-322502cb6cba3d9bcaeb28ed401d196884d8c266d9270071103ff9d653f5883c
+2026-10-11T11:48:17.4663344Z Received 104857600 of 135887792 (77.2%), 99.8 MBs/sec
+2026-10-11T11:48:17.7371023Z Received 135887792 of 135887792 (100.0%), 101.4 MBs/sec
+2026-10-11T11:48:17.7378715Z Cache Size: ~130 MB (135887792 B)
+2026-10-11T11:48:17.7412077Z [command]/usr/bin/tar -xf /home/runner/work/_temp/937f74ac-6917-4801-911a-9ce3e32d9ab1/cache.tzst -P -C /home/runner/work/moriohhigh-wiki/moriohhigh-wiki --use-compress-program unzstd
+2026-10-11T11:48:18.9717166Z Cache restored successfully
+2026-10-11T11:48:18.9785082Z Cache restored from key: node-cache-Linux-x64-pnpm-322502cb6cba3d9bcaeb28ed401d196884d8c266d9270071103ff9d653f5883c
+2026-10-11T11:48:18.9965044Z ##[group]Run pnpm install --frozen-lockfile
+2026-10-11T11:48:18.9965439Z [36;1mpnpm install --frozen-lockfile[0m
+2026-10-11T11:48:19.0038218Z shell: /usr/bin/bash -e {0}
+2026-10-11T11:48:19.0038476Z env:
+2026-10-11T11:48:19.0038747Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-11T11:48:19.0039069Z ##[endgroup]
+2026-10-11T11:48:19.8379786Z Lockfile is up to date, resolution step is skipped
+2026-10-11T11:48:19.8957871Z Progress: resolved 1, reused 0, downloaded 0, added 0
+2026-10-11T11:48:19.9824516Z Packages: +531
+2026-10-11T11:48:19.9880935Z ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-10-11T11:48:20.5316493Z Progress: resolved 531, reused 531, downloaded 0, added 531, done
+2026-10-11T11:48:21.1334273Z 
+2026-10-11T11:48:21.1334937Z dependencies:
+2026-10-11T11:48:21.1335538Z + @astrojs/mdx 8.0.1
+2026-10-11T11:48:21.1336064Z + @astrojs/rss 4.0.19
+2026-10-11T11:48:21.1336586Z + @astrojs/sitemap 3.7.3
+2026-10-11T11:48:21.1337155Z + astro 7.3.2
+2026-10-11T11:48:21.1337628Z + astro-icon 1.2.0
+2026-10-11T11:48:21.1337890Z 
+2026-10-11T11:48:21.1338464Z devDependencies:
+2026-10-11T11:48:21.1339029Z + @astrojs/check 0.9.10
+2026-10-11T11:48:21.1339617Z + @astrojs/tailwind 5.1.5
+2026-10-11T11:48:21.1340458Z + @iconify-json/lucide 1.2.123
+2026-10-11T11:48:21.1340970Z + @resvg/resvg-js 2.6.2
+2026-10-11T11:48:21.1341509Z + @tailwindcss/typography 0.5.20
+2026-10-11T11:48:21.1342141Z + @typescript-eslint/eslint-plugin 8.66.0
+2026-10-11T11:48:21.1342828Z + @typescript-eslint/parser 8.66.0
+2026-10-11T11:48:21.1343334Z + esbuild 0.28.2
+2026-10-11T11:48:21.1343719Z + eslint 9.39.5
+2026-10-11T11:48:21.1344154Z + eslint-plugin-astro 1.7.0
+2026-10-11T11:48:21.1344644Z + pagefind 1.5.2
+2026-10-11T11:48:21.1345051Z + prettier 3.9.6
+2026-10-11T11:48:21.1345550Z + prettier-plugin-astro 0.14.1
+2026-10-11T11:48:21.1346151Z + prettier-plugin-tailwindcss 0.6.14
+2026-10-11T11:48:21.1346715Z + satori 0.33.3
+2026-10-11T11:48:21.1347091Z + sharp 0.35.4
+2026-10-11T11:48:21.1347509Z + subset-font 2.5.0
+2026-10-11T11:48:21.1347927Z + tailwindcss 3.4.19
+2026-10-11T11:48:21.1348316Z + tsx 4.23.12
+2026-10-11T11:48:21.1348768Z + typescript 5.9.3
+2026-10-11T11:48:21.1349151Z + vitest 4.1.11
+2026-10-11T11:48:21.1349538Z + yaml 2.9.0
+2026-10-11T11:48:21.1349752Z 
+2026-10-11T11:48:21.2449773Z Done in 2.2s using pnpm v11.1.1
+2026-10-11T11:48:21.2633836Z ##[group]Run pnpm submit-indexnow -- --site "$SITE_URL" --wait-for-deploy "$DEPLOY_SHA" --wait-for-key --wait-seconds 150
+2026-10-11T11:48:21.2634755Z [36;1mpnpm submit-indexnow -- --site "$SITE_URL" --wait-for-deploy "$DEPLOY_SHA" --wait-for-key --wait-seconds 150[0m
+2026-10-11T11:48:21.2698424Z shell: /usr/bin/bash -e {0}
+2026-10-11T11:48:21.2698699Z env:
+2026-10-11T11:48:21.2698966Z   PNPM_HOME: /home/runner/setup-pnpm/node_modules/.bin
+2026-10-11T11:48:21.2699354Z   SITE_URL: https://moriohhigh-wiki.pages.dev
+2026-10-11T11:48:21.2699668Z   INDEXNOW_KEY: 
+2026-10-11T11:48:21.2700249Z   DEPLOY_SHA: bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b
+2026-10-11T11:48:21.2700597Z ##[endgroup]
+2026-10-11T11:48:22.0995499Z Already up to date
+2026-10-11T11:48:22.1004094Z Done in 391ms using pnpm v11.1.1
+2026-10-11T11:48:22.1167897Z $ tsx scripts/submit-indexnow.ts -- --site https://moriohhigh-wiki.pages.dev --wait-for-deploy bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b --wait-for-key --wait-seconds 150
+2026-10-11T11:48:22.3249197Z [IndexNow] Waiting for production deployment bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b…
+2026-10-11T11:50:55.0217637Z [IndexNow] Production deployment did not reach bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b within 150s (live: unavailable).
+2026-10-11T11:50:55.0513538Z [ELIFECYCLE] Command failed with exit code 1.
+2026-10-11T11:50:55.0743541Z ##[error]Process completed with exit code 1.
+2026-10-11T11:50:55.0837468Z Post job cleanup.
+2026-10-11T11:50:55.2379619Z Pruning is unnecessary.
+2026-10-11T11:50:55.2581012Z Post job cleanup.
+2026-10-11T11:50:55.3507261Z [command]/usr/bin/git version
+2026-10-11T11:50:55.3551076Z git version 2.55.0
+2026-10-11T11:50:55.3590334Z Temporarily overriding HOME='/home/runner/work/_temp/14c09274-aeda-44a7-a7a7-2794cd630cd9' before making global git config changes
+2026-10-11T11:50:55.3591856Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-11T11:50:55.3595723Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/moriohhigh-wiki/moriohhigh-wiki
+2026-10-11T11:50:55.3637481Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-11T11:50:55.3674350Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-11T11:50:55.3997108Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-11T11:50:55.4035184Z http.https://github.com/.extraheader
+2026-10-11T11:50:55.4059699Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-11T11:50:55.4138930Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-11T11:50:55.4481883Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-11T11:50:55.4536550Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-11T11:50:55.4940305Z Cleaning up orphan processes

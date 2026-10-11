@@ -165,17 +165,19 @@ describe('IndexNow production automation contract', () => {
   const job = wf.jobs?.submit;
   const steps = job?.steps ?? [];
 
-  test('runs only after the CI workflow completes', () => {
+  test('supports manual submission after direct upload and an optional CI trigger', () => {
     const trigger = (wf.on?.workflow_run ?? {}) as {
       workflows?: string[];
       types?: string[];
     };
-    expect(Object.keys(wf.on ?? {})).toEqual(['workflow_run']);
+    expect(Object.keys(wf.on ?? {})).toEqual(['workflow_dispatch', 'workflow_run']);
     expect(trigger.workflows).toEqual(['CI']);
     expect(trigger.types).toEqual(['completed']);
   });
 
-  test('requires successful main push CI but does not require repository variables', () => {
+  test('requires explicit opt-in for automatic submission and successful main push CI', () => {
+    expect(job?.if).toContain("github.event_name == 'workflow_dispatch'");
+    expect(job?.if).toContain("vars.INDEXNOW_AUTO_SUBMIT == 'true'");
     expect(job?.if).toContain("github.event.workflow_run.conclusion == 'success'");
     expect(job?.if).toContain("github.event.workflow_run.event == 'push'");
     expect(job?.if).toContain("github.event.workflow_run.head_branch == 'main'");
@@ -212,7 +214,7 @@ describe('IndexNow production automation contract', () => {
     expect(submit?.env).toEqual({
       SITE_URL: '${{ steps.config.outputs.site_url }}',
       INDEXNOW_KEY: '${{ vars.INDEXNOW_KEY }}',
-      DEPLOY_SHA: '${{ github.event.workflow_run.head_sha }}',
+      DEPLOY_SHA: '${{ github.event.workflow_run.head_sha || github.sha }}',
     });
   });
 });

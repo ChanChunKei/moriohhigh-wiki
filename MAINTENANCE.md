@@ -1,10 +1,10 @@
 # Low-maintenance publication policy
 
-Freeze editorial URLs after the initial release. Do not run scheduled article generators, rewrite text daily, or change dates without a substantive correction. Ads, GA4 and optional comments stay disabled until explicitly configured and this site's privacy notice is updated.
+Freeze editorial URLs after the initial release. Do not run scheduled article generators, rewrite text daily, or change dates without a substantive correction. Ads and optional comments remain disabled. GA4 has its own web stream and loads only after optional-analytics consent; the privacy notice reflects this. Verify live collection separately from configuration.
 
 Update only for: a major game change that invalidates a guide; a material factual error; a valuable new search intent; a GSC content gap; a technical/indexing fault; or a changed official game entry or important rule. New codes need a developer source and successful same-game validation. A video title alone is insufficient for a mechanic guide.
 
-The initial edition has narrow resource coverage. Stand acquisition, beginner progression, a current Stand roster and other game data remain deferred in `research/page-matrix.md`. Do not publish their empty routes or fill them with JoJo lore or mechanics from another Roblox game.
+The initial edition has resource coverage and a documented Stand acquisition guide. Beginner progression, a complete current Stand roster and other game data remain deferred in `research/page-matrix.md`. Do not publish their empty routes or fill them with JoJo lore or mechanics from another Roblox game.
 
 ## Checks after publication
 
@@ -17,7 +17,7 @@ Use the deployment acceptance date in `reports/online-acceptance.json` as day 0.
 | 14 | GSC impressions/queries/clicks and GA4 Organic Search if enabled and verified | Address a demonstrated content or CTR gap with supported facts |
 | 28 | Trend direction, indexed-page exposure, useful long tails, competition and maintenance time | Continue, freeze further investment, or add only a proven valuable page |
 
-This file records the check plan. It does not claim that reminders, background execution, GSC submission, or GA4 collection have been created. Use the app's scheduling tool only when a working deployment and the required monitoring access are available.
+Four single-run thread checks were created in the app: October 14, October 18, October 25 and November 8, 2026, at 12:00 in the local schedule. IDs are morioh-high-3, morioh-high-7, morioh-high-14 and morioh-high-28. The saved automation prompts permit public technical checks and account measurements only when already authorized and accessible, keep quiet when no action is needed, and prohibit automatic article generation. Creation is verified; future execution is not yet verified. Keep the computer and app running for local project access. GSC submission and GA4 collection remain separate, incomplete states.
 
 ## Measurement rules
 

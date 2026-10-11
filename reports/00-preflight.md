@@ -30,3 +30,7 @@
 | Roblox social-links API | HTTP 401 | Official community provenance requires another source |
 
 Account authorization, payments and irreversible actions require the user's explicit authorization per the project brief. No purchase initiated. Missing access does not block independent research, content, template configuration or local checks.
+
+## Incremental resolution — 2026-10-11 20:26 Asia/Shanghai
+
+The preceding table preserves the initial preflight. GitHub repository creation, source push and the first CI run have since succeeded through the existing Git Credential Manager identity. Cloudflare account access was resolved using the browser-displayed account ID and the session-only token; the independent direct-upload project and initial production upload succeeded. The verified temporary origin is https://moriohhigh-wiki.pages.dev. Formal domain ownership and the real domain mailbox remain unconfirmed; no domain was purchased or bound. Existing authenticated GSC and GA4 browser access has now been found. GSC URL-prefix verification is in progress with a site-specific public verification tag; GA4 property creation is in progress. Neither step is yet recorded as complete. Pinned pnpm install, Windows dependency repairs and the actual eight quality gates succeeded.

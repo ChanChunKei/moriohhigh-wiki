@@ -9,7 +9,13 @@ const project=JSON.parse(fs.readFileSync('reports/pages-project.json','utf8'));
 const audit=JSON.parse(fs.readFileSync('reports/build-seo-audit.json','utf8'));
 if(audit.failures.length||audit.origin!==`https://${project.subdomain}`)throw new Error('Build SEO gate failed or origin differs.');
 const args=['.tools/wrangler/node_modules/wrangler/bin/wrangler.js','pages','deploy','dist','--project-name',project.name,'--branch','main','--commit-dirty=false'];
-if(credentials.commit)args.push('--commit-hash',credentials.commit);
+if(credentials.commit){
+  if(!/^[0-9a-f]{40}$/i.test(credentials.commit))throw new Error('A full Git commit SHA is required.');
+  // Direct upload has no Cloudflare build environment to emit this native marker.
+  fs.mkdirSync('dist/.well-known',{recursive:true});
+  fs.writeFileSync('dist/.well-known/anvilwiki-deploy.txt',credentials.commit);
+  args.push('--commit-hash',credentials.commit);
+}
 const child=spawn(process.execPath,args,{env:{...process.env,CLOUDFLARE_API_TOKEN:credentials.apiToken,CLOUDFLARE_ACCOUNT_ID:credentials.accountId,WRANGLER_SEND_METRICS:'false'},windowsHide:true});
 const redact=text=>text.replaceAll(credentials.apiToken,'[redacted]').replace(/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/gi,'[email redacted]');
 let output='';

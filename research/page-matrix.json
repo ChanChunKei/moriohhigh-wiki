@@ -160,23 +160,30 @@
     {
       "name": "How to get a Stand",
       "primary": "how to get a stand in morioh high",
-      "secondary": [],
-      "slug": "/guides/how-to-get-a-stand/",
-      "intent": "Steps, prerequisites, location and game version",
-      "answer": "Steps, prerequisites, location and game version",
-      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
-      "sources": [
-        "E11"
+      "secondary": [
+        "morioh high stand arrow",
+        "morioh high stand awakening"
       ],
-      "format": "No page generated",
+      "slug": "/guides/how-to-get-a-stand/",
+      "intent": "Get a first Stand through documented acquisition methods",
+      "answer": "Qualifying fight knockout, conditions and documented chance; Arrow possession to 100% compatibility; unknown spawn/timer values excluded",
+      "evidence": "Readable same-game Encyclopedia plus different player Arrow footage",
+      "sources": [
+        "E01",
+        "E17",
+        "E18"
+      ],
+      "format": "MDX steps, rule table, six FAQ answers and timestamped source notes",
       "links": [
         "/guides/how-to-play/",
-        "/resources/community-links/"
+        "/resources/community-links/",
+        "/resources/release-information/",
+        "/faq/"
       ],
-      "maintenance": "Unknown until mechanics verified",
-      "value": "Candidate only; current demand unmeasured",
-      "status": "暂缓",
-      "reason": "Tutorial title observed; core footage/transcript and independent confirmation unavailable"
+      "maintenance": "Only when documented acquisition rules change or an important error is found",
+      "value": "Historical tutorial search intent; current same-game videos observed; current volume unknown",
+      "status": "完整回答",
+      "reason": "Minimum documented acquisition answer supplied; current live-client behavior and exact Arrow spawn/timing remain untested"
     },
     {
       "name": "Stands guide",
@@ -431,10 +438,10 @@
   ],
   "counts": {
     "total": 20,
-    "localEditorialReady": 5,
-    "completeAnswers": 3,
+    "localEditorialReady": 6,
+    "completeAnswers": 4,
     "qualifiedPartialAnswers": 2,
-    "deferred": 15
+    "deferred": 14
   },
-  "note": "Partial pages answer a narrowed resource question; they do not claim a fully confirmed launch date, official Discord ownership or a Trello URL. Formal gameplay-wiki gate remains unmet."
+  "note": "Stand acquisition documented in viewed Encyclopedia footage. Three other resource pages, homepage and FAQ retained. Full beginner/roster gate still incomplete."
 }

@@ -16,3 +16,8 @@
 | 原创 | 已审查 | 重新写作、短事实引用；未搬运竞争站段落 |
 
 结论：已有窄范围资源内容可用于技术预览；完整 gameplay Wiki 的核心 Stand / beginner / roster 门禁未通过，不能称整个项目已完成。
+
+
+## Incremental Stand gate
+
+E17 was actually read in the enlarged game Encyclopedia frame; numeric rules are on-screen documentation, not oral-only values. E18 is a different player, supporting the Arrow contest but not testing odds. New Stand acquisition page supplies the documented minimum answer, with no current-build or live-client test claim. Four MDX / six editorial pages are now ready locally; 14 candidates remain deferred. No codes or unverified roster were promoted. This supersedes the earlier Stand deferral, while preserving its initial access history.

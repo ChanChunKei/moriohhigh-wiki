@@ -28,3 +28,14 @@ Bizarre Lineage, Project JoJo, Sakura Stand, other Roblox experiences, anime/man
 ## Access limits
 
 Roblox social-links endpoint returned HTTP 401. YouTube public HTML and yt-dlp subtitle retrieval returned sign-in/bot restriction; no browser cookies were extracted. Google Trends 7-day/30-day explore returned HTTP 429. Subsequent browser operations timed out. These are recorded as missing evidence, not negative game facts.
+
+## Incremental mechanics evidence — later on October 11
+
+The earlier E11 access failure remains historical evidence. Later, the browser transcript export and actual video viewing succeeded. This changes the Stand-guide decision; it does not retrospectively claim the initial fetch worked. Full transcripts and frame captures stay local, excluded from public Git history. No game image is reused as a website asset.
+
+| ID | Fact / claim | Exact evidence | Date / build | Authority / dispute | Decision |
+| --- | --- | --- | --- | --- | --- |
+| E17 | First Stand: qualifying real-fight knockout or Arrow held to 100% compatibility; documented fight chance 1 in 10 with one chance per minute; reset/fall/1-health tap excluded; outcome random by rarity | [Abitsane](https://www.youtube.com/watch?v=taOqWP56Mrk&t=10s), 0:10, readable Encyclopedia in enlarged real-browser frame; local evidence-images/stand-encyclopedia-00m10s.jpg | Viewed 2026-10-11; build number unknown | Game UI primary for documented rule, via player recording. Odds were read on screen, not promoted from oral narration. No live-client statistical test; second video does not test odds | Publish as documented Encyclopedia rules with explicit limits; not a claimed hands-on test |
+| E18 | Arrow contest; player subsequently reports an awakened Stand | [SuperZydan](https://www.youtube.com/watch?v=w9rdSW-8ULE), transcript 0:50–1:05 and 1:35–1:47; actual browser viewing of contest | Viewed 2026-10-11; build unknown | Different player/source. Corroborates event/possession context, not all numeric rules | Use to explain Arrow competition. Do not infer fixed spawns, interval or exact hold duration |
+
+Codes mentioned orally in E17 remain unverified and are excluded. The wiki has not joined a Roblox server. The narrower documented acquisition question now has a useful answer; full beginner progression and a current complete Stand roster remain deferred.

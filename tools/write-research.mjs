@@ -1,4 +1,6 @@
 import fs from 'node:fs';
+// This records the initial research state. Later mechanics evidence is incremental.
+if (fs.existsSync('research/mechanics-2026-10-11.json')) throw new Error('Incremental mechanics evidence exists; do not overwrite the reviewed research state with this initial snapshot generator.');
 const date = '2026-10-11';
 const save = (p, text) => fs.writeFileSync(p, text.trim() + '\n');
 const json = (p, data) => save(p, JSON.stringify(data, null, 2));
