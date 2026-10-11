@@ -2,7 +2,7 @@
 
 Independent English player resources for Roblox Morioh High. Not affiliated with Not A Stand Game, Roblox Corporation, or JoJo rights holders.
 
-- Cloudflare project origin: https://moriohhigh-wiki.pages.dev (deployment acceptance is tracked in reports/online-acceptance.json).
+- Production origin: https://moriohhighguide.wiki (deployment acceptance is tracked in reports/online-acceptance.json). Cloudflare's project address is https://moriohhigh-wiki.pages.dev.
 - Repository: https://github.com/ChanChunKei/moriohhigh-wiki
 - Source: AnvilWiki 2.37.0, commit b00859a524a176d60f3982c71b318ac11bc2fd5b. MIT license retained; original README preserved in docs/anvilwiki-upstream-README.md.
 

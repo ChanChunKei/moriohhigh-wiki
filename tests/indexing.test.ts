@@ -9,13 +9,13 @@ describe('editorial indexing policy', () => {
       '/recent/',
       '/guides/',
       '/resources/',
-      '/contact/',
     ]) {
       expect(excludeFromIndex(path)).toBe(true);
     }
     for (const path of [
       '/',
       '/faq/',
+      '/contact/',
       '/guides/how-to-play/',
       '/resources/release-information/',
       '/resources/community-links/',

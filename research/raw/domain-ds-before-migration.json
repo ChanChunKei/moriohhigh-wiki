@@ -1,0 +1,22 @@
+{
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+    {
+      "name": "moriohhighguide.wiki",
+      "type": 43
+    }
+  ],
+  "Authority": [
+    {
+      "name": "wiki",
+      "type": 6,
+      "TTL": 900,
+      "data": "a.nic.wiki. admin.tldns.godaddy. 1791734960 1800 300 604800 1800"
+    }
+  ]
+}

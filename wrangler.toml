@@ -17,8 +17,8 @@ pages_build_output_dir = "dist"
 
 [vars]
 # Site (must include https:// protocol — Astro validates this as a URL)
-# Actual Pages origin returned by Cloudflare. Custom domain is not yet bound.
-SITE_URL = "https://moriohhigh-wiki.pages.dev"
+# Verified active custom domain for the Cloudflare Pages project.
+SITE_URL = "https://moriohhighguide.wiki"
 # Legacy IndexNow override — new forks generate .indexnow-key automatically.
 # Leave blank unless migrating an existing env-backed deployment.
 #INDEXNOW_KEY = ""

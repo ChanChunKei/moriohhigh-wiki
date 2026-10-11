@@ -1,15 +1,16 @@
 {
-  "checkedAt": "2026-10-11T14:21:57.625Z",
+  "checkedAt": "2026-10-11T16:21:59.064Z",
   "domain": "moriohhighguide.wiki",
   "registrar": "Spaceship",
-  "status": "pending_nameserver_change",
+  "status": "active_zone_and_pages",
   "zone": {
     "id": "c917d0811a9b554a510282eaecdbd91e",
-    "status": "pending",
+    "status": "active",
     "nameservers": [
       "armfazh.ns.cloudflare.com",
       "laura.ns.cloudflare.com"
-    ]
+    ],
+    "activatedOn": "2026-10-11T16:11:41.682423Z"
   },
   "previousNameservers": [
     "launch1.spaceship.net",
@@ -39,5 +40,14 @@
     ],
     "domain": "moriohhighguide.wiki",
     "zone": null
+  },
+  "nameserverChange": {
+    "saved": true,
+    "observedInRegistrar": true,
+    "nameservers": [
+      "armfazh.ns.cloudflare.com",
+      "laura.ns.cloudflare.com"
+    ],
+    "checkedAt": "2026-10-11T16:10:08.540Z"
   }
 }

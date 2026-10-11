@@ -1,22 +1,23 @@
 {
-  "checkedAt": "2026-10-11T14:22:29.716Z",
+  "checkedAt": "2026-10-11T16:21:29.867Z",
+  "path": "/accounts/e26c192b02bb6ba662ec2e8a64a2c3a7/pages/projects/moriohhigh-wiki/domains/moriohhighguide.wiki",
   "httpStatus": 200,
+  "success": true,
   "result": {
     "id": "4ca17326-6c68-4527-a593-ae0321284775",
     "domain_id": "4ca17326-6c68-4527-a593-ae0321284775",
     "name": "moriohhighguide.wiki",
-    "status": "initializing",
+    "status": "active",
     "verification_data": {
-      "status": "pending"
+      "status": "active"
     },
     "validation_data": {
-      "status": "initializing",
+      "status": "active",
       "method": "http"
     },
     "certificate_authority": "google",
+    "zone_tag": "c917d0811a9b554a510282eaecdbd91e",
     "created_on": "2026-10-11T14:22:29.523017Z"
   },
-  "success": true,
-  "errors": [],
-  "messages": []
+  "errors": []
 }

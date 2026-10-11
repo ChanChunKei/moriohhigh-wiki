@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-11T16:14:37.559Z",
+  "before": {
+    "result": {
+      "algorithm": null,
+      "digest": null,
+      "digest_algorithm": null,
+      "digest_type": null,
+      "ds": null,
+      "flags": null,
+      "key_tag": null,
+      "key_type": null,
+      "public_key": null,
+      "status": "disabled"
+    },
+    "success": true,
+    "errors": [],
+    "messages": []
+  },
+  "activationCheck": {
+    "httpStatus": 403,
+    "success": false,
+    "errors": [
+      {
+        "code": 9109,
+        "message": "Unauthorized to access requested resource"
+      }
+    ],
+    "messages": [],
+    "result": null
+  },
+  "enable": {
+    "httpStatus": 200,
+    "result": {
+      "algorithm": "13",
+      "digest": "A0F1CFDDF2989A0502022056DF9A33C9053717EE60DA9D632F0314EFCAA14D6B",
+      "digest_algorithm": "SHA256",
+      "digest_type": "2",
+      "ds": "moriohhighguide.wiki. 3600 IN DS 2371 13 2 A0F1CFDDF2989A0502022056DF9A33C9053717EE60DA9D632F0314EFCAA14D6B",
+      "flags": 257,
+      "key_tag": 2371,
+      "key_type": "ECDSAP256SHA256",
+      "modified_on": "2026-10-11T16:14:36.535838+00:00",
+      "public_key": "mdsswUyr3DPW132mOi8V9xESWE8jTo0dxCjjnopKl+GqJxpVXckHAeF+KkxLbxILfDLUT0rAK9iUzy1L53eKGQ==",
+      "status": "pending"
+    },
+    "success": true,
+    "errors": [],
+    "messages": []
+  },
+  "registrarDsUpdated": true,
+  "publicValidationVerified": false,
+  "registrarDsVerifiedAt": "2026-10-11T16:20:59.150Z"
+}

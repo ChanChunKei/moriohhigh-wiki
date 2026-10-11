@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-11T16:22:17.896Z",
+  "records": [
+    {
+      "id": "edc127816438ea572a680801259ecb28",
+      "name": "moriohhighguide.wiki",
+      "type": "CNAME",
+      "content": "moriohhigh-wiki.pages.dev",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": "Morioh High Wiki on Cloudflare Pages",
+      "tags": [],
+      "created_on": "2026-10-11T14:24:31.05069Z",
+      "modified_on": "2026-10-11T14:24:31.05069Z",
+      "comment_modified_on": "2026-10-11T14:24:31.05069Z"
+    },
+    {
+      "id": "74589c815e16697180cad9e2e35a583a",
+      "name": "moriohhighguide.wiki",
+      "type": "MX",
+      "content": "route3.mx.cloudflare.net",
+      "priority": 38,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-10-11T16:21:58.409137Z",
+      "modified_on": "2026-10-11T16:21:58.409137Z"
+    },
+    {
+      "id": "e4fb43cf9e7c8771a23f8ad1b1fd887d",
+      "name": "moriohhighguide.wiki",
+      "type": "MX",
+      "content": "route2.mx.cloudflare.net",
+      "priority": 70,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-10-11T16:21:58.401235Z",
+      "modified_on": "2026-10-11T16:21:58.401235Z"
+    },
+    {
+      "id": "b7a64551863674c44e65ec5b19bc4198",
+      "name": "moriohhighguide.wiki",
+      "type": "MX",
+      "content": "route1.mx.cloudflare.net",
+      "priority": 92,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-10-11T16:21:58.394191Z",
+      "modified_on": "2026-10-11T16:21:58.394191Z"
+    },
+    {
+      "id": "27793a3254740e55b5d3fdb6cfe869e4",
+      "name": "cf2024-1._domainkey.moriohhighguide.wiki",
+      "type": "TXT",
+      "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-10-11T16:21:58.422157Z",
+      "modified_on": "2026-10-11T16:21:58.422157Z"
+    },
+    {
+      "id": "5698c6462dad3a068c38a85ad96b6f07",
+      "name": "moriohhighguide.wiki",
+      "type": "TXT",
+      "content": "\"v=spf1 include:_spf.mx.cloudflare.net ~all\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-10-11T16:21:58.415539Z",
+      "modified_on": "2026-10-11T16:21:58.415539Z"
+    }
+  ]
+}

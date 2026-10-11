@@ -6,9 +6,9 @@ description: >-
   content with the exact same standard — no drift between the workflows.
 inputs:
   site-url:
-    description: 'SITE_URL for the build step (CI passes vars.SITE_URL; falls back to the demo domain).'
+    description: 'SITE_URL for the build step (CI passes vars.SITE_URL; falls back to the production domain).'
     required: false
-    default: 'https://moriohhigh-wiki.pages.dev'
+    default: 'https://moriohhighguide.wiki'
 
 runs:
   using: 'composite'
@@ -35,7 +35,7 @@ runs:
       env:
         # FORKS: set a repository variable SITE_URL (Settings → Secrets and
         # variables → Actions → Variables) to your domain — otherwise CI
-        # falls back to the demo domain and the built canonical/sitemap
+        # falls back to the production domain and the built canonical/sitemap
         # point at the wrong site (production builds use wrangler.toml,
         # which this does not affect).
         SITE_URL: ${{ inputs.site-url }}

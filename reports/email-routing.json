@@ -4,21 +4,23 @@
   "destination": "user-provided Gmail (kept private)",
   "destinationVerifiedAt": "2026-09-13T08:55:54.963443Z",
   "service": {
-    "httpStatus": 403,
-    "result": null,
-    "success": false,
-    "errors": [
-      {
-        "code": 2009,
-        "message": "Active zone required"
-      }
-    ],
-    "messages": [
-      {
-        "code": 2009,
-        "message": "Active zone required"
-      }
-    ]
+    "httpStatus": 200,
+    "result": {
+      "id": "c917d0811a9b554a510282eaecdbd91e",
+      "tag": "c917d0811a9b554a510282eaecdbd91e",
+      "name": "moriohhighguide.wiki",
+      "enabled": true,
+      "created": "2026-10-11T14:21:57.384706Z",
+      "modified": "2026-10-11T14:23:56.436639Z",
+      "skip_wizard": false,
+      "support_subaddress": false,
+      "synced": true,
+      "admin_locked": false,
+      "status": "ready"
+    },
+    "success": true,
+    "errors": [],
+    "messages": []
   },
   "rule": {
     "httpStatus": 200,
@@ -48,9 +50,46 @@
     },
     "errors": []
   },
-  "publicDnsActive": false,
-  "deliveryTest": "not_performed",
-  "verifiedAt": "2026-10-11T14:28:03.148Z",
+  "publicDnsActive": true,
+  "deliveryTest": "skipped at user request; actual receipt not verified",
+  "verifiedAt": "2026-10-11T16:21:58.720Z",
   "ruleReadbackVerified": true,
-  "status": "rule_saved_service_blocked_until_zone_active"
+  "status": "enabled_configuration_verified_delivery_not_tested",
+  "serviceEnableHistory": [
+    {
+      "httpStatus": 403,
+      "result": null,
+      "success": false,
+      "errors": [
+        {
+          "code": 2009,
+          "message": "Active zone required"
+        }
+      ],
+      "messages": [
+        {
+          "code": 2009,
+          "message": "Active zone required"
+        }
+      ]
+    },
+    {
+      "httpStatus": 422,
+      "result": null,
+      "success": false,
+      "errors": [
+        {
+          "code": 2007,
+          "message": "Invalid Input: must be a subdomains of moriohhighguide.wiki"
+        }
+      ],
+      "messages": [
+        {
+          "code": 2007,
+          "message": "Invalid Input: must be a subdomains of moriohhighguide.wiki"
+        }
+      ]
+    }
+  ],
+  "userSteeringAt": "2026-10-11T16:34:49.733Z"
 }

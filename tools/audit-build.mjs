@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
-const project=JSON.parse(fs.readFileSync('reports/pages-project.json','utf8'));
-const origin=`https://${project.subdomain}`;
+const siteConfig=fs.readFileSync('src/config/site.ts','utf8');
+const siteDomain=siteConfig.match(/^\s*domain: '([^']+)',/m)?.[1];
+if(!siteDomain)throw new Error('Configured site domain is missing.');
+const origin=`https://${siteDomain}`;
 const analytics=fs.existsSync('reports/analytics.json')?JSON.parse(fs.readFileSync('reports/analytics.json','utf8')):{};
 const files=[];
 function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())walk(p);else if(e.name.endsWith('.html'))files.push(p);}}

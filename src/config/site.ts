@@ -70,13 +70,13 @@ export const site: SiteConfig = {
   shortName: 'MH Wiki',
   description:
     'An independent Morioh High Roblox wiki with source-checked game information, community resources, and practical player guides.',
-  domain: 'moriohhigh-wiki.pages.dev',
+  domain: 'moriohhighguide.wiki',
   tagline: 'Your field guide to Morioh High',
   legalNotice:
     'An unofficial player guide. Not affiliated with Not A Stand Game, Roblox Corporation, or the JoJo rights holders.',
   // Set a real address if you run no social channels — the contact page
   // renders it as a mailto link.
-  contactEmail: '',
+  contactEmail: 'contact@moriohhighguide.wiki',
   contactUrl: '',
   logoIcon: 'lucide:graduation-cap',
   social: {

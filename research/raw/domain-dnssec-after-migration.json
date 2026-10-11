@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "NS",
+    "Status": 0,
+    "AuthenticatedData": false,
+    "Answer": [
+      {
+        "name": "moriohhighguide.wiki",
+        "type": 2,
+        "TTL": 86400,
+        "data": "armfazh.ns.cloudflare.com."
+      },
+      {
+        "name": "moriohhighguide.wiki",
+        "type": 2,
+        "TTL": 86400,
+        "data": "laura.ns.cloudflare.com."
+      }
+    ],
+    "Comment": null
+  },
+  {
+    "Type": "A",
+    "Status": 2,
+    "AuthenticatedData": false,
+    "Answer": null,
+    "Comment": [
+      "EDE(9): DNSKEY Missing no SEP matching the DS found for moriohhighguide.wiki."
+    ]
+  },
+  {
+    "Type": "DS",
+    "Status": 0,
+    "AuthenticatedData": false,
+    "Answer": null,
+    "Comment": null
+  }
+]

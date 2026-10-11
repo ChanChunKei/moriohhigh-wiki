@@ -1,0 +1,91 @@
+Already up to date
+Done in 536ms using pnpm v11.1.1
+$ astro build
+00:28:53 [content] Syncing content
+00:28:53 [content] Synced content
+00:28:53 [types] Generated 618ms
+00:28:53 [build] output: "static"
+00:28:53 [build] mode: "static"
+00:28:53 [build] directory: D:\CursorProjects\moriohhigh-wiki\dist\
+00:28:53 [build] Collecting build info...
+00:28:53 [build] ✓ Completed in 773ms.
+00:28:53 [build] Building static entrypoints...
+00:28:54 [astro-icon] Loaded icons from src/icons, lucide
+00:28:55 [vite] ✓ built in 1.77s
+00:28:55 [vite] ✓ built in 53ms
+00:28:55 [build] Rearranging server assets...
+
+ generating static routes 
+00:28:55   ├─ /404.html (+18ms) 
+00:28:55   ├─ /about/index.html (+8ms) 
+00:28:55   ├─ /contact/index.html (+32ms) 
+00:28:55   ├─ /copyright/index.html (+6ms) 
+00:28:55   ├─ /faq/index.html (+7ms) 
+00:28:55   ├─ /llms.txt (+4ms) 
+00:28:55   ├─ /privacy-policy/index.html (+7ms) 
+00:28:55   ├─ /recent/index.html (+18ms) 
+00:28:55   ├─ /robots.txt (+4ms) 
+00:28:55   ├─ /rss.xml (+81ms) 
+00:28:55   ├─ /tags/roblox/index.html (+8ms) 
+00:28:55   ├─ /tags/stands/index.html (+5ms) 
+00:28:55   ├─ /tags/getting-started/index.html (+5ms) 
+00:28:55   ├─ /tags/community-resources/index.html (+4ms) 
+00:28:55   ├─ /tags/release-information/index.html (+4ms) 
+00:28:55   ├─ /tags/index.html (+7ms) 
+00:28:55   ├─ /terms-of-service/index.html (+5ms) 
+00:28:55   ├─ /index.html (+7ms) 
+00:28:55   ├─ /guides/index.html (+6ms) 
+00:28:55   ├─ /resources/index.html (+4ms) 
+00:28:55   ├─ /guides/how-to-get-a-stand/index.html (+16ms) 
+00:28:55   ├─ /guides/how-to-play/index.html (+8ms) 
+00:28:55   ├─ /resources/community-links/index.html (+9ms) 
+00:28:55   ├─ /resources/release-information/index.html (+9ms) 
+00:28:55 ✓ Completed in 374ms.
+
+ generating optimized images 
+00:28:55   ▶ /_astro/en-guides-how-to-get-a-stand.TmweEpZO_1wzrix.webp (reused cache entry) (+2ms) (1/12)
+00:28:55   ▶ /_astro/en-guides-how-to-play.bNb3OC46_hl3ay.webp (reused cache entry) (+2ms) (2/12)
+00:28:55   ▶ /_astro/en-resources-release-information.CHueQv0l_ZrtAKb.webp (reused cache entry) (+2ms) (3/12)
+00:28:55   ▶ /_astro/en-resources-community-links.C8uO3yE-_ZAme9k.webp (reused cache entry) (+2ms) (4/12)
+00:28:55   ▶ /_astro/en-guides-how-to-get-a-stand.TmweEpZO_1WMzDt.webp (reused cache entry) (+1ms) (5/12)
+00:28:55   ▶ /_astro/en-resources-community-links.C8uO3yE-_Za95No.webp (reused cache entry) (+1ms) (6/12)
+00:28:55   ▶ /_astro/en-guides-how-to-play.bNb3OC46_EmvMg.webp (reused cache entry) (+2ms) (7/12)
+00:28:55   ▶ /_astro/en-resources-release-information.CHueQv0l_133SLn.webp (reused cache entry) (+2ms) (8/12)
+00:28:55   ▶ /_astro/en-guides-how-to-get-a-stand.TmweEpZO_2teYlW.webp (reused cache entry) (+2ms) (9/12)
+00:28:55   ▶ /_astro/en-resources-community-links.C8uO3yE-_liiT5.webp (reused cache entry) (+2ms) (10/12)
+00:28:55   ▶ /_astro/en-guides-how-to-play.bNb3OC46_1OxEvs.webp (reused cache entry) (+2ms) (11/12)
+00:28:55   ▶ /_astro/en-resources-release-information.CHueQv0l_o9whT.webp (reused cache entry) (+2ms) (12/12)
+00:28:55 ✓ Completed in 6ms.
+
+00:28:55 [build] ✓ Completed in 2.31s.
+00:28:55 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+00:28:55 [build] 21 page(s) built in 3.18s
+00:28:55 [build] Complete!
+$ pagefind --site dist && node scripts/transpile-pagefind.mjs && tsx scripts/write-indexnow-key.ts
+
+Running Pagefind v1.5.2 (Extended)
+Running from: "D:\\CursorProjects\\moriohhigh-wiki"
+Source:       "dist"
+Output:       "dist\\pagefind"
+
+[Walking source directory]
+Found 21 files matching **/*.{html}
+
+[Parsing files]
+Found a data-pagefind-body element on the site.
+↳ Ignoring pages without this tag.
+
+[Reading languages]
+Discovered 1 language: en
+
+[Building search indexes]
+Total: 
+  Indexed 1 language
+  Indexed 4 pages
+  Indexed 451 words
+  Indexed 0 filters
+  Indexed 0 sorts
+
+Finished in 0.026 seconds
+[transpile-pagefind] lowered 6/6 bundles to ES2018; cache-bust v=ecffba502d applied to 21 pages; range-media lowered in 0 files
+[IndexNow] Wrote dist/dadc342282b6381e065141316b886fcb2017a7884f0b6dc81a771210e30d3286.txt (source: file)

@@ -194,16 +194,22 @@ const analyticsEnabled = Boolean(import.meta.env.PUBLIC_GA_ID);
           . Include the article URL and supporting evidence. Issues are public; do not include
           private account details.
         </p>
-      ) : (
+      ) : !site.contactEmail ? (
         <p>
           A public editorial contact channel has not yet been configured. This page will be updated
           when one is available.
         </p>
-      )}
+      ) : null}
       {site.contactEmail && (
-        <p>
-          Email: <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
-        </p>
+        <>
+          <p>
+            Email: <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
+          </p>
+          <p>
+            For a factual correction, broken link, or rights concern, include the page URL and
+            supporting evidence. Please do not send Roblox passwords or payment details.
+          </p>
+        </>
       )}
       <h2>Game or account help</h2>
       <p>

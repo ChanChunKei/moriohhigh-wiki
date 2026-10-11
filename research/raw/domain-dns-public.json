@@ -1,0 +1,138 @@
+{
+  "checkedAt": "2026-10-11T16:29:58.4715824Z",
+  "resolver": "Google DoH",
+  "records": [
+    {
+      "type": "NS",
+      "response": {
+        "Status": 2,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 2
+          }
+        ],
+        "Comment": "DNSSEC validation failure. Check http://dnsviz.net/d/moriohhighguide.wiki/dnssec/ and http://dnssec-debugger.verisignlabs.com/moriohhighguide.wiki for errors"
+      }
+    },
+    {
+      "type": "A",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 1
+          }
+        ],
+        "Answer": [
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 1,
+            "TTL": 300,
+            "data": "172.67.143.30"
+          },
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 1,
+            "TTL": 300,
+            "data": "104.21.54.229"
+          }
+        ],
+        "Comment": "Response from 172.64.32.183."
+      }
+    },
+    {
+      "type": "MX",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 15,
+            "TTL": 300,
+            "data": "38 route3.mx.cloudflare.net."
+          },
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 15,
+            "TTL": 300,
+            "data": "92 route1.mx.cloudflare.net."
+          },
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 15,
+            "TTL": 300,
+            "data": "70 route2.mx.cloudflare.net."
+          }
+        ],
+        "Comment": "Response from 172.64.35.104."
+      }
+    },
+    {
+      "type": "TXT",
+      "response": {
+        "Status": 2,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 16
+          }
+        ],
+        "Comment": "DNSSEC validation failure. Check http://dnsviz.net/d/moriohhighguide.wiki/dnssec/ and http://dnssec-debugger.verisignlabs.com/moriohhighguide.wiki for errors"
+      }
+    },
+    {
+      "type": "DS",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 43
+          }
+        ],
+        "Answer": [
+          {
+            "name": "moriohhighguide.wiki.",
+            "type": 43,
+            "TTL": 3600,
+            "data": "2371 13 2 A0F1CFDDF2989A0502022056DF9A33C9053717EE60DA9D632F0314EFCAA14D6B"
+          }
+        ],
+        "Comment": "Response from 37.209.196.10."
+      }
+    }
+  ]
+}

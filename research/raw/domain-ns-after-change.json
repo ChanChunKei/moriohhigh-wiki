@@ -1,0 +1,17 @@
+{
+  "Status": 2,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+    {
+      "name": "moriohhighguide.wiki",
+      "type": 2
+    }
+  ],
+  "Comment": [
+    "EDE(9): DNSKEY Missing no SEP matching the DS found for moriohhighguide.wiki."
+  ]
+}

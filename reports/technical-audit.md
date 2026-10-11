@@ -40,3 +40,9 @@ Earlier pending online states are superseded here. Source b1d747968377615aa7fe14
 GSC ownership and index/child sitemap submission success dialogs were observed. Sitemap-report rows still show Couldn't fetch, while Google live inspection successfully fetched index XML at20:48:11 and allowed crawling/indexing. Report processing remains unresolved; Google indexing is not verified.
 
 Production Allow analytics loaded the correct tag; correct GA4 property558434763 Realtime showed one test user and two page views, plus page_view/first_visit/session_start/user_engagement events. This verifies collection, not natural search traffic. Ads remain disabled. Formal-domain binding, domain-mailbox routing, indexed-page count/impressions and real performance measurements remain unverified.
+
+## Formal-domain local gates — 2026-10-12
+
+Verified active custom domain and enabled forwarding allowed the native site configuration to switch to moriohhighguide.wiki and contact@moriohhighguide.wiki. Contact is now indexable; archive policy remains unchanged. Check, lint, test, check-config, check-content, check-links, build and strict i18n passed; test count remains 244 passed / 1 skipped. Build SEO audit:21 HTML /11 indexable /11 sitemap /0 failures. Logs use the formal-domain suffix. Local/live sitemap and deployment acceptance will be recorded separately after the actual checks. Only configuration, contact presentation and custom-domain deployment guard changed; no game claims were added.
+
+Native local check-sitemap against the existing static preview at127.0.0.1:4322 passed11/11 (host rewritten locally by the native checker). It does not establish production acceptance. Mail delivery test was explicitly skipped by the user; configuration verification remains valid.

@@ -7,7 +7,12 @@ const credentials=JSON.parse(input);
 if(!credentials.apiToken||!credentials.accountId)throw new Error('Session credentials required.');
 const project=JSON.parse(fs.readFileSync('reports/pages-project.json','utf8'));
 const audit=JSON.parse(fs.readFileSync('reports/build-seo-audit.json','utf8'));
-if(audit.failures.length||audit.origin!==`https://${project.subdomain}`)throw new Error('Build SEO gate failed or origin differs.');
+const siteDomain=fs.readFileSync('src/config/site.ts','utf8').match(/^\s*domain: '([^']+)',/m)?.[1];
+if(audit.failures.length||audit.origin!==`https://${siteDomain}`)throw new Error('Build SEO gate failed or origin differs.');
+if(siteDomain!==project.subdomain){
+  const domain=JSON.parse(fs.readFileSync('reports/pages-custom-domain.json','utf8'));
+  if(!domain.success||domain.result?.name!==siteDomain||domain.result?.status!=='active')throw new Error('Custom domain must be active before deployment.');
+}
 const args=['.tools/wrangler/node_modules/wrangler/bin/wrangler.js','pages','deploy','dist','--project-name',project.name,'--branch','main','--commit-dirty=false'];
 if(credentials.commit){
   if(!/^[0-9a-f]{40}$/i.test(credentials.commit))throw new Error('A full Git commit SHA is required.');

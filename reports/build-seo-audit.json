@@ -1,16 +1,16 @@
 {
-  "checkedAt": "2026-10-11T12:40:06.364Z",
-  "origin": "https://moriohhigh-wiki.pages.dev",
+  "checkedAt": "2026-10-11T16:29:54.845Z",
+  "origin": "https://moriohhighguide.wiki",
   "htmlCount": 21,
-  "indexableCount": 10,
-  "sitemapCount": 10,
+  "indexableCount": 11,
+  "sitemapCount": 11,
   "failures": [],
   "pages": [
     {
       "file": "dist/404.html",
       "title": "404 - Page Not Found — Morioh High Wiki",
       "descriptionLength": 44,
-      "canonical": "https://moriohhigh-wiki.pages.dev/404/",
+      "canonical": "https://moriohhighguide.wiki/404/",
       "noindex": false,
       "errors": []
     },
@@ -18,23 +18,23 @@
       "file": "dist/about/index.html",
       "title": "About — Morioh High Wiki",
       "descriptionLength": 123,
-      "canonical": "https://moriohhigh-wiki.pages.dev/about/",
+      "canonical": "https://moriohhighguide.wiki/about/",
       "noindex": false,
       "errors": []
     },
     {
       "file": "dist/contact/index.html",
       "title": "Contact — Morioh High Wiki",
-      "descriptionLength": 130,
-      "canonical": "https://moriohhigh-wiki.pages.dev/contact/",
-      "noindex": true,
+      "descriptionLength": 156,
+      "canonical": "https://moriohhighguide.wiki/contact/",
+      "noindex": false,
       "errors": []
     },
     {
       "file": "dist/copyright/index.html",
       "title": "Copyright — Morioh High Wiki",
       "descriptionLength": 133,
-      "canonical": "https://moriohhigh-wiki.pages.dev/copyright/",
+      "canonical": "https://moriohhighguide.wiki/copyright/",
       "noindex": false,
       "errors": []
     },
@@ -42,7 +42,7 @@
       "file": "dist/faq/index.html",
       "title": "Morioh High FAQ",
       "descriptionLength": 134,
-      "canonical": "https://moriohhigh-wiki.pages.dev/faq/",
+      "canonical": "https://moriohhighguide.wiki/faq/",
       "noindex": false,
       "errors": []
     },
@@ -50,7 +50,7 @@
       "file": "dist/guides/how-to-get-a-stand/index.html",
       "title": "How to Get a Stand in Morioh High",
       "descriptionLength": 148,
-      "canonical": "https://moriohhigh-wiki.pages.dev/guides/how-to-get-a-stand/",
+      "canonical": "https://moriohhighguide.wiki/guides/how-to-get-a-stand/",
       "noindex": false,
       "errors": []
     },
@@ -58,7 +58,7 @@
       "file": "dist/guides/how-to-play/index.html",
       "title": "Morioh High Roblox: Game Link and How to Play",
       "descriptionLength": 148,
-      "canonical": "https://moriohhigh-wiki.pages.dev/guides/how-to-play/",
+      "canonical": "https://moriohhighguide.wiki/guides/how-to-play/",
       "noindex": false,
       "errors": []
     },
@@ -66,7 +66,7 @@
       "file": "dist/guides/index.html",
       "title": "Morioh High Player Guide",
       "descriptionLength": 128,
-      "canonical": "https://moriohhigh-wiki.pages.dev/guides/",
+      "canonical": "https://moriohhighguide.wiki/guides/",
       "noindex": true,
       "errors": []
     },
@@ -74,7 +74,7 @@
       "file": "dist/index.html",
       "title": "Morioh High Wiki | Stand Guide &amp; Roblox Resources",
       "descriptionLength": 149,
-      "canonical": "https://moriohhigh-wiki.pages.dev/",
+      "canonical": "https://moriohhighguide.wiki/",
       "noindex": false,
       "errors": []
     },
@@ -82,7 +82,7 @@
       "file": "dist/privacy-policy/index.html",
       "title": "Privacy Policy — Morioh High Wiki",
       "descriptionLength": 138,
-      "canonical": "https://moriohhigh-wiki.pages.dev/privacy-policy/",
+      "canonical": "https://moriohhighguide.wiki/privacy-policy/",
       "noindex": false,
       "errors": []
     },
@@ -90,7 +90,7 @@
       "file": "dist/recent/index.html",
       "title": "Recent Updates — Morioh High Wiki",
       "descriptionLength": 62,
-      "canonical": "https://moriohhigh-wiki.pages.dev/recent/",
+      "canonical": "https://moriohhighguide.wiki/recent/",
       "noindex": true,
       "errors": []
     },
@@ -98,7 +98,7 @@
       "file": "dist/resources/community-links/index.html",
       "title": "Morioh High Discord and Trello: Community Links",
       "descriptionLength": 141,
-      "canonical": "https://moriohhigh-wiki.pages.dev/resources/community-links/",
+      "canonical": "https://moriohhighguide.wiki/resources/community-links/",
       "noindex": false,
       "errors": []
     },
@@ -106,7 +106,7 @@
       "file": "dist/resources/index.html",
       "title": "Morioh High Game &amp; Community Resources",
       "descriptionLength": 124,
-      "canonical": "https://moriohhigh-wiki.pages.dev/resources/",
+      "canonical": "https://moriohhighguide.wiki/resources/",
       "noindex": true,
       "errors": []
     },
@@ -114,7 +114,7 @@
       "file": "dist/resources/release-information/index.html",
       "title": "Morioh High Release Information: Is It Available?",
       "descriptionLength": 147,
-      "canonical": "https://moriohhigh-wiki.pages.dev/resources/release-information/",
+      "canonical": "https://moriohhighguide.wiki/resources/release-information/",
       "noindex": false,
       "errors": []
     },
@@ -122,7 +122,7 @@
       "file": "dist/tags/community-resources/index.html",
       "title": "community resources — Morioh High Wiki",
       "descriptionLength": 64,
-      "canonical": "https://moriohhigh-wiki.pages.dev/tags/community-resources/",
+      "canonical": "https://moriohhighguide.wiki/tags/community-resources/",
       "noindex": true,
       "errors": []
     },
@@ -130,7 +130,7 @@
       "file": "dist/tags/getting-started/index.html",
       "title": "getting started — Morioh High Wiki",
       "descriptionLength": 60,
-      "canonical": "https://moriohhigh-wiki.pages.dev/tags/getting-started/",
+      "canonical": "https://moriohhighguide.wiki/tags/getting-started/",
       "noindex": true,
       "errors": []
     },
@@ -138,7 +138,7 @@
       "file": "dist/tags/index.html",
       "title": "All Tags — Morioh High Wiki",
       "descriptionLength": 29,
-      "canonical": "https://moriohhigh-wiki.pages.dev/tags/",
+      "canonical": "https://moriohhighguide.wiki/tags/",
       "noindex": true,
       "errors": []
     },
@@ -146,7 +146,7 @@
       "file": "dist/tags/release-information/index.html",
       "title": "release information — Morioh High Wiki",
       "descriptionLength": 64,
-      "canonical": "https://moriohhigh-wiki.pages.dev/tags/release-information/",
+      "canonical": "https://moriohhighguide.wiki/tags/release-information/",
       "noindex": true,
       "errors": []
     },
@@ -154,7 +154,7 @@
       "file": "dist/tags/roblox/index.html",
       "title": "Roblox — Morioh High Wiki",
       "descriptionLength": 51,
-      "canonical": "https://moriohhigh-wiki.pages.dev/tags/roblox/",
+      "canonical": "https://moriohhighguide.wiki/tags/roblox/",
       "noindex": true,
       "errors": []
     },
@@ -162,7 +162,7 @@
       "file": "dist/tags/stands/index.html",
       "title": "Stands — Morioh High Wiki",
       "descriptionLength": 51,
-      "canonical": "https://moriohhigh-wiki.pages.dev/tags/stands/",
+      "canonical": "https://moriohhighguide.wiki/tags/stands/",
       "noindex": true,
       "errors": []
     },
@@ -170,7 +170,7 @@
       "file": "dist/terms-of-service/index.html",
       "title": "Terms of Service — Morioh High Wiki",
       "descriptionLength": 130,
-      "canonical": "https://moriohhigh-wiki.pages.dev/terms-of-service/",
+      "canonical": "https://moriohhighguide.wiki/terms-of-service/",
       "noindex": false,
       "errors": []
     }
