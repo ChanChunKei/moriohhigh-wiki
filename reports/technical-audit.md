@@ -50,3 +50,7 @@ Native local check-sitemap against the existing static preview at127.0.0.1:4322 
 ## Formal-domain production acceptance — 2026-10-12
 
 Source7f1de4600643729cb6eda26c664c1daeb7a7ffb4 /CI38156101001 success /deployment3989ef5f-0030-4720-a5f6-1373c027dafd success. Live marker matches. Native check-sitemap passed11/11; full live audit20validHTML/27targets/11sitemapURLs/0failures. Contact/browser mailto decoded correctly by Cloudflare and Pagefind Stand query returned4articles; clicking the guide opened the formal-domain URL. Domain GSC ownership and index submission verified; processing still Couldn't fetch/0discovered. Existing GA4 stream URL saved and correct-property Realtime received1operator user/1Contact page_view,first_visit andsession_start. Admin inactive warning retained separately. Formal receipts supersede earlier pending domain/Google configuration states, without implying Google indexing. Actual mail receipt was explicitly skipped.
+
+## 图片完善正式验收 — 2026-10-12
+
+source a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2 /CI38161154603 success /production部署 b107ac33-3bd5-4415-924d-872cb1ec8ef6 success /marker匹配。新增原创插画、原生响应式图片和MDX流程图。check137files0diagnostics、lint、244passed/1skipped、check-config/check-content/check-i18n/check-links/build通过；本地Sitemap11/11。buildSEO21HTML/11indexable/11Sitemap/0failures；live20HTML/27targets/0failures；images26/26线上资源200且字节与构建一致/0failures。原GA4同意门禁、域名origin和索引规则通过既有审计；Google处理与用户跳过的收信状态未改变。图片是编辑插画，游戏事实没有新增未经核验的信息。

@@ -8,11 +8,11 @@
 
 ## 2. GitHub 与实际代码
 
-已完成并验证：[ChanChunKei/moriohhigh-wiki](https://github.com/ChanChunKei/moriohhigh-wiki)，独立公开仓库。线上源代码 **7f1de4600643729cb6eda26c664c1daeb7a7ffb4**；[CI38156101001](https://github.com/ChanChunKei/moriohhigh-wiki/actions/runs/38156101001)成功。最终报告是后续记录提交，不冒充线上源代码。本地GCM身份完成Git/API操作，gh未登录不再是阻塞。凭据未写入仓库。
+已完成并验证：[ChanChunKei/moriohhigh-wiki](https://github.com/ChanChunKei/moriohhigh-wiki)，独立公开仓库。线上源代码 **a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2**；[CI38161154603](https://github.com/ChanChunKei/moriohhigh-wiki/actions/runs/38161154603)成功。最终报告是后续记录提交，不冒充线上源代码。本地GCM身份完成Git/API操作，gh未登录不再是阻塞。凭据未写入仓库。
 
 ## 3. Cloudflare Pages
 
-已完成并验证：项目moriohhigh-wiki，生产部署 **3989ef5f-0030-4720-a5f6-1373c027dafd**；[不可变部署](https://3989ef5f.moriohhigh-wiki.pages.dev)。API deploy stage成功，正式站原生marker匹配线上source。[平台地址](https://moriohhigh-wiki.pages.dev/)保留，Canonical指向正式域名。使用Wrangler direct upload；GitHub CI已配置，未宣称GitHub自动生产部署已集成。
+已完成并验证：项目moriohhigh-wiki，生产部署 **b107ac33-3bd5-4415-924d-872cb1ec8ef6**；[不可变部署](https://b107ac33.moriohhigh-wiki.pages.dev)。API deploy stage成功，正式站原生marker匹配线上source。[平台地址](https://moriohhigh-wiki.pages.dev/)保留，Canonical指向正式域名。使用Wrangler direct upload；GitHub CI已配置，未宣称GitHub自动生产部署已集成。
 
 ## 4. 正式域名及邮箱
 
@@ -80,17 +80,19 @@ E17录像0:10实际可读同游戏Encyclopedia，E18另一玩家0:50–1:05 Arro
 
 ## 12. 视觉审计
 
-既有真实浏览器样板：1440×900桌面/390×844移动首页、Stand与社区页；导航、Sidebar、Quick Answer、TOC、表格、FAQ、内链、菜单展开验证。移动375scrollWidth<=390innerWidth。
+2026-10-12图片增量已完成并上线：4幅内置image_gen原创AI辅助插画；首页主视觉、正文封面、首页/列表/相关文章缩略图、独立新版分享图、Stand证据流程图。图注和ALT明确说明非游戏截图/地图/实际物品模型；没有凭插画推断游戏内容。
 
-正式站Contact、域名mailto、Pagefind Stand4文章及正确正式指南跳转已验证。已有桌面/移动共享组件证据保留；未新增真实手机、Lighthouse/Core Web Vitals测量，未宣称正式host移动搜索重测通过。[视觉报告](visual-sample-audit.md)。
+本次相同构建真实IAB桌面1280×720和手机390×844检查：首页图片加载、图注、响应式布局，Stand双路径流程图可读，手机375scrollWidth<=390innerWidth。正式站主视觉和四张图片卡片实际已可见并保存截图。26线上图片资源HTTP200且与验收构建逐字节一致，尺寸/ALT/分享图核对0错误。[图片审计与素材/提示词](image-improvements-2026-10-12.md)。
 
-![正式站联系页](screenshots/formal-contact.png)
+原正式Contact、mailto和Pagefind查询/指南跳转验证保留；未宣称本次额外正式host手机搜索重测或真实手机/Lighthouse/Core Web Vitals测量。
+
+![正式站图片卡片](screenshots/images-live-home-cards.png)
 
 ## 13. 技术检查
 
 | 请求脚本 | 正式域名版本结果 |
 |---|---|
-| pnpm check | 已验证通过；136files、0errors/warnings/hints |
+| pnpm check | 已验证通过；137files、0errors/warnings/hints |
 | pnpm lint | 已验证通过 |
 | pnpm test | 已验证通过；18suites、244passed/1skipped |
 | pnpm check-config | 已验证通过；英语/分类/正式origin一致 |

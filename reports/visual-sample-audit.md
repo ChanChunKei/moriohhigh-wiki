@@ -27,3 +27,7 @@ Browser-wide overrides did not consistently apply to the live tab, and an immedi
 ## Formal-domain checks — 2026-10-12
 
 Real browser https://moriohhighguide.wiki/contact/ rendered the public contact address and working mailto; obsolete unconfigured-contact text is absent. Screenshot formal-contact.png. Pagefind Stand returned4articles, result click opened https://moriohhighguide.wiki/guides/how-to-get-a-stand/; screenshot formal-search-stand.png. Consent Allow loaded the correct configured Google tag; actual Realtime proof is saved privately under .tools/screenshots. Existing desktop/mobile shared-component proof remains applicable; no new formal-host mobile search or real-phone performance measurement is claimed.
+
+## 图片增量 — 2026-10-12
+
+新版4插画和Stand流程图完成，并在正式域名实际可见。本地同一构建桌面1280×720（scrollWidth1265）、手机390×844（scrollWidth375）通过；首页5张图加载，Stand手机图注与两路径纵向流程可读，无整页横向溢出。正式站主视觉/四图片卡片截图images-live-home-desktop.png与images-live-home-cards.png；本地images-home-desktop/mobile及images-stand-diagram-desktop/mobile保存。26线上资源与构建一致。每图说明原创编辑插画，不冒充实拍/实际地图/模型。未做本次正式手机搜索重测或真实手机性能测量。完整结果见image-improvements-2026-10-12.md。

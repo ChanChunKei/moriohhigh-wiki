@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-11T16:36:42.489Z",
+  "id": "3989ef5f-0030-4720-a5f6-1373c027dafd",
+  "environment": "production",
+  "url": "https://3989ef5f.moriohhigh-wiki.pages.dev",
+  "productionOrigin": "https://moriohhighguide.wiki",
+  "commit": "7f1de4600643729cb6eda26c664c1daeb7a7ffb4",
+  "latestStage": {
+    "name": "deploy",
+    "started_on": null,
+    "ended_on": "2026-10-11T16:35:50.162075Z",
+    "status": "success"
+  }
+}

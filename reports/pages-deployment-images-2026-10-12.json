@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-11T17:50:18.374Z",
+  "sourceCommit": "a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2",
+  "production": "https://moriohhighguide.wiki",
+  "result": {
+    "id": "b107ac33-3bd5-4415-924d-872cb1ec8ef6",
+    "short_id": "b107ac33",
+    "project_id": "f31b8c17-fa86-467b-b1e6-ecb9543824f9",
+    "project_name": "moriohhigh-wiki",
+    "environment": "production",
+    "url": "https://b107ac33.moriohhigh-wiki.pages.dev",
+    "created_on": "2026-10-11T17:48:12.451087Z",
+    "modified_on": "2026-10-11T17:48:13.883868Z",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-11T17:48:13.883868Z",
+      "status": "success"
+    },
+    "deployment_trigger": {
+      "type": "ad_hoc",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2",
+        "commit_message": "Improve wiki artwork, responsive covers, and Stand visual guide",
+        "commit_dirty": false
+      }
+    },
+    "stages": [
+      {
+        "name": "queued",
+        "started_on": "2026-10-11T17:48:12.451087Z",
+        "ended_on": null,
+        "status": "active"
+      },
+      {
+        "name": "initialize",
+        "started_on": null,
+        "ended_on": null,
+        "status": "idle"
+      },
+      {
+        "name": "clone_repo",
+        "started_on": null,
+        "ended_on": null,
+        "status": "idle"
+      },
+      {
+        "name": "build",
+        "started_on": null,
+        "ended_on": null,
+        "status": "idle"
+      },
+      {
+        "name": "deploy",
+        "started_on": null,
+        "ended_on": "2026-10-11T17:48:13.883868Z",
+        "status": "success"
+      }
+    ],
+    "build_config": {
+      "build_command": null,
+      "destination_dir": null,
+      "build_caching": null,
+      "root_dir": null,
+      "web_analytics_tag": null,
+      "web_analytics_token": null
+    },
+    "env_vars": {},
+    "compatibility_date": "2026-10-11",
+    "compatibility_flags": [],
+    "build_image_major_version": 3,
+    "usage_model": null,
+    "aliases": [
+      "https://moriohhighguide.wiki"
+    ],
+    "is_skipped": false,
+    "production_branch": "main",
+    "uses_functions": false
+  }
+}

@@ -22,4 +22,11 @@
 
 ## 线上验证
 
-新版尚待部署，不能以本地通过代替线上完成。保留现有域名、邮箱、GSC/GA4配置与各自尚待验证状态。
+已完成并验证：正式 https://moriohhighguide.wiki/；source a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2；production部署 b107ac33-3bd5-4415-924d-872cb1ec8ef6；CF stage success；原生marker完整匹配。GitHub CI38161154603 success。
+
+- 线上图片专项：26/26资源HTTP200且与本地构建字节一致，0failure；reports/images-audit-live.json。
+- 线上技术验收：20正常HTML /27检查 /11SitemapURL /0failure；reports/online-acceptance.json。
+- 正式站真实浏览器主视觉、四张首页图片卡片实际可见且图注正确；截图 images-live-home-desktop.png /images-live-home-cards.png。首次刷新等待超时，重新读取页面后视觉验收成功。
+- 手机布局在本地相同构建的390×844浏览器已验证；没有额外宣称正式站手机或实机性能重测。
+- 用户原始关键词快照未改；提交前555个待发布文件私密信息扫描0hit。
+- 域名、邮箱、GSC/GA4现有配置保留；Google收录/曝光和已跳过的实际收信仍未验证。
