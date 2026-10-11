@@ -8,7 +8,7 @@
 - /resources/community-links/：开发者群组、Discord 和 Trello 证据边界。
 - /faq/：快速答疑。
 - /about/、/privacy-policy/、/terms-of-service/、/copyright/：说明与政策。
-- /contact/：域名邮箱待用户实际提供；当前 noindex，未虚构邮箱。
+- /contact/：实际启用的域名邮箱 contact@moriohhighguide.wiki；2026-10-12已发布并允许索引，实收测试按用户要求跳过。
 - /guides/、/resources/、/recent/、/tags/ 与标签子页：真实导航，无索引，不作为新增 SEO 精品页。
 - /404.html：原生 404。
 
@@ -18,3 +18,7 @@
 ## Incremental change
 
 /guides/how-to-get-a-stand/ now answers documented first-Stand acquisition from E17/E18. Actual allocated primary origin is https://moriohhigh-wiki.pages.dev. Earlier localhost text records the initial setup stage.
+
+## 2026-10-12正式域名增量
+
+正式origin已验证为 https://moriohhighguide.wiki。Canonical/Sitemap/robots/分享元数据已重建并线上验收；11可索引URL。原Pages地址作为平台地址保留，Canonical指向正式域名。原生GA4仅在同意后加载，广告继续关闭。历史localhost/Pages说明保留为初始化记录，不作为当前部署状态。证据：reports/domain-binding.json、online-acceptance.json、analytics-formal.json。

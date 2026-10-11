@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-10-11T12:43:01.417Z",
-  "id": "e68613b0-a4c5-4b8b-add3-6191e9c91508",
+  "checkedAt": "2026-10-11T16:36:42.489Z",
+  "id": "3989ef5f-0030-4720-a5f6-1373c027dafd",
   "environment": "production",
-  "url": "https://e68613b0.moriohhigh-wiki.pages.dev",
-  "productionOrigin": "https://moriohhigh-wiki.pages.dev",
-  "commit": "b1d747968377615aa7fe14a36455c9aa4e935d7c",
+  "url": "https://3989ef5f.moriohhigh-wiki.pages.dev",
+  "productionOrigin": "https://moriohhighguide.wiki",
+  "commit": "7f1de4600643729cb6eda26c664c1daeb7a7ffb4",
   "latestStage": {
     "name": "deploy",
     "started_on": null,
-    "ended_on": "2026-10-11T12:42:00.306577Z",
+    "ended_on": "2026-10-11T16:35:50.162075Z",
     "status": "success"
   }
 }

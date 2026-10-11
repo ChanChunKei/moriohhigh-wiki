@@ -1,0 +1,23 @@
+{
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": true,
+  "CD": false,
+  "Question": [
+    {
+      "name": "moriohhighguide.wiki.",
+      "type": 16
+    }
+  ],
+  "Answer": [
+    {
+      "name": "moriohhighguide.wiki.",
+      "type": 16,
+      "TTL": 300,
+      "data": "v=spf1 include:_spf.mx.cloudflare.net ~all"
+    }
+  ],
+  "Comment": "Response from 173.245.58.183."
+}

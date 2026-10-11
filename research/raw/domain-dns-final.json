@@ -1,0 +1,26 @@
+[
+  {
+    "type": "NS",
+    "status": 0,
+    "authenticated": true,
+    "answers": [
+      "laura.ns.cloudflare.com.",
+      "armfazh.ns.cloudflare.com."
+    ]
+  },
+  {
+    "type": "TXT",
+    "status": 0,
+    "authenticated": true,
+    "answers": [
+      "google-site-verification=qI3S7XUsEq1DFALmx0KdVVdb5bfMlqi4_LWz6_SrEYU",
+      "v=spf1 include:_spf.mx.cloudflare.net ~all"
+    ]
+  },
+  {
+    "type": "DS",
+    "status": 0,
+    "authenticated": true,
+    "answers": "2371 13 2 A0F1CFDDF2989A0502022056DF9A33C9053717EE60DA9D632F0314EFCAA14D6B"
+  }
+]

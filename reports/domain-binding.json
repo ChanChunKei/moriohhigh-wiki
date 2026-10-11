@@ -49,5 +49,10 @@
       "laura.ns.cloudflare.com"
     ],
     "checkedAt": "2026-10-11T16:10:08.540Z"
-  }
+  },
+  "httpsVerified": true,
+  "productionOrigin": "https://moriohhighguide.wiki",
+  "source": "7f1de4600643729cb6eda26c664c1daeb7a7ffb4",
+  "deploymentId": "3989ef5f-0030-4720-a5f6-1373c027dafd",
+  "finalVerifiedAt": "2026-10-11T17:11:43.100Z"
 }

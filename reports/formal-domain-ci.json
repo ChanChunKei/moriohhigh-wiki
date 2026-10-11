@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-11T16:41:08.904Z",
+  "source": "7f1de4600643729cb6eda26c664c1daeb7a7ffb4",
+  "runs": [
+    {
+      "id": 38156150366,
+      "name": "IndexNow",
+      "status": "completed",
+      "conclusion": "skipped",
+      "url": "https://github.com/ChanChunKei/moriohhigh-wiki/actions/runs/38156150366"
+    },
+    {
+      "id": 38156101001,
+      "name": "CI",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/ChanChunKei/moriohhigh-wiki/actions/runs/38156101001"
+    }
+  ]
+}

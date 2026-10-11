@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-11T16:47:16.206Z",
+  "httpStatus": 200,
+  "result": {
+    "id": "ad247f28b476026cca040323ec48e72c",
+    "name": "moriohhighguide.wiki",
+    "type": "TXT",
+    "content": "google-site-verification=qI3S7XUsEq1DFALmx0KdVVdb5bfMlqi4_LWz6_SrEYU",
+    "proxiable": false,
+    "proxied": false,
+    "ttl": 1,
+    "settings": {},
+    "meta": {},
+    "comment": "Google Search Console domain ownership verification",
+    "tags": [],
+    "created_on": "2026-10-11T16:47:15.505183Z",
+    "modified_on": "2026-10-11T16:47:15.505183Z",
+    "comment_modified_on": "2026-10-11T16:47:15.505183Z"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}

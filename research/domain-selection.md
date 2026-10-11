@@ -30,3 +30,7 @@ RDAP 原始非个人字段记录：raw/domain-rdap.json、raw/moriohhigh-wiki-rd
 - Cloudflare Free zone 已创建，分配 `armfazh.ns.cloudflare.com` / `laura.ns.cloudflare.com`；Pages custom domain 已关联，apex CNAME 已配置。
 - 22:28 核验 public NS 仍为 `launch1.spaceship.net` / `launch2.spaceship.net`，Cloudflare zone 为 pending；Spaceship 内置浏览器未登录，等待用户本机登录或自行切换 nameservers。
 - `contact@moriohhighguide.wiki` 精确转发规则已保存并读回验证；私有目标是用户提供的已验证 Gmail，没有在公开代码/报告中写出该私人地址。服务启用返回 `Active zone required`，收信尚未生效，也未做投递测试。
+
+## 2026-10-12接入完成增量
+
+用户已购moriohhighguide.wiki在Spaceship完成NS切换；Cloudflare zone、Pages域名和HTTPS已验证active，正式站已部署，公开域名邮箱转发服务已启用。实际订单首年/税费/Premium/续费仍未知，不用标准促销价冒充实付价。此增量不覆盖历史候选/价格研究。实收测试按用户要求跳过。证据：reports/domain-binding.json、email-routing.json、online-acceptance.json。

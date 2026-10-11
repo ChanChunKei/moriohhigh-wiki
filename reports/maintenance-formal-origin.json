@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-11T17:13:46.400Z",
+  "datesUnchanged": true,
+  "checks": [
+    {
+      "id": "morioh-high-3",
+      "formalDomainPrompt": true,
+      "active": true
+    },
+    {
+      "id": "morioh-high-7",
+      "formalDomainPrompt": true,
+      "active": true
+    },
+    {
+      "id": "morioh-high-14",
+      "formalDomainPrompt": true,
+      "active": true
+    },
+    {
+      "id": "morioh-high-28",
+      "formalDomainPrompt": true,
+      "active": true
+    }
+  ]
+}

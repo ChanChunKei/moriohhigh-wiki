@@ -49,6 +49,9 @@
     "messages": []
   },
   "registrarDsUpdated": true,
-  "publicValidationVerified": false,
-  "registrarDsVerifiedAt": "2026-10-11T16:20:59.150Z"
+  "publicValidationVerified": true,
+  "registrarDsVerifiedAt": "2026-10-11T16:20:59.150Z",
+  "cloudflareStatus": "pending",
+  "lastCheckedAt": "2026-10-11T17:07:27.896Z",
+  "validationEvidence": "Google DoH AD=true for A, MX, NS, TXT and DS; see research/raw/domain-dns-final.json"
 }

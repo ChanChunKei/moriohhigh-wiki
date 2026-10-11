@@ -1,38 +1,24 @@
 # Formal domain and email forwarding
 
-Updated 2026-10-11 22:28 Asia/Shanghai.
-
-The user owns `moriohhighguide.wiki` at Spaceship and explicitly requested a domain email that forwards to their provided Gmail. Public address: **contact@moriohhighguide.wiki**. Keep the private destination out of published source and reports.
+Updated 2026-10-11T17:20:09.682Z UTC. The user owns moriohhighguide.wiki at Spaceship and authorized this site and contact-mail forwarding. The private destination stays out of public source and reports.
 
 ## Completed and verified
 
-- Cloudflare Free zone `c917d0811a9b554a510282eaecdbd91e` created through the existing authenticated dashboard; the API token could not create zones, but can read/write this newly created zone.
-- Assigned nameservers: `armfazh.ns.cloudflare.com` and `laura.ns.cloudflare.com`.
-- Existing Pages project `moriohhigh-wiki` associated with the apex custom domain, domain ID `4ca17326-6c68-4527-a593-ae0321284775`.
-- Backed up and replaced the two imported parking A records with proxied apex CNAME `moriohhigh-wiki.pages.dev`. No other domains changed.
-- The user-provided destination already had verified status in the Cloudflare account, since 2026-09-13. No extra verification email needed.
-- Exact `contact@` forward rule `d4b11591c9ac45c39caffffd1d50d61e` saved enabled and read back; it points to the correct private verified destination. Catch-all remains unchanged/disabled.
+- Spaceship nameservers for this domain alone were saved as armfazh.ns.cloudflare.com and laura.ns.cloudflare.com. Public signed NS matches. No other domains changed.
+- Cloudflare Free zone c917d0811a9b554a510282eaecdbd91e is active; Pages custom domain 4ca17326-6c68-4527-a593-ae0321284775 is active. HTTPS production https://moriohhighguide.wiki passes the live audit.
+- Proxied apex CNAME points to moriohhigh-wiki.pages.dev; old parking A records are backed up.
+- DNSSEC was enabled at Cloudflare and its exact new DS saved at Spaceship. Google DoH authenticated A/MX/NS/TXT/DS (AD=true). Cloudflare's last DNSSEC status read still says pending; recheck its status later, without changing the verified matching DS.
+- contact@moriohhighguide.wiki exact forwarding rule d4b11591c9ac45c39caffffd1d50d61e is enabled and read back to the correct already-verified private destination. Catch-all stays disabled.
+- Email service is ready/enabled/synced. Provider-created MX/SPF/DKIM records are installed; public MX/SPF verified. Enabling apex routing required POST /email/routing/dns without a name field; earlier403 Active zone required and422 subdomain-only error are preserved as history.
+- Native site/contact/origin and CI settings changed only after actual domain and service activation. Source 7f1de4600643729cb6eda26c664c1daeb7a7ffb4, successful production deployment3989ef5f-0030-4720-a5f6-1373c027dafd. Live20HTML/27targets/11sitemapURLs pass; Contact mailto and Pagefind search verified in the real browser.
+- Formal GSC domain ownership verified, sitemap-index submitted. Initial processing report still Couldn't fetch/0discovered, not proven indexing. Existing GA4 stream URL updated, consent-gated formal Contact test collected in the correct Realtime property.
 
-## External blocker and precise next action
+## Explicitly skipped / not verified
 
-Public NS still resolves to `launch1.spaceship.net` / `launch2.spaceship.net`. The Cloudflare zone is pending. The Spaceship browser session is logged out. A user-input request is pending for local login or manual nameserver change; no password requested.
+The user said to skip the actual mail receipt test. Do not treat it as a blocker or ask again during this delivery. Enabled configuration does not prove delivery. This is inbound forwarding; domain-address sending has not been configured. No test messages were sent.
 
-In Spaceship domain management, replace the existing nameservers for **moriohhighguide.wiki only** with:
+Google indexing/impressions and actual organic traffic remain unverified. No payment or new paid service was used.
 
-1. `armfazh.ns.cloudflare.com`
-2. `laura.ns.cloudflare.com`
+## Resume
 
-Wait for actual activation, then enable Cloudflare Email Routing. The attempted enable returned HTTP403 / code2009 / **Active zone required**; a saved enabled rule alone does not mean mail can be received. Routing currently has no live delivery proof.
-
-## Resume without reinitializing
-
-1. Read `domain-binding.json`, `domain-web-dns.json`, `pages-custom-domain.json`, and `email-routing.json`.
-2. Re-read public NS and the exact Cloudflare zone. After the zone reports active, POST its `/email/routing/dns` endpoint to add/lock the provider's real MX/SPF/DKIM records. Do not invent MX priorities or keys.
-3. Re-read service ready/enabled status and the existing contact rule. Do not create duplicate rules or destinations.
-4. Verify public MX/TXT and the user's received test message using a separate authorized sender. Until then distinguish configuration verification from end-to-end delivery.
-5. Publish the domain email in native `src/config/site.ts` only after the service is enabled. No Gmail in public site contact information.
-6. Once Pages custom domain and HTTPS are actually active, switch the site origin, build/deployment audit guards and CI environment to the formal domain; rebuild, deploy and recheck all Canonical/Sitemap/robots/HTTPS routes. Existing Pages production stays valid while waiting.
-7. Add/verify the formal GSC property and submit its sitemap; update the existing GA4 web stream URL, reusing property/stream/Measurement ID. Do not create duplicate Google properties.
-8. Update delivery status and maintenance checks using observed results; Google indexing/exposure and mail delivery are not implied by API success.
-
-No source-site or production-origin changes were made while the destination domain/email remained unreachable. Receipts are sanitized; credentials remain session-only.
+Read current-delivery-status.md and the existing JSON receipts. Do not recreate the zone, destination, rule, Google property or stream. Check the formal origin, native marker and current Git state before deploying any future authorized change. Keep credentials session-only and the private Gmail out of published source. Recheck sitemap processing and DNSSEC status at scheduled inspections; mail testing only if newly requested.

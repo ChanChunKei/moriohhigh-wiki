@@ -1,0 +1,10 @@
+{
+  "source": "7f1de4600643729cb6eda26c664c1daeb7a7ffb4",
+  "publicEmailPresent": true,
+  "placeholderAbsent": true,
+  "canonical": "https://moriohhighguide.wiki/contact/",
+  "indexable": true,
+  "publicEmailEvidence": "Actual browser rendered the public address and mailto link after Cloudflare email decoding",
+  "checkedAt": "2026-10-11T17:07:27.898Z",
+  "analyticsAllow": "Actual browser loaded gtag/js?id=G-MLLG5CEMCG after Allow analytics"
+}

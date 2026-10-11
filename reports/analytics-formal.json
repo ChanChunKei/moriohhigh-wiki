@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-11T17:07:27.898Z",
+  "site": "https://moriohhighguide.wiki",
+  "propertyId": "558434763",
+  "streamId": "16106218705",
+  "measurementId": "G-MLLG5CEMCG",
+  "streamUrlUpdate": "verified in authenticated UI",
+  "streamProof": ".tools/screenshots/ga4-formal-stream-url.png",
+  "consentAllow": "verified correct external tag after consent",
+  "realtime": "verified in authenticated correct-property Realtime overview",
+  "setupWarning": "Admin setup banner still showed inactive/no-data warning; actual Realtime event receipt verified separately",
+  "organicSearch": "not verified",
+  "priorPagesDomainTest": "Retained in reports/analytics.json; not a formal-domain proof",
+  "realtimeVerifiedAt": "2026-10-11T17:11:43.099Z",
+  "testTraffic": {
+    "activeUsersLast30Minutes": 1,
+    "pageViews": 1,
+    "pageTitle": "Contact — Morioh High Wiki",
+    "events": {
+      "first_visit": 1,
+      "page_view": 1,
+      "session_start": 1
+    }
+  },
+  "realtimeProof": ".tools/screenshots/ga4-formal-realtime.png",
+  "limitation": "Operator test visit, not verified natural search traffic. Historical/admin warning must not replace the observed realtime evidence."
+}

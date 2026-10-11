@@ -33,9 +33,11 @@ Read `reports/current-delivery-status.md`, inspect Git and the evidence ledger, 
 
 For content edits, run the template's content and link gates plus the appropriate build checks. For a deployment, build with the verified `SITE_URL` and run the build SEO audit; deploy `dist` through Wrangler using credentials supplied in the process environment. Never put tokens in tracked files. Recheck the live sitemap, canonical origin, 404 status and search after upload.
 
-A future custom domain must be owned/authorized, pass the cost decision, and be bound before changing the primary origin. Rebuild canonical/sitemap metadata at that point, update the real domain mailbox, and verify mail routing separately. Avoid indexing two hosts with conflicting canonical signals.
+Production now uses the user-owned https://moriohhighguide.wiki. Canonical, sitemap and robots point to this origin, including on the Pages platform host. Contact forwarding configuration is enabled; actual receipt testing was skipped at the user’s request. Any future domain change must be separately authorized and revalidated before changing the origin.
 
 
-## 2026-10-11 formal domain/email handoff
+## 2026-10-12 formal domain acceptance
 
-User-owned domain: moriohhighguide.wiki (Spaceship). Public mailbox: contact@moriohhighguide.wiki, forwarding to the privately provided, already verified Gmail. Cloudflare zone, Pages association, apex CNAME and exact forwarding rule are saved and verified. Nameservers must become armfazh.ns.cloudflare.com / laura.ns.cloudflare.com; public DNS still uses Spaceship and the zone is pending. Routing enable returned Active zone required. Do not publish the contact address or switch production Canonical/Sitemap until activation and service/HTTPS checks pass. Read reports/domain-email-handoff.md and existing receipts to resume without recreating rules or properties. Delivery testing is still outstanding.
+Spaceship nameservers changed and the Cloudflare zone/custom domain are active. Formal-domain deployment, HTTPS,11sitemapURLs, Canonical, contact mailto, Pagefind and consent-gated GA4 test receipt are verified. GSC domain property sc-domain:moriohhighguide.wiki is verified and its index sitemap submitted; initial report still Couldn't fetch/0discovered. Existing Pages property history stays in search-console.json. DNSSEC public chain validates, while the last CF API status remains pending. Review these two statuses at the scheduled checks.
+
+The four original inspection dates remain unchanged, counted from the initial October11 deployment. All four automation prompts now target the formal domain and have been read back. Do not create duplicate reminders. Mail delivery testing was explicitly skipped by the user; keep its status unverified and do not ask again without a new request. The public address is contact@moriohhighguide.wiki; the private forwarding destination is never published.

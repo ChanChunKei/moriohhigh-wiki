@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-11T16:51:34.052Z",
+  "property": "sc-domain:moriohhighguide.wiki",
+  "ownership": "verified in authenticated Google UI",
+  "method": "Domain name provider / DNS TXT",
+  "dnsRecordId": "ad247f28b476026cca040323ec48e72c",
+  "sitemap": "https://moriohhighguide.wiki/sitemap-index.xml",
+  "submission": "verified success dialog",
+  "processing": "Couldn't fetch / Unknown / 0 discovered in initial report",
+  "indexedPages": "not verified",
+  "impressions": "not available",
+  "proof": ".tools/screenshots/gsc-formal-domain-verified.png",
+  "oldPropertyRetained": "https://moriohhigh-wiki.pages.dev/",
+  "submittedAt": "2026-10-11T16:54:57.043Z",
+  "next": "Recheck after propagation/Google processing at scheduled inspection; do not repeatedly resubmit.",
+  "submissionProof": ".tools/screenshots/gsc-formal-sitemap-submitted.png"
+}
