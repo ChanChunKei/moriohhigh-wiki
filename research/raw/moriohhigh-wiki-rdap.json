@@ -1,0 +1,31 @@
+{
+  "domain": "moriohhigh.wiki",
+  "status": [
+    "client transfer prohibited",
+    "server transfer prohibited",
+    "add period"
+  ],
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "2026-10-11T04:32:37Z",
+      "eventActor": "Spaceship, Inc."
+    },
+    {
+      "eventAction": "expiration",
+      "eventDate": "2027-10-11T04:32:37Z"
+    },
+    {
+      "eventAction": "last changed",
+      "eventDate": "2026-10-11T04:48:56Z"
+    },
+    {
+      "eventAction": "last update of RDAP database",
+      "eventDate": "2026-10-11T11:27:54Z"
+    }
+  ],
+  "nameservers": [
+    "pearl.ns.cloudflare.com",
+    "gabe.ns.cloudflare.com"
+  ]
+}

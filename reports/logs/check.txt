@@ -1,0 +1,12 @@
+Already up to date
+Done in 513ms using pnpm v11.1.1
+$ astro check
+19:43:11 [content] Syncing content
+19:43:11 [content] Synced content
+19:43:12 [types] Generated 692ms
+19:43:12 [check] Getting diagnostics for Astro files in D:\CursorProjects\moriohhigh-wiki...
+Result (136 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+

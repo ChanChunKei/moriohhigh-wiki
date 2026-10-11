@@ -1,0 +1,440 @@
+{
+  "collectedDate": "2026-10-11",
+  "pages": [
+    {
+      "name": "Wiki homepage",
+      "primary": "morioh high wiki",
+      "secondary": [
+        "morioh high",
+        "morioh high roblox"
+      ],
+      "slug": "/",
+      "intent": "Identify the game and navigate the wiki",
+      "answer": "Correct Roblox game, developer and source-checked page navigation",
+      "evidence": "Roblox game + universe/group APIs",
+      "sources": [
+        "E01",
+        "E02",
+        "E03"
+      ],
+      "format": "Native homepage",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/",
+        "/resources/release-information/",
+        "/faq/"
+      ],
+      "maintenance": "Only meaningful source or navigation changes",
+      "value": "Brand entry",
+      "status": "完整回答"
+    },
+    {
+      "name": "How to play",
+      "primary": "morioh high roblox link",
+      "secondary": [
+        "morioh high roblox game",
+        "how to play morioh high",
+        "morioh high download"
+      ],
+      "slug": "/guides/how-to-play/",
+      "intent": "Launch the correct experience",
+      "answer": "Official URL and Roblox Player steps with account/device limits",
+      "evidence": "Roblox identity and official installation help",
+      "sources": [
+        "E01",
+        "E02",
+        "E07",
+        "E16"
+      ],
+      "format": "MDX steps + identity table",
+      "links": [
+        "/resources/community-links/",
+        "/resources/release-information/",
+        "/faq/"
+      ],
+      "maintenance": "When official entry or platform instructions change",
+      "value": "Suggest observed link intent",
+      "status": "完整回答"
+    },
+    {
+      "name": "Release information",
+      "primary": "morioh high release date",
+      "secondary": [
+        "morioh high availability"
+      ],
+      "slug": "/resources/release-information/",
+      "intent": "Understand availability and launch-date evidence",
+      "answer": "Active on check date; reported Oct 10; Oct 2 is creation, exact developer date unverified",
+      "evidence": "Live Roblox activity + secondary release listing",
+      "sources": [
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "format": "MDX event table",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/",
+        "/faq/"
+      ],
+      "maintenance": "On official release/date/access evidence",
+      "value": "Historical search intent",
+      "status": "部分回答"
+    },
+    {
+      "name": "Community resources",
+      "primary": "morioh high discord",
+      "secondary": [
+        "morioh high trello",
+        "morioh high roblox discord",
+        "morioh high discord server"
+      ],
+      "slug": "/resources/community-links/",
+      "intent": "Find game/community links and establish provenance",
+      "answer": "Matching Roblox developer group and resolving Discord invite; official ownership and Trello unverified",
+      "evidence": "Roblox creator/group match + Discord invite API",
+      "sources": [
+        "E01",
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "format": "MDX resource table",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/release-information/",
+        "/faq/"
+      ],
+      "maintenance": "Only link or ownership changes",
+      "value": "Current Suggest signals",
+      "status": "部分回答"
+    },
+    {
+      "name": "FAQ",
+      "primary": "morioh high faq",
+      "secondary": [
+        "what is morioh high"
+      ],
+      "slug": "/faq/",
+      "intent": "Quick game identity and coverage answers",
+      "answer": "Eight source-based questions; refer to detailed resource pages",
+      "evidence": "Same evidence as existing editorial pages",
+      "sources": [
+        "E01",
+        "E03",
+        "E04",
+        "E06",
+        "E07",
+        "E08",
+        "E10"
+      ],
+      "format": "Native localized FAQ",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "When underlying factual answers change",
+      "value": "Support page; standalone demand unmeasured",
+      "status": "完整回答"
+    },
+    {
+      "name": "Beginner guide",
+      "primary": "morioh high beginner guide",
+      "secondary": [],
+      "slug": "/guides/beginner-guide/",
+      "intent": "Tested first-session route",
+      "answer": "Tested first-session route",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No verified hands-on route or starting objectives"
+    },
+    {
+      "name": "How to get a Stand",
+      "primary": "how to get a stand in morioh high",
+      "secondary": [],
+      "slug": "/guides/how-to-get-a-stand/",
+      "intent": "Steps, prerequisites, location and game version",
+      "answer": "Steps, prerequisites, location and game version",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [
+        "E11"
+      ],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "Tutorial title observed; core footage/transcript and independent confirmation unavailable"
+    },
+    {
+      "name": "Stands guide",
+      "primary": "morioh high stands",
+      "secondary": [],
+      "slug": "/guides/stands/",
+      "intent": "Current roster, acquisition and evidenced differences",
+      "answer": "Current roster, acquisition and evidenced differences",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No verified full roster or ability data"
+    },
+    {
+      "name": "Controls",
+      "primary": "morioh high controls",
+      "secondary": [],
+      "slug": "/guides/controls/",
+      "intent": "Actual input mapping by device",
+      "answer": "Actual input mapping by device",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No same-game settings/control evidence"
+    },
+    {
+      "name": "Progression",
+      "primary": "morioh high progression",
+      "secondary": [],
+      "slug": "/guides/progression/",
+      "intent": "Unlock milestones and reliable route",
+      "answer": "Unlock milestones and reliable route",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No documented implemented progression system"
+    },
+    {
+      "name": "Map / locations",
+      "primary": "morioh high map",
+      "secondary": [],
+      "slug": "/guides/map/",
+      "intent": "Verified locations and travel directions",
+      "answer": "Verified locations and travel directions",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No current map evidence"
+    },
+    {
+      "name": "NPCs",
+      "primary": "morioh high npcs",
+      "secondary": [],
+      "slug": "/guides/npcs/",
+      "intent": "NPC identities, locations and interactions",
+      "answer": "NPC identities, locations and interactions",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "Description confirms NPC interaction only, no directory"
+    },
+    {
+      "name": "Quests",
+      "primary": "morioh high quests",
+      "secondary": [],
+      "slug": "/guides/quests/",
+      "intent": "Objectives, prerequisites and actual rewards",
+      "answer": "Objectives, prerequisites and actual rewards",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No verified quest list"
+    },
+    {
+      "name": "Abilities",
+      "primary": "morioh high abilities",
+      "secondary": [],
+      "slug": "/guides/abilities/",
+      "intent": "Implemented abilities and supported values",
+      "answer": "Implemented abilities and supported values",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No current ability data; JoJo canon cannot substitute"
+    },
+    {
+      "name": "Combat",
+      "primary": "morioh high combat",
+      "secondary": [],
+      "slug": "/guides/combat/",
+      "intent": "Actual combat mechanics and player choices",
+      "answer": "Actual combat mechanics and player choices",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No same-game controls or combat tests"
+    },
+    {
+      "name": "Items",
+      "primary": "morioh high items",
+      "secondary": [],
+      "slug": "/guides/items/",
+      "intent": "Actual item names, effects and acquisition",
+      "answer": "Actual item names, effects and acquisition",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No current item ledger"
+    },
+    {
+      "name": "Codes",
+      "primary": "morioh high codes",
+      "secondary": [],
+      "slug": "/resources/codes/",
+      "intent": "Working code and successful redemption evidence",
+      "answer": "Working code and successful redemption evidence",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [
+        "E12",
+        "E13"
+      ],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "Media disagree on rewards/status; no independent game test"
+    },
+    {
+      "name": "Tips",
+      "primary": "morioh high tips",
+      "secondary": [],
+      "slug": "/guides/tips/",
+      "intent": "Distinct useful tested choices",
+      "answer": "Distinct useful tested choices",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "Would duplicate unverified beginner content"
+    },
+    {
+      "name": "Troubleshooting",
+      "primary": "morioh high troubleshooting",
+      "secondary": [],
+      "slug": "/guides/troubleshooting/",
+      "intent": "Reproducible game-specific error and fix",
+      "answer": "Reproducible game-specific error and fix",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No verified game-specific error; generic launch steps merged into play guide"
+    },
+    {
+      "name": "Tier list",
+      "primary": "morioh high tier list",
+      "secondary": [],
+      "slug": "/guides/tier-list/",
+      "intent": "Defined criteria and supported comparisons",
+      "answer": "Defined criteria and supported comparisons",
+      "evidence": "Current same-game developer documentation or timestamped footage plus independent confirmation",
+      "sources": [],
+      "format": "No page generated",
+      "links": [
+        "/guides/how-to-play/",
+        "/resources/community-links/"
+      ],
+      "maintenance": "Unknown until mechanics verified",
+      "value": "Candidate only; current demand unmeasured",
+      "status": "暂缓",
+      "reason": "No verified roster or comparative testing; historical Trends peak 0 is not zero searches"
+    }
+  ],
+  "counts": {
+    "total": 20,
+    "localEditorialReady": 5,
+    "completeAnswers": 3,
+    "qualifiedPartialAnswers": 2,
+    "deferred": 15
+  },
+  "note": "Partial pages answer a narrowed resource question; they do not claim a fully confirmed launch date, official Discord ownership or a Trello URL. Formal gameplay-wiki gate remains unmet."
+}

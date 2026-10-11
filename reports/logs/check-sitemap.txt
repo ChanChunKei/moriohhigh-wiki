@@ -1,0 +1,23 @@
+Already up to date
+Done in 504ms using pnpm v11.1.1
+$ tsx scripts/check-sitemap.ts
+
+📋 Checking sitemap URLs against: http://127.0.0.1:4322
+
+Found 9 URLs. Checking...
+
+  ✅  200  http://localhost:4321/
+  ✅  200  http://localhost:4321/about/
+  ✅  200  http://localhost:4321/copyright/
+  ✅  200  http://localhost:4321/faq/
+  ✅  200  http://localhost:4321/guides/how-to-play/
+  ✅  200  http://localhost:4321/privacy-policy/
+  ✅  200  http://localhost:4321/resources/community-links/
+  ✅  200  http://localhost:4321/resources/release-information/
+  ✅  200  http://localhost:4321/terms-of-service/
+
+── Result ──
+  ✅ Passed: 9
+  ❌ Failed: 0
+
+🎉 All sitemap URLs returned 200.

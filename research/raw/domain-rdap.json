@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-11T11:27:40.705Z",
+  "checks": [
+    {
+      "domain": "moriohhigh.wiki",
+      "url": "https://rdap.nic.wiki/domain/moriohhigh.wiki",
+      "httpStatus": 200,
+      "interpretation": "Registration state requires response review"
+    },
+    {
+      "domain": "moriohhighguide.wiki",
+      "url": "https://rdap.nic.wiki/domain/moriohhighguide.wiki",
+      "httpStatus": 404,
+      "interpretation": "No RDAP object; registrar availability/premium NOT verified"
+    },
+    {
+      "domain": "moriohhighwiki.org",
+      "url": "https://rdap.publicinterestregistry.org/rdap/domain/moriohhighwiki.org",
+      "httpStatus": 404,
+      "interpretation": "No RDAP object; registrar availability/premium NOT verified"
+    }
+  ]
+}

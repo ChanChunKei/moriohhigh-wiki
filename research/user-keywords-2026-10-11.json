@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-10-11",
+  "timezone": "Asia/Shanghai",
+  "source": "user-provided historical research",
+  "immutableBaseline": true,
+  "interpretation": {"missing": "unknown, never zero", "plannerNotListed": "未收录（词太新）", "trends": "relative interest, not monthly volume", "serp": "historical user observation, not current measurement"},
+  "keywords": [
+    {"keyword":"morioh high","category":"品牌核心","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":47.7,"kdLabel":"中等","relativePeak":100,"serp":"3 席 YouTube、2 席 TikTok，无专门站经营"},
+    {"keyword":"morioh high roblox","category":"品牌+平台","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":null,"kdLabel":"未评","relativePeak":null,"relativePeakStatus":"未评","serp":"游戏页+视频占位"},
+    {"keyword":"morioh high release date","category":"上线/下载","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":null,"kdLabel":"未评","relativePeak":null,"relativePeakStatus":"未评","serp":"只有 YouTube 预告片 + TikTok"},
+    {"keyword":"morioh high wiki","category":"资料站","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":null,"kdLabel":"未评","relativePeak":null,"relativePeakStatus":"未评","serp":"无专门 Wiki 页排名"},
+    {"keyword":"morioh high codes","category":"兑换码","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":46.7,"kdLabel":"中等","relativePeak":58,"serp":"progameguides/mrguider/destructoid 10-09 已抢发，5 个固定位"},
+    {"keyword":"morioh high roblox codes","category":"兑换码","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":null,"kdLabel":"未评","relativePeak":null,"relativePeakStatus":"未评","serp":"同上，pocket-codes 也在抢"},
+    {"keyword":"how to get a stand in morioh high","category":"攻略（机制）","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":null,"kdLabel":"未评","relativePeak":null,"relativePeakStatus":"未评","serp":"只有 YouTube / TikTok，无文字攻略页"},
+    {"keyword":"morioh high stands","category":"攻略（图鉴）","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":41.2,"kdLabel":"中等","relativePeak":3,"serp":"无专门页；jojowiki/fandom/cbr 老页面占位，6 个固定位"},
+    {"keyword":"morioh high tier list","category":"攻略（排行）","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":43,"kdLabel":"中等","relativePeak":0,"serp":"tiermaker.com 占 2 席"},
+    {"keyword":"morioh high trello","category":"社区工具","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":34.8,"kdLabel":"容易","relativePeak":1,"serp":"3 席 TikTok，最弱占位 jojowiki 第 10 名"},
+    {"keyword":"morioh high discord","category":"社区","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":null,"kdLabel":"未评","relativePeak":null,"relativePeakStatus":"未评","serp":"TikTok 在传 discord.gg/moriohhigh"},
+    {"keyword":"morioh high script","category":"脚本/作弊","monthlySearch":null,"monthlySearchStatus":"未收录（词太新）","kd":null,"kdLabel":"未评","relativePeak":null,"relativePeakStatus":"未评","serp":"空着，风险类词","excluded":true},
+    {"keyword":"morioh","category":"JoJo 城镇语义邻域","monthlySearch":8100,"monthlySearchBasis":"2026-08 口径","kd":null,"kdLabel":"未评","relativePeak":null,"relativePeakStatus":"未评","serp":"jojowiki / jojo.fandom 长期占位","excluded":true},
+    {"keyword":"morioh jojo","category":"JoJo 城镇语义邻域","monthlySearch":1000,"monthlySearchBasis":"2026-08 口径","kd":null,"kdLabel":"未评","relativePeak":null,"relativePeakStatus":"未评","serp":"同上","excluded":true},
+    {"keyword":"is morioh a real place","category":"语义邻域","monthlySearch":260,"monthlySearchBasis":"库里快照","kd":null,"kdLabel":"未评","relativePeak":null,"relativePeakStatus":"未评","serp":"JoJo 城镇衍生问答","excluded":true}
+  ],
+  "trendBackground": {"observed":"窗口末端明显上涨","forecastPossible":true,"stability":"unknown","lifecycle":"unknown","peakCannotEstimateMonthlySearch":true,"excludeJoJoVolume":true,"requestedIncrementalWindows":["7 days","30 days"],"comparisonIfAvailable":"GPTs"},
+  "competitionConclusions": ["主词 KD 47.7，竞争不属于低难度；视频占位，可能有 Wiki 早期窗口", "Stand 获取视频存在、未发现文字攻略；持续需求待核实", "Codes KD 46.7、峰值 58、约 5 强占位，不作唯一流量策略", "Stands KD 41.2、峰值 3、约 6 强占位，不代表游戏图鉴需求已满足", "Tier List KD 43、峰值 0、TierMaker 占位，暂不优先", "Trello KD 34.8、峰值 1，需求及真实看板待核实", "Discord 社区传播链接未证明官方身份"],
+  "priorities": {"P0":["Wiki homepage","How to Get a Stand","Beginner Guide","Roblox brand intent merged with homepage"],"P1":["Stands","Release Date","Codes","verified gameplay/quests/progression"],"P2":["Trello","Discord","Tier List","unverified long tails"],"excluded":["scripts/cheats/exploits","unrelated JoJo town intent","pages solely to increase count"]},
+  "inheritanceRules": ["retain all original values", "new research in separate dated files", "do not invent KD", "unknown volume is not zero", "historical SERP is not current", "inferred competition is not measured", "no silent replacement", "priorities require factual and demand gates"]
+}

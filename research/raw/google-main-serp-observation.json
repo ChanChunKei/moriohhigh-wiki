@@ -1,0 +1,23 @@
+{
+  "collectedDate": "2026-10-11",
+  "query": "\"morioh high\"",
+  "url": "https://www.google.com/search?q=%22morioh+high%22&gl=us&hl=en&num=10",
+  "method": "actual browser Google results observation",
+  "limitations": [
+    "signed-in/personalized results",
+    "Colorado location visible",
+    "9 organic items observed, not a complete top-ten claim",
+    "image pack excluded from organic ranks"
+  ],
+  "organic": [
+    "https://www.roblox.com/games/111838814545019/Morioh-High",
+    "https://www.youtube.com/watch?v=kOH-nK38p_U",
+    "https://progameguides.com/roblox/morioh-high-codes/",
+    "https://www.youtube.com/watch?v=taOqWP56Mrk",
+    "https://www.destructoid.com/morioh-high-codes/",
+    "https://www.youtube.com/watch?v=TS2J5CHHSOY",
+    "https://www.tiktok.com/@captinttb/video/7695161364477791502",
+    "https://www.facebook.com/groups/jojosbizarreadventuregroup/posts/2596984017442606/",
+    "https://medal.tv/games/roblox/experiences/1bdLiuZPRtnnES/morioh-high"
+  ]
+}

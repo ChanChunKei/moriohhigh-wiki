@@ -1,0 +1,11 @@
+{
+  "total": 36,
+  "relevantCandidates": 29,
+  "excluded": 7,
+  "currentSuggestionSignals": 7,
+  "hypothesesWithoutDemandMeasurement": 14,
+  "pageMatrix": 20,
+  "localEditorialPages": 5,
+  "mdxArticles": 3,
+  "deferredPages": 15
+}

@@ -1,0 +1,206 @@
+---
+import { site } from '~/config/site';
+interface Props {
+  page: 'about' | 'privacy-policy' | 'terms-of-service' | 'copyright' | 'contact';
+}
+const { page } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+{
+  page === 'about' && (
+    <>
+      <p>
+        {site.name} is an independent English player resource for {site.game.name} on{' '}
+        {site.game.platform}. {site.legalNotice}
+      </p>
+      <h2>Our editorial approach</h2>
+      <p>
+        We link the evidence behind game information and distinguish developer statements,
+        third-party reports, and details we have not verified. A Roblox creation timestamp is not
+        treated as a release announcement. Mechanics from other games or the JoJo manga and anime
+        are not used to fill gaps.
+      </p>
+      <p>
+        The current guide covers the verified Roblox experience, how to open it, release
+        information, and community resources. Gameplay guides are published only when their central
+        answer can be supported.
+      </p>
+      <h2>Corrections and updates</h2>
+      <p>
+        Pages include the date their sources were checked. We update when evidence changes or an
+        error is found; we do not promise daily revisions. For a correction, include the page URL
+        and a source that identifies this specific game.
+      </p>
+      <h2>Credits</h2>
+      <p>
+        The site uses{' '}
+        <a href="https://github.com/PNGTRID/AnvilWiki" target="_blank" rel="noopener noreferrer">
+          AnvilWiki
+        </a>
+        , an Astro and MDX template licensed under MIT. Its license and attribution are retained.
+        The site's typography artwork is generated locally; no game screenshots or character artwork
+        are used.
+      </p>
+      <p>
+        See <a href="/contact/">contact information</a> and our{' '}
+        <a href="/copyright/">copyright notice</a>.
+      </p>
+    </>
+  )
+}
+
+{
+  page === 'privacy-policy' && (
+    <>
+      <p>This notice describes the services enabled on {site.name} at publication.</p>
+      <h2>Browsing and search</h2>
+      <p>
+        This is a static website. It has no registration, submission form, or comment system.
+        Pagefind search runs in your browser using this site's index. Your search query is not sent
+        to an external search provider. Theme preferences may be saved in browser storage.
+      </p>
+      <h2>Hosting</h2>
+      <p>
+        Cloudflare Pages is the intended host. A hosting provider processes network requests,
+        including information such as an IP address and browser request headers, to deliver and
+        protect the site. See{' '}
+        <a
+          href="https://www.cloudflare.com/privacypolicy/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Cloudflare's privacy policy
+        </a>{' '}
+        for its practices.
+      </p>
+      <h2>Advertising and analytics</h2>
+      <p>
+        Advertising, Google Analytics, Cloudflare Web Analytics, and embedded third-party comments
+        are disabled in this edition. No advertising or analytics identifier has been configured.
+        This notice must be revised before those services are enabled.
+      </p>
+      <h2>External links</h2>
+      <p>
+        Links to Roblox, Discord, videos, and other sources open third-party services. Those
+        services have their own privacy policies. No YouTube player is embedded in this edition.
+      </p>
+      <h2>Contact and changes</h2>
+      <p>
+        Contact details, when available, appear on the <a href="/contact/">contact page</a>. Do not
+        send passwords, payment details, or other sensitive information. Material changes to enabled
+        services will be reflected here.
+      </p>
+    </>
+  )
+}
+
+{
+  page === 'terms-of-service' && (
+    <>
+      <p>
+        {site.name} provides informational player resources. {site.legalNotice}
+      </p>
+      <h2>Accuracy and availability</h2>
+      <p>
+        Sources are checked at the dates shown on each page. Game rules, community links, and
+        availability can change. We do not guarantee that a historical observation applies to every
+        current server or player account.
+      </p>
+      <h2>External services</h2>
+      <p>
+        The game is operated by its developer through Roblox. This wiki does not operate the game,
+        handle purchases, provide account support, or issue rewards. External services set their own
+        terms.
+      </p>
+      <h2>Using this material</h2>
+      <p>
+        Original writing is credited to this site. Link to the relevant article when referencing it.
+        Third-party source material retains its own rights. AnvilWiki's code is covered by the MIT
+        license retained in the repository.
+      </p>
+      <h2>Corrections</h2>
+      <p>
+        Check the <a href="/contact/">contact page</a> for the site's available correction channel.
+        Roblox account or payment issues should be directed to{' '}
+        <a href="https://www.roblox.com/support" target="_blank" rel="noopener noreferrer">
+          Roblox Support
+        </a>
+        .
+      </p>
+    </>
+  )
+}
+
+{
+  page === 'copyright' && (
+    <>
+      <h2>Original material and template</h2>
+      <p>
+        © {year} {site.name}. Original editorial writing and site-generated graphics are credited to
+        this site. The underlying AnvilWiki template is MIT licensed; its original license and
+        attribution are retained.
+      </p>
+      <h2>Third-party rights</h2>
+      <p>
+        Roblox, Morioh High, JoJo names, and other referenced marks and intellectual property belong
+        to their respective rights holders. Naming a game or linking a source does not imply
+        ownership or endorsement. This edition uses original typographic graphics rather than copied
+        game or character images.
+      </p>
+      <h2>Corrections and rights concerns</h2>
+      <p>
+        Use the site's <a href="/contact/">available contact channel</a> to identify the page URL,
+        the material involved, and your concern. The game developer's community is a separate
+        service and does not receive requests on behalf of this wiki.
+      </p>
+      <p>{site.legalNotice}</p>
+    </>
+  )
+}
+
+{
+  page === 'contact' && (
+    <>
+      <p>
+        {site.name} is an independent publication. The game developer and Roblox do not operate this
+        site.
+      </p>
+      <h2>Website corrections</h2>
+      {site.contactUrl ? (
+        <p>
+          Report a broken link, factual correction, or rights concern through{' '}
+          <a href={site.contactUrl} target="_blank" rel="noopener noreferrer">
+            the website's GitHub Issues
+          </a>
+          . Include the article URL and supporting evidence. Issues are public; do not include
+          private account details.
+        </p>
+      ) : (
+        <p>
+          A public editorial contact channel has not yet been configured. This page will be updated
+          when one is available.
+        </p>
+      )}
+      {site.contactEmail && (
+        <p>
+          Email: <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
+        </p>
+      )}
+      <h2>Game or account help</h2>
+      <p>
+        For the game's developer community, see{' '}
+        <a href="/resources/community-links/">verified game resources</a>. For Roblox account and
+        payment questions, use{' '}
+        <a href="https://www.roblox.com/support" target="_blank" rel="noopener noreferrer">
+          Roblox Support
+        </a>
+        . These services are separate from this wiki.
+      </p>
+      <p>
+        Read our <a href="/privacy-policy/">privacy notice</a> and{' '}
+        <a href="/copyright/">copyright notice</a>.
+      </p>
+    </>
+  )
+}

@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+const project = JSON.parse(fs.readFileSync('reports/pages-project.json', 'utf8'));
+if (!/^[a-z0-9-]+\.pages\.dev$/.test(project.subdomain)) throw new Error('Expected an actual Cloudflare Pages project response.');
+const origin = `https://${project.subdomain}`;
+const replace = (p, a, b) => fs.writeFileSync(p, fs.readFileSync(p, 'utf8').replaceAll(a, b));
+replace('src/config/site.ts', "domain: 'localhost:4321'", `domain: '${project.subdomain}'`);
+replace('wrangler.toml', 'SITE_URL = "http://localhost:4321"', `SITE_URL = "${origin}"`);
+replace('wrangler.toml', '# Actual local preview origin. Replace only after a real Pages/custom URL exists.', '# Actual Pages origin returned by Cloudflare. Custom domain is not yet bound.');
+replace('.github/workflows/ci.yml', "vars.SITE_URL || 'https://anvil.wiki'", `vars.SITE_URL || '${origin}'`);
+replace('.github/actions/gates/action.yml', "default: 'https://anvil.wiki'", `default: '${origin}'`);
+fs.writeFileSync('.env.local', `SITE_URL=${origin}\n`);
+console.log(`Configured verified project origin: ${origin}`);

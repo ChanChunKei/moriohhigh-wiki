@@ -1,0 +1,13 @@
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +2
+++
+Progress: resolved 2, reused 0, downloaded 0, added 0
+Progress: resolved 2, reused 0, downloaded 1, added 0
+Progress: resolved 2, reused 0, downloaded 1, added 1
+[WARN] GET https://registry.npmjs.org/@pagefind/windows-x64/-/windows-x64-1.5.2.tgz error (23). Will retry in 10 seconds. 2 retries left.
+[WARN] GET https://registry.npmjs.org/@pagefind/windows-x64/-/windows-x64-1.5.2.tgz error (23). Will retry in 1 minute. 1 retries left.
+Progress: resolved 2, reused 0, downloaded 1, added 1, done
+
+Done in 4m 11.1s using pnpm v11.1.1
+$ eslint .
