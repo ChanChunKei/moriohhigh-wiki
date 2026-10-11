@@ -1,8 +1,8 @@
 {
-  "createdAt": "2026-10-11T11:31:11.424Z",
   "name": "moriohhigh-wiki",
   "subdomain": "moriohhigh-wiki.pages.dev",
   "type": "direct-upload",
   "productionBranch": "main",
-  "deployment": "not yet"
+  "deployment": "verified success",
+  "latestDeploymentId": "e68613b0-a4c5-4b8b-add3-6191e9c91508"
 }

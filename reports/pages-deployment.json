@@ -1,46 +1,14 @@
 {
-  "checkedAt": "2026-10-11T11:47:45.407Z",
-  "id": "4b1ac254-f0a0-46dc-8e02-a113f68d112f",
+  "checkedAt": "2026-10-11T12:43:01.417Z",
+  "id": "e68613b0-a4c5-4b8b-add3-6191e9c91508",
   "environment": "production",
-  "url": "https://4b1ac254.moriohhigh-wiki.pages.dev",
-  "aliases": null,
-  "commit": "bc2d68f85302bbbf6c49b9770ee10aef7f1e7e0b",
-  "stages": [
-    {
-      "name": "queued",
-      "started_on": "2026-10-11T11:47:19.841098Z",
-      "ended_on": null,
-      "status": "active"
-    },
-    {
-      "name": "initialize",
-      "started_on": null,
-      "ended_on": null,
-      "status": "idle"
-    },
-    {
-      "name": "clone_repo",
-      "started_on": null,
-      "ended_on": null,
-      "status": "idle"
-    },
-    {
-      "name": "build",
-      "started_on": null,
-      "ended_on": null,
-      "status": "idle"
-    },
-    {
-      "name": "deploy",
-      "started_on": null,
-      "ended_on": "2026-10-11T11:47:21.753317Z",
-      "status": "success"
-    }
-  ],
+  "url": "https://e68613b0.moriohhigh-wiki.pages.dev",
+  "productionOrigin": "https://moriohhigh-wiki.pages.dev",
+  "commit": "b1d747968377615aa7fe14a36455c9aa4e935d7c",
   "latestStage": {
     "name": "deploy",
     "started_on": null,
-    "ended_on": "2026-10-11T11:47:21.753317Z",
+    "ended_on": "2026-10-11T12:42:00.306577Z",
     "status": "success"
   }
 }

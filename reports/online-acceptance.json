@@ -1,13 +1,14 @@
 {
-  "checkedAt": "2026-10-11T11:49:38.246Z",
+  "checkedAt": "2026-10-11T12:43:47.680Z",
   "origin": "https://moriohhigh-wiki.pages.dev",
   "https": true,
-  "validHtmlRoutes": 18,
+  "validHtmlRoutes": 20,
   "sitemapUrls": [
     "https://moriohhigh-wiki.pages.dev/",
     "https://moriohhigh-wiki.pages.dev/about/",
     "https://moriohhigh-wiki.pages.dev/copyright/",
     "https://moriohhigh-wiki.pages.dev/faq/",
+    "https://moriohhigh-wiki.pages.dev/guides/how-to-get-a-stand/",
     "https://moriohhigh-wiki.pages.dev/guides/how-to-play/",
     "https://moriohhigh-wiki.pages.dev/privacy-policy/",
     "https://moriohhigh-wiki.pages.dev/resources/community-links/",
@@ -16,10 +17,10 @@
   ],
   "results": [
     {
-      "url": "https://moriohhigh-wiki.pages.dev/copyright/",
+      "url": "https://moriohhigh-wiki.pages.dev/faq/",
       "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/copyright/",
-      "canonical": "https://moriohhigh-wiki.pages.dev/copyright/",
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/faq/",
+      "canonical": "https://moriohhigh-wiki.pages.dev/faq/",
       "contentType": "text/html; charset=utf-8",
       "noindex": false
     },
@@ -32,14 +33,6 @@
       "noindex": true
     },
     {
-      "url": "https://moriohhigh-wiki.pages.dev/faq/",
-      "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/faq/",
-      "canonical": "https://moriohhigh-wiki.pages.dev/faq/",
-      "contentType": "text/html; charset=utf-8",
-      "noindex": false
-    },
-    {
       "url": "https://moriohhigh-wiki.pages.dev/about/",
       "status": 200,
       "finalUrl": "https://moriohhigh-wiki.pages.dev/about/",
@@ -48,18 +41,26 @@
       "noindex": false
     },
     {
-      "url": "https://moriohhigh-wiki.pages.dev/",
+      "url": "https://moriohhigh-wiki.pages.dev/copyright/",
       "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/",
-      "canonical": "https://moriohhigh-wiki.pages.dev/",
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/copyright/",
+      "canonical": "https://moriohhigh-wiki.pages.dev/copyright/",
       "contentType": "text/html; charset=utf-8",
       "noindex": false
     },
     {
-      "url": "https://moriohhigh-wiki.pages.dev/privacy-policy/",
+      "url": "https://moriohhigh-wiki.pages.dev/guides/",
       "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/privacy-policy/",
-      "canonical": "https://moriohhigh-wiki.pages.dev/privacy-policy/",
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/guides/",
+      "canonical": "https://moriohhigh-wiki.pages.dev/guides/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "url": "https://moriohhigh-wiki.pages.dev/",
+      "status": 200,
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/",
+      "canonical": "https://moriohhigh-wiki.pages.dev/",
       "contentType": "text/html; charset=utf-8",
       "noindex": false
     },
@@ -72,12 +73,20 @@
       "noindex": false
     },
     {
-      "url": "https://moriohhigh-wiki.pages.dev/guides/",
+      "url": "https://moriohhigh-wiki.pages.dev/guides/how-to-get-a-stand/",
       "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/guides/",
-      "canonical": "https://moriohhigh-wiki.pages.dev/guides/",
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/guides/how-to-get-a-stand/",
+      "canonical": "https://moriohhigh-wiki.pages.dev/guides/how-to-get-a-stand/",
       "contentType": "text/html; charset=utf-8",
-      "noindex": true
+      "noindex": false
+    },
+    {
+      "url": "https://moriohhigh-wiki.pages.dev/privacy-policy/",
+      "status": 200,
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/privacy-policy/",
+      "canonical": "https://moriohhigh-wiki.pages.dev/privacy-policy/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": false
     },
     {
       "url": "https://moriohhigh-wiki.pages.dev/resources/community-links/",
@@ -104,26 +113,10 @@
       "noindex": true
     },
     {
-      "url": "https://moriohhigh-wiki.pages.dev/resources/release-information/",
-      "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/resources/release-information/",
-      "canonical": "https://moriohhigh-wiki.pages.dev/resources/release-information/",
-      "contentType": "text/html; charset=utf-8",
-      "noindex": false
-    },
-    {
       "url": "https://moriohhigh-wiki.pages.dev/tags/",
       "status": 200,
       "finalUrl": "https://moriohhigh-wiki.pages.dev/tags/",
       "canonical": "https://moriohhigh-wiki.pages.dev/tags/",
-      "contentType": "text/html; charset=utf-8",
-      "noindex": true
-    },
-    {
-      "url": "https://moriohhigh-wiki.pages.dev/tags/community-resources/",
-      "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/tags/community-resources/",
-      "canonical": "https://moriohhigh-wiki.pages.dev/tags/community-resources/",
       "contentType": "text/html; charset=utf-8",
       "noindex": true
     },
@@ -136,10 +129,42 @@
       "noindex": true
     },
     {
+      "url": "https://moriohhigh-wiki.pages.dev/tags/community-resources/",
+      "status": 200,
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/tags/community-resources/",
+      "canonical": "https://moriohhigh-wiki.pages.dev/tags/community-resources/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "url": "https://moriohhigh-wiki.pages.dev/resources/release-information/",
+      "status": 200,
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/resources/release-information/",
+      "canonical": "https://moriohhigh-wiki.pages.dev/resources/release-information/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": false
+    },
+    {
+      "url": "https://moriohhigh-wiki.pages.dev/tags/stands/",
+      "status": 200,
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/tags/stands/",
+      "canonical": "https://moriohhigh-wiki.pages.dev/tags/stands/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
       "url": "https://moriohhigh-wiki.pages.dev/tags/release-information/",
       "status": 200,
       "finalUrl": "https://moriohhigh-wiki.pages.dev/tags/release-information/",
       "canonical": "https://moriohhigh-wiki.pages.dev/tags/release-information/",
+      "contentType": "text/html; charset=utf-8",
+      "noindex": true
+    },
+    {
+      "url": "https://moriohhigh-wiki.pages.dev/tags/roblox/",
+      "status": 200,
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/tags/roblox/",
+      "canonical": "https://moriohhigh-wiki.pages.dev/tags/roblox/",
       "contentType": "text/html; charset=utf-8",
       "noindex": true
     },
@@ -152,12 +177,11 @@
       "noindex": false
     },
     {
-      "url": "https://moriohhigh-wiki.pages.dev/tags/roblox/",
+      "url": "https://moriohhigh-wiki.pages.dev/robots.txt",
       "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/tags/roblox/",
-      "canonical": "https://moriohhigh-wiki.pages.dev/tags/roblox/",
-      "contentType": "text/html; charset=utf-8",
-      "noindex": true
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/robots.txt",
+      "contentType": "text/plain; charset=utf-8",
+      "noindex": false
     },
     {
       "url": "https://moriohhigh-wiki.pages.dev/sitemap-0.xml",
@@ -167,24 +191,24 @@
       "noindex": false
     },
     {
-      "url": "https://moriohhigh-wiki.pages.dev/robots.txt",
-      "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/robots.txt",
-      "contentType": "text/plain; charset=utf-8",
-      "noindex": false
-    },
-    {
-      "url": "https://moriohhigh-wiki.pages.dev/pagefind/pagefind.js",
-      "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/pagefind/pagefind.js",
-      "contentType": "application/javascript",
-      "noindex": false
-    },
-    {
       "url": "https://moriohhigh-wiki.pages.dev/sitemap-index.xml",
       "status": 200,
       "finalUrl": "https://moriohhigh-wiki.pages.dev/sitemap-index.xml",
       "contentType": "application/xml",
+      "noindex": false
+    },
+    {
+      "url": "https://moriohhigh-wiki.pages.dev/images/hero.webp",
+      "status": 200,
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/images/hero.webp",
+      "contentType": "image/webp",
+      "noindex": false
+    },
+    {
+      "url": "https://moriohhigh-wiki.pages.dev/pagefind/pagefind-entry.json",
+      "status": 200,
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/pagefind/pagefind-entry.json",
+      "contentType": "application/json",
       "noindex": false
     },
     {
@@ -196,17 +220,10 @@
       "noindex": false
     },
     {
-      "url": "https://moriohhigh-wiki.pages.dev/pagefind/pagefind-entry.json",
+      "url": "https://moriohhigh-wiki.pages.dev/pagefind/pagefind.js",
       "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/pagefind/pagefind-entry.json",
-      "contentType": "application/json",
-      "noindex": false
-    },
-    {
-      "url": "https://moriohhigh-wiki.pages.dev/images/hero.webp",
-      "status": 200,
-      "finalUrl": "https://moriohhigh-wiki.pages.dev/images/hero.webp",
-      "contentType": "image/webp",
+      "finalUrl": "https://moriohhigh-wiki.pages.dev/pagefind/pagefind.js",
+      "contentType": "application/javascript",
       "noindex": false
     }
   ],

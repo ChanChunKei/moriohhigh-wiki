@@ -3,11 +3,27 @@
   "site": "https://moriohhigh-wiki.pages.dev",
   "streamName": "Morioh High Wiki — Web",
   "streamId": "16106218705",
+  "propertyId": "558434763",
   "measurementId": "G-MLLG5CEMCG",
   "propertyCreation": "verified in authenticated GA4 UI",
   "streamCreation": "verified in authenticated GA4 UI",
   "consentImplementation": "native AnvilWiki CookieConsent and BaseLayout",
   "enabledInLocalBuild": true,
-  "liveCollection": "not yet verified",
+  "liveCollection": "verified in the correct property's authenticated Realtime overview",
+  "verifiedAt": "2026-10-11T12:49:40Z",
+  "consentChecks": {
+    "beforeChoice": "no external Google script observed in local preview",
+    "decline": "no external Google script observed in local preview",
+    "allow": "actual gtag/js?id=G-MLLG5CEMCG script observed on production"
+  },
+  "testTraffic": {
+    "activeUsers": 1,
+    "pageViews": 2,
+    "pageTitles": ["How to Get a Stand in Morioh High", "Morioh High Wiki | Stand Guide & Roblox Resources"],
+    "events": { "page_view": 2, "first_visit": 1, "session_start": 1, "user_engagement": 1 }
+  },
+  "proof": "reports/screenshots/ga4-realtime.jpg",
+  "limitation": "These are operator test visits, not verified organic search visits or evidence of SEO performance.",
+  "organicSearch": "not yet verified",
   "adsEnabled": false
 }

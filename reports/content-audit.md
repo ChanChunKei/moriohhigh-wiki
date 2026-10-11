@@ -1,23 +1,20 @@
 # 内容与事实门禁审计
 
-2026-10-11。范围：首页、3 MDX、8 问 FAQ 与政策页面。
+2026-10-11 首版：6编辑页（首页、FAQ、4 MDX），4完整限定答案、2部分答案；14候选暂缓；线上source b1d747968377615aa7fe14a36455c9aa4e935d7c。
 
 | 审计 | 结果 | 限制 |
 |---|---|---|
-| 身份 | 已验证 | Roblox Place / Universe / developer group 匹配 |
-| 平台启动 | 来源已验证 | 来自 Roblox 帮助，未实际加入游戏 |
-| 发布日期 | 部分回答 | 10 月 10 日为第三方报告；未作为已确认日期 |
-| 社区 | 部分回答 | 邀请目标可验证；开发者所有权、Trello 未验证 |
-| Stand / codes / 数据 | 暂缓 | 无虚构步骤、概率、技能、NPC 或工作代码 |
-| 版本 | 已注明 | API 更新时间不是游戏 build number |
-| 重复与意图 | 已审查 | 品牌、启动、发布、资源分工；未生成同义重复页 |
-| 薄内容 | 已控制 | 暂缓 15 候选；导航归档 noindex；部分页只回答明确窄问题 |
-| 图片 | 已验证资产来源 | 本地生成字体封面与图标，没有复制游戏/角色素材 |
-| 原创 | 已审查 | 重新写作、短事实引用；未搬运竞争站段落 |
+| 游戏身份 | 已验证 | Place111838814545019 / Universe10768944846 / developer Not A Stand Game、group403864872匹配 |
+| 平台启动 | 来源已验证 | Roblox官方帮助；未实际用客户端加入体验 |
+| Stand获取 | 文档化答案已验证 | E17同游戏Encyclopedia实际画面、E18另一玩家Arrow录像；数值来自可读UI，概率未独立实测；当前build未公开 |
+| Arrow限制 | 已明确 | 100% compatibility来自UI；出生点/刷新间隔/持有秒数/价格未编造；admin SetStand不是正常路线 |
+| 发布信息 | 部分回答 | Oct10第三方报告、Oct2创建日期，未冒充官方发布日期 |
+| 社区 | 部分回答 | 开发者群组匹配、邀请目标有效；官方Discord所有权/Trello未验证 |
+| Codes/图鉴/其他机制 | 暂缓 | 媒体奖励/状态冲突，无正常兑换成功；完整roster、能力/进度证据不足 |
+| 版本 | 已注明 | 2026-10-11检查日期；API更新与文章日期不冒充build；录像精确上传日未知 |
+| 原创/追溯 | 已审查 | E01–E18；原创步骤、短事实摘录；完整转录与游戏帧只本地保存，不作站点图片 |
+| 重复/意图 | 已审查 | 身份导航、启动、首次Stand、发布、社区分工；FAQ短答链接详细页，未另建同义攻略 |
+| 薄内容 | 已控制 | 14候选未生成路由；归档/标签/contact noindex；部分资源页回答限定问题 |
+| 图片/归属 | 已验证 | 自制图标、字体生成封面；保留MIT和AnvilWiki归属，全站声明非官方 |
 
-结论：已有窄范围资源内容可用于技术预览；完整 gameplay Wiki 的核心 Stand / beginner / roster 门禁未通过，不能称整个项目已完成。
-
-
-## Incremental Stand gate
-
-E17 was actually read in the enlarged game Encyclopedia frame; numeric rules are on-screen documentation, not oral-only values. E18 is a different player, supporting the Arrow contest but not testing odds. New Stand acquisition page supplies the documented minimum answer, with no current-build or live-client test claim. Four MDX / six editorial pages are now ready locally; 14 candidates remain deferred. No codes or unverified roster were promoted. This supersedes the earlier Stand deferral, while preserving its initial access history.
+发布的是有证据的限定首版。Beginner、完整Stands图鉴等仍未完成，不能称全游戏机制覆盖完成。新的可靠证据可以改变暂缓决定；未为了数量发布未经验证资料。

@@ -1,15 +1,16 @@
 Already up to date
-Done in 513ms using pnpm v11.1.1
-$ tsx scripts/check-sitemap.ts
+Done in 503ms using pnpm v11.1.1
+$ tsx scripts/check-sitemap.ts "https://moriohhigh-wiki.pages.dev"
 
 📋 Checking sitemap URLs against: https://moriohhigh-wiki.pages.dev
 
-Found 9 URLs. Checking...
+Found 10 URLs. Checking...
 
   ✅  200  https://moriohhigh-wiki.pages.dev/
   ✅  200  https://moriohhigh-wiki.pages.dev/about/
   ✅  200  https://moriohhigh-wiki.pages.dev/copyright/
   ✅  200  https://moriohhigh-wiki.pages.dev/faq/
+  ✅  200  https://moriohhigh-wiki.pages.dev/guides/how-to-get-a-stand/
   ✅  200  https://moriohhigh-wiki.pages.dev/guides/how-to-play/
   ✅  200  https://moriohhigh-wiki.pages.dev/privacy-policy/
   ✅  200  https://moriohhigh-wiki.pages.dev/resources/community-links/
@@ -17,7 +18,7 @@ Found 9 URLs. Checking...
   ✅  200  https://moriohhigh-wiki.pages.dev/terms-of-service/
 
 ── Result ──
-  ✅ Passed: 9
+  ✅ Passed: 10
   ❌ Failed: 0
 
 🎉 All sitemap URLs returned 200.

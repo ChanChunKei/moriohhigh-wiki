@@ -10,7 +10,7 @@
 | pnpm check-config | 已验证通过 | 英语、2 个分类与目录匹配；实际 Pages origin 配置匹配 |
 | pnpm check-content | 已验证通过 | 4 MDX schema / H1 / ALT / internal trailing slash 检查 clean |
 | pnpm check-links | 已验证通过 | 21 HTML 中 455 internal links 全部解析 |
-| pnpm check-sitemap | 本地已验证通过 | 静态预览 9 URLs 全部 200；不是线上验收，部署后需重跑 |
+| pnpm check-sitemap | 线上已验证通过 | 实际 Pages origin 的 10 URLs 全部 200；见 logs/check-sitemap-live.txt |
 | pnpm build | 已验证通过 | static Astro，21 HTML；Pagefind en，4 indexed articles |
 | pnpm check-i18n | 已验证通过 | 附加英语配置检查 |
 | node tools/audit-build.mjs | 已验证通过：21 HTML / 10 indexable / 10 sitemap / 0 failures | H1、唯一 Title、Description、Canonical、JSON-LD、ALT、模板残留、noindex / Sitemap 对齐、启用的第三方追踪 |
@@ -32,3 +32,11 @@ The first GitHub CI run succeeded; the first IndexNow run failed waiting for a n
 ## GA4 gate — 2026-10-11 20:40
 
 Actual independent web stream 16106218705 / Measurement ID G-MLLG5CEMCG was created in the existing authorized Google Analytics account. The native environment field, consent strings and privacy notice are configured. All eight gates were rerun and passed (18 suites, 244 passed / 1 skipped; 455 internal links across 21 HTML). Build audit confirms the correct ID inside the deferred native tracker function and consent banner, with no upfront external analytics script. In the real static-preview browser the banner was visible, no Google script existed before choice, and clicking Decline left no Google script. Online accept/collection are not yet verified.
+
+## Final production acceptance — 2026-10-11
+
+Earlier pending online states are superseded here. Source b1d747968377615aa7fe14a36455c9aa4e935d7c was pushed, CI 38140239450 succeeded, and production deployment e68613b0-a4c5-4b8b-add3-6191e9c91508 succeeded. The live deployment marker matches. tools/audit-live.mjs checked 20 valid HTML routes and 27 HTTP targets with zero failures: HTTPS, same-origin Canonical, noindex archives, 10 valid sitemap URLs, XML MIME types, robots, image/search assets, and actual nonexistent-route 404. Native live check-sitemap passed 10/10. Manual IndexNow returned HTTP202 for 10 URLs; not Google indexing.
+
+GSC ownership and index/child sitemap submission success dialogs were observed. Sitemap-report rows still show Couldn't fetch, while Google live inspection successfully fetched index XML at20:48:11 and allowed crawling/indexing. Report processing remains unresolved; Google indexing is not verified.
+
+Production Allow analytics loaded the correct tag; correct GA4 property558434763 Realtime showed one test user and two page views, plus page_view/first_visit/session_start/user_engagement events. This verifies collection, not natural search traffic. Ads remain disabled. Formal-domain binding, domain-mailbox routing, indexed-page count/impressions and real performance measurements remain unverified.

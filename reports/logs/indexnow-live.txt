@@ -1,0 +1,9 @@
+Already up to date
+Done in 505ms using pnpm v11.1.1
+$ tsx scripts/submit-indexnow.ts "--" "--site" "https://moriohhigh-wiki.pages.dev" "--wait-for-deploy" "b1d747968377615aa7fe14a36455c9aa4e935d7c" "--wait-for-key" "--wait-seconds" "30"
+[IndexNow] Waiting for production deployment b1d747968377615aa7fe14a36455c9aa4e935d7c…
+[IndexNow] production sitemap: 10 URL(s), host moriohhigh-wiki.pages.dev
+[IndexNow] Waiting for https://moriohhigh-wiki.pages.dev/dadc342282b6381e065141316b886fcb2017a7884f0b6dc81a771210e30d3286.txt to become live…
+[IndexNow] Submitting 10 URL(s); key source: file
+[IndexNow] HTTP 202 — 10 URL(s)
+[IndexNow] Done.

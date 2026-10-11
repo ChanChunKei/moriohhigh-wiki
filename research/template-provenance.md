@@ -13,3 +13,5 @@
 - Initialization: `pnpm apply-template --answers <json-array>` follows actual CLI prompt sequence; English only; guides preset; demo-content and landing removal supported natively.
 - Per-game configuration/content changes preferred; no UI framework introduced. Optional credentials remain empty. Template's weekly recurring content workflow will be disabled for the low-maintenance project.
 - Skill user-confirmation guidance is superseded by explicit user authorization to autonomously publish facts that pass the project evidence gate. Unverified gameplay remains deferred; numbers/codes from a video remain unverified until stronger evidence is acquired.
+
+Incremental configuration: optional authentication credentials remain absent from tracked files. The actual public GSC verification tag and GA4 Measurement ID were later configured through the existing native fields; GA4 requires optional-analytics consent. This supersedes the initial empty-optional-fields state. Native content generation stays disabled on a schedule; only the four authorized low-frequency inspection tasks were created.

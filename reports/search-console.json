@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-11T13:05:00Z",
+  "property": "https://moriohhigh-wiki.pages.dev/",
+  "ownership": "verified by Google HTML tag",
+  "sitemap": "https://moriohhigh-wiki.pages.dev/sitemap-index.xml",
+  "submission": "verified success dialog",
+  "fetchStatus": "Sitemap could not be read / Could not fetch",
+  "httpXmlCheck": "both index and child sitemap 200 application/xml with valid sitemap namespace",
+  "indexedPages": "not yet verified",
+  "impressions": "not yet available",
+  "liveInspection": {
+    "testedAt": "2026-10-11T12:48:11Z",
+    "urlAvailableToGoogle": true,
+    "pageFetch": "Successful",
+    "crawlAllowed": true,
+    "indexingAllowed": true,
+    "agent": "Google Inspection Tool smartphone",
+    "proof": "reports/screenshots/gsc-live-sitemap.jpg"
+  },
+  "childSitemapDiagnostic": {
+    "sitemap": "https://moriohhigh-wiki.pages.dev/sitemap-0.xml",
+    "submission": "verified success dialog",
+    "reportStatus": "Couldn't fetch / 0 discovered pages",
+    "proof": "reports/screenshots/gsc-child-sitemap-submitted.jpg"
+  },
+  "limitation": "A successful live fetch and submission do not establish sitemap-report processing, page indexing or impressions.",
+  "next": "Recheck both submitted sitemap reports at the scheduled inspection; investigate a persistent error with new evidence rather than repeatedly resubmitting."
+}

@@ -15,3 +15,11 @@ Pagefind 实际输入 Discord，返回 2 篇对应文章，并点击社区文章
 The earlier Stand deferral is historical. After E17/E18 were obtained, the actual How to Get a Stand page was created and checked in the real browser at 1440×900 and 390×844. The mobile TOC was expanded successfully; both tables and the Quick Answer were readable. Mobile document scrollWidth 375 <= innerWidth 390, one H1, two tables and no recorded browser error logs. Screenshots: stand-desktop.jpg and stand-mobile.jpg. This passes the requested Stand visual sample for the documented methods, without claiming a live Roblox client test. A community-links data page supplies the third sample; a complete Stand roster remains deferred.
 
 The first production edition was also checked in the real browser: desktop/mobile home, Pagefind Discord results and a successful community article click, mobile community TOC and table. Live screenshots are saved separately. The new six-page edition needs its own upload and final live confirmation.
+
+## Final live edition — 2026-10-11
+
+Six-page production edition is uploaded. Homepage and Stand article were viewed; Pagefind query Stand returned four article results and its result opened the correct live URL. Production Allow analytics loaded the configured tag; actual GA4 test collection is recorded in analytics.json.
+
+verified-live-stand-mobile.png is the actual390×700 live-page capture after tab-specific device emulation. Heading, description, metadata, Quick Answer and mobile navigation are readable. Local390×844 Stand sample includes both tables, FAQ, expanded TOC and related links. Earlier mobile homepage/community/search proof is retained for shared native components. Final mobile-search repeat after the latest upload timed out; no separate successful repeat is claimed.
+
+Browser-wide overrides did not consistently apply to the live tab, and an immediate capture had stale paint. final-search-mobile.jpg, final-stand-mobile.jpg and final-stand-mobile.png are diagnostic captures, excluded from final mobile proof. Verified capture was made after tab-specific emulation settled, then the override was cleared. Desktop final proof is final-home-desktop.jpg; unambiguous local samples are stand-desktop.jpg/stand-mobile.jpg. No actual phone, Lighthouse or real-user performance result is claimed.

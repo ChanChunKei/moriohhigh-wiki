@@ -17,7 +17,9 @@ Use the deployment acceptance date in `reports/online-acceptance.json` as day 0.
 | 14 | GSC impressions/queries/clicks and GA4 Organic Search if enabled and verified | Address a demonstrated content or CTR gap with supported facts |
 | 28 | Trend direction, indexed-page exposure, useful long tails, competition and maintenance time | Continue, freeze further investment, or add only a proven valuable page |
 
-Four single-run thread checks were created in the app: October 14, October 18, October 25 and November 8, 2026, at 12:00 in the local schedule. IDs are morioh-high-3, morioh-high-7, morioh-high-14 and morioh-high-28. The saved automation prompts permit public technical checks and account measurements only when already authorized and accessible, keep quiet when no action is needed, and prohibit automatic article generation. Creation is verified; future execution is not yet verified. Keep the computer and app running for local project access. GSC submission and GA4 collection remain separate, incomplete states.
+Four single-run thread checks were created in the app: October 14, October 18, October 25 and November 8, 2026, at 12:00 in the local schedule (Asia/Shanghai). IDs are morioh-high-3, morioh-high-7, morioh-high-14 and morioh-high-28. The saved automation prompts permit public technical checks and account measurements only when already authorized and accessible, keep quiet when no action is needed, and prohibit automatic article generation. Creation is verified; future execution is not yet verified. Keep the computer and app running for local project access.
+
+GSC ownership and both index/child sitemap submission dialogs are verified. Its sitemap report still says Couldn't fetch / 0 discovered pages, despite valid public XML and a successful Google live fetch on October 11. Recheck processing status; do not confuse that error with proven site-wide crawl failure. GA4 consent-gated production collection is verified in the correct property: one operator test user and two page views. Organic Search, Google indexing and impressions remain unverified.
 
 ## Measurement rules
 
