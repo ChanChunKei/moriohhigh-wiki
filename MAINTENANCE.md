@@ -34,3 +34,8 @@ Read `reports/current-delivery-status.md`, inspect Git and the evidence ledger, 
 For content edits, run the template's content and link gates plus the appropriate build checks. For a deployment, build with the verified `SITE_URL` and run the build SEO audit; deploy `dist` through Wrangler using credentials supplied in the process environment. Never put tokens in tracked files. Recheck the live sitemap, canonical origin, 404 status and search after upload.
 
 A future custom domain must be owned/authorized, pass the cost decision, and be bound before changing the primary origin. Rebuild canonical/sitemap metadata at that point, update the real domain mailbox, and verify mail routing separately. Avoid indexing two hosts with conflicting canonical signals.
+
+
+## 2026-10-11 formal domain/email handoff
+
+User-owned domain: moriohhighguide.wiki (Spaceship). Public mailbox: contact@moriohhighguide.wiki, forwarding to the privately provided, already verified Gmail. Cloudflare zone, Pages association, apex CNAME and exact forwarding rule are saved and verified. Nameservers must become armfazh.ns.cloudflare.com / laura.ns.cloudflare.com; public DNS still uses Spaceship and the zone is pending. Routing enable returned Active zone required. Do not publish the contact address or switch production Canonical/Sitemap until activation and service/HTTPS checks pass. Read reports/domain-email-handoff.md and existing receipts to resume without recreating rules or properties. Delivery testing is still outstanding.

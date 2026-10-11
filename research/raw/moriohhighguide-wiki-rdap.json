@@ -1,0 +1,31 @@
+{
+  "name": "moriohhighguide.wiki",
+  "events": [
+    {
+      "eventAction": "registration",
+      "eventDate": "2026-10-11T14:03:13Z",
+      "eventActor": "Spaceship, Inc."
+    },
+    {
+      "eventAction": "expiration",
+      "eventDate": "2027-10-11T14:03:13Z"
+    },
+    {
+      "eventAction": "last changed",
+      "eventDate": "2026-10-11T14:03:14Z"
+    },
+    {
+      "eventAction": "last update of RDAP database",
+      "eventDate": "2026-10-11T14:08:00Z"
+    }
+  ],
+  "nameservers": [
+    "launch1.spaceship.net",
+    "launch2.spaceship.net"
+  ],
+  "status": [
+    "client transfer prohibited",
+    "server transfer prohibited",
+    "add period"
+  ]
+}

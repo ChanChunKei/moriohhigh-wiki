@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-11T14:21:57.625Z",
+  "domain": "moriohhighguide.wiki",
+  "registrar": "Spaceship",
+  "status": "pending_nameserver_change",
+  "zone": {
+    "id": "c917d0811a9b554a510282eaecdbd91e",
+    "status": "pending",
+    "nameservers": [
+      "armfazh.ns.cloudflare.com",
+      "laura.ns.cloudflare.com"
+    ]
+  },
+  "previousNameservers": [
+    "launch1.spaceship.net",
+    "launch2.spaceship.net"
+  ],
+  "importedRecords": [
+    {
+      "type": "A",
+      "name": "moriohhighguide.wiki",
+      "content": "54.149.79.189"
+    },
+    {
+      "type": "A",
+      "name": "moriohhighguide.wiki",
+      "content": "34.216.117.25"
+    }
+  ],
+  "apiZoneCreateError": {
+    "checkedAt": "2026-10-11T14:07:59.311Z",
+    "httpStatus": 403,
+    "success": false,
+    "errors": [
+      {
+        "code": 0,
+        "message": "Requires permission \"com.cloudflare.api.account.zone.create\" to create zones for the selected account"
+      }
+    ],
+    "domain": "moriohhighguide.wiki",
+    "zone": null
+  }
+}

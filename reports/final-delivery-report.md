@@ -20,9 +20,13 @@
 
 ## 4. 正式域名状态
 
-**外部阻塞 / 未完成**：未取得已确认所有权且授权绑定的正式域名。用户指定使用域名邮箱，但具体真实邮箱地址未提供。未购买、付款、绑定或改动不相关DNS。
+2026-10-11 22:30增量：**已确认 / 接入已配置 / 未激活**。用户已在Spaceship购买 `moriohhighguide.wiki` 并授权用于本站；Registry RDAP确认2026-10-11T14:03:13Z注册。Cloudflare Free zone已创建，Pages custom domain已关联，apex CNAME已验证指向moriohhigh-wiki.pages.dev；停放A记录已备份并替换。没有执行购买、付款或修改其他域名。
 
-`moriohhigh.wiki` RDAP已注册于2026-10-11；Cloudflare nameservers不证明用户所有权。已查注册商 `.wiki` 标准续费超过¥100。条件候选 `moriohhighwiki.org / Spaceship` 的公开标准税前参考价约首年¥46.12、续费¥78.03；具体名称可注册、Premium与税费结账价仍未验证，不能称最终合格候选。合格备选不足，没有凑两个。证据与比较见 [domain-selection](../research/domain-selection.md)。
+**外部阻塞**：Spaceship内置浏览器未登录，public NS仍launch1/launch2.spaceship.net，CF zone pending；用户需本机登录或将NS切换为 `armfazh.ns.cloudflare.com` / `laura.ns.cloudflare.com`。正式域名HTTPS访问和全站验收未完成，当前生产origin仍Pages临时域名。
+
+**邮箱规则已验证 / 收信未生效**：`contact@moriohhighguide.wiki` 精确转发至用户提供的私有Gmail，目标已verified，规则enabled并读回确认。启用服务返回Active zone required，需域名激活后添加服务真实MX/SPF/DKIM。未测试实际投递；不把Gmail写成公开联系邮箱，也未发布未生效的域名邮箱。
+
+历史域名价格研究保留；该订单实际付款、Premium、续费金额未知，标准.wiki续费超原预算仍是历史风险，不阻止接入用户已购域名。[增量证据](../research/domain-selection.md)、[接入与恢复步骤](domain-email-handoff.md)。
 
 ## 5. 关键词总数及有效口径
 
@@ -123,13 +127,13 @@ E17实际阅读录像0:10同游戏Encyclopedia；E18另一玩家约0:50–1:05 A
 
 ## 17. 授权和付款阻塞
 
-GitHub、CF Pages、GSC、GA4已通过现有授权完成；早期账号列表/CLI权限缺失没有阻止最终部署。**仍需输入**：用户已拥有并授权绑定的正式域名，具体且真实可用的公开域名邮箱。若需新购买，必须另有明确付款许可和实价核验。没有发邮件、购买、建付费服务或修改其他生产环境。
+GitHub、CF Pages、临时origin GSC、GA4已通过现有授权完成；正式域名和转发目标已提供。域名创建Token权限缺失已用现有Cloudflare浏览器登录解决，无扩权。**当前外部阻塞**：Spaceship登录或用户自行修改nameservers；域名pending导致Email Routing启用受阻。已发送精确本机操作请求，等待回复；没有请求密码、购买或建付费服务。尚未发送测试邮件。
 
 ## 18. 后续维护
 
 **已创建且核查保存**4个单次检查：2026-10-14、10-18、10-25、11-08 12:00 Asia/Shanghai；ID morioh-high-3 /7 /14 /28。未来运行未验证，依赖本机/应用可运行和账号仍可访问；无事静默，只通知实际问题，不自动重写/生成文章。
 
-优先查Sitemap报告和正式域名/邮箱。正式origin变更后重建Canonical/Sitemap，重验HTTPS/GSC/GA4，邮箱收发另外核验。稳定URL，仅重大游戏更新、事实错误、明确新需求、GSC缺口或技术故障才更新。[MAINTENANCE](../MAINTENANCE.md)。
+优先完成已配置域名的nameserver切换及邮件路由启用，随后查Sitemap报告。正式origin变更后重建Canonical/Sitemap，重验HTTPS/GSC/GA4，邮箱收发另外核验。稳定URL，仅重大游戏更新、事实错误、明确新需求、GSC缺口或技术故障才更新。[MAINTENANCE](../MAINTENANCE.md)。
 
 ## 19. 商业价值与剩余风险
 
@@ -137,4 +141,4 @@ GitHub、CF Pages、GSC、GA4已通过现有授权完成；早期账号列表/CL
 
 分别观察未索引、已索引低排名、排名有但需求小、曝光有但CTR低；不能混为一谈。若热度持续下降、已索引长期无有效曝光、独立长尾有限、竞争占优或维护成本过高，停止追加投入；低成本技术正常网站可保留，不必删除。
 
-研究/代码/测试/决策和记录均保存；[断点状态](current-delivery-status.md)支持恢复，不重复初始化。本站首版工程和发布已落地，正式域名及完整游戏百科没有冒充完成，后续依赖实际输入与新证据。
+研究/代码/测试/决策和记录均保存；[断点状态](current-delivery-status.md)支持恢复，不重复初始化。本站首版工程和发布已落地，正式域名及完整游戏百科没有冒充完成，正式域名与邮箱依赖nameserver切换，完整百科依赖新证据。

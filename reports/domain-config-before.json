@@ -1,0 +1,102 @@
+{
+  "checkedAt": "2026-10-11T14:22:19.866Z",
+  "reads": [
+    {
+      "path": "/zones/c917d0811a9b554a510282eaecdbd91e/dns_records",
+      "status": 200,
+      "success": true,
+      "result": [
+        {
+          "id": "92b00c49e3ae0e80d99e4954cd4fc9fd",
+          "name": "moriohhighguide.wiki",
+          "type": "A",
+          "content": "54.149.79.189",
+          "proxiable": true,
+          "proxied": true,
+          "ttl": 1,
+          "settings": {},
+          "meta": {},
+          "comment": null,
+          "tags": [],
+          "created_on": "2026-10-11T14:17:58.628387Z",
+          "modified_on": "2026-10-11T14:17:58.628387Z"
+        },
+        {
+          "id": "bd5f5981e14b87dec8e8b5ca6b197d92",
+          "name": "moriohhighguide.wiki",
+          "type": "A",
+          "content": "34.216.117.25",
+          "proxiable": true,
+          "proxied": true,
+          "ttl": 1,
+          "settings": {},
+          "meta": {},
+          "comment": null,
+          "tags": [],
+          "created_on": "2026-10-11T14:17:58.618183Z",
+          "modified_on": "2026-10-11T14:17:58.618183Z"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/zones/c917d0811a9b554a510282eaecdbd91e/email/routing",
+      "status": 200,
+      "success": true,
+      "result": {
+        "id": "c917d0811a9b554a510282eaecdbd91e",
+        "tag": "c917d0811a9b554a510282eaecdbd91e",
+        "name": "moriohhighguide.wiki",
+        "enabled": false,
+        "created": "2026-10-11T14:21:57.384706Z",
+        "modified": "2026-10-11T14:21:57.384706Z",
+        "skip_wizard": false,
+        "support_subaddress": false,
+        "synced": false,
+        "admin_locked": false,
+        "status": "unconfigured"
+      },
+      "errors": []
+    },
+    {
+      "path": "/zones/c917d0811a9b554a510282eaecdbd91e/email/routing/rules",
+      "status": 200,
+      "success": true,
+      "result": [
+        {
+          "id": "2695686adae34bdb9d5285f9b23f7c42",
+          "tag": "2695686adae34bdb9d5285f9b23f7c42",
+          "name": "",
+          "matchers": [
+            {
+              "type": "all"
+            }
+          ],
+          "actions": [
+            {
+              "type": "drop"
+            }
+          ],
+          "enabled": false,
+          "priority": 2147483647,
+          "source": "api"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/accounts/e26c192b02bb6ba662ec2e8a64a2c3a7/email/routing/addresses",
+      "status": 200,
+      "success": true,
+      "result": [
+        {
+          "id": "2c25e61e9c8d4a1cbce1f5c5dfad607a",
+          "status": "verified",
+          "verified": "2026-09-13T08:55:54.963443Z",
+          "destination": "user-provided Gmail (private)"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

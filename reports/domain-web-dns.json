@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-11T14:24:31.135Z",
+  "backup": [
+    {
+      "id": "92b00c49e3ae0e80d99e4954cd4fc9fd",
+      "name": "moriohhighguide.wiki",
+      "type": "A",
+      "content": "54.149.79.189",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-10-11T14:17:58.628387Z",
+      "modified_on": "2026-10-11T14:17:58.628387Z"
+    },
+    {
+      "id": "bd5f5981e14b87dec8e8b5ca6b197d92",
+      "name": "moriohhighguide.wiki",
+      "type": "A",
+      "content": "34.216.117.25",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-10-11T14:17:58.618183Z",
+      "modified_on": "2026-10-11T14:17:58.618183Z"
+    }
+  ],
+  "receipts": [
+    {
+      "operation": "remove_imported_parking_A",
+      "httpStatus": 200,
+      "result": {
+        "id": "92b00c49e3ae0e80d99e4954cd4fc9fd"
+      },
+      "success": true,
+      "errors": [],
+      "messages": []
+    },
+    {
+      "operation": "remove_imported_parking_A",
+      "httpStatus": 200,
+      "result": {
+        "id": "bd5f5981e14b87dec8e8b5ca6b197d92"
+      },
+      "success": true,
+      "errors": [],
+      "messages": []
+    },
+    {
+      "operation": "create_pages_CNAME",
+      "httpStatus": 200,
+      "result": {
+        "id": "edc127816438ea572a680801259ecb28",
+        "name": "moriohhighguide.wiki",
+        "type": "CNAME",
+        "content": "moriohhigh-wiki.pages.dev",
+        "proxiable": true,
+        "proxied": true,
+        "ttl": 1,
+        "settings": {
+          "flatten_cname": false
+        },
+        "meta": {},
+        "comment": "Morioh High Wiki on Cloudflare Pages",
+        "tags": [],
+        "created_on": "2026-10-11T14:24:31.05069Z",
+        "modified_on": "2026-10-11T14:24:31.05069Z",
+        "comment_modified_on": "2026-10-11T14:24:31.05069Z"
+      },
+      "success": true,
+      "errors": [],
+      "messages": []
+    }
+  ]
+}

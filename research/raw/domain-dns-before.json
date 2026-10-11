@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "NS",
+    "Status": 3,
+    "Answer": null,
+    "Authority": [
+      {
+        "name": "wiki",
+        "type": 6,
+        "TTL": 900,
+        "data": "a.nic.wiki. admin.tldns.godaddy. 1791727355 1800 300 604800 1800"
+      }
+    ]
+  },
+  {
+    "Type": "A",
+    "Status": 3,
+    "Answer": null,
+    "Authority": [
+      {
+        "name": "wiki",
+        "type": 6,
+        "TTL": 900,
+        "data": "a.nic.wiki. admin.tldns.godaddy. 1791727355 1800 300 604800 1800"
+      }
+    ]
+  },
+  {
+    "Type": "AAAA",
+    "Status": 3,
+    "Answer": null,
+    "Authority": [
+      {
+        "name": "wiki",
+        "type": 6,
+        "TTL": 900,
+        "data": "a.nic.wiki. admin.tldns.godaddy. 1791727355 1800 300 604800 1800"
+      }
+    ]
+  },
+  {
+    "Type": "MX",
+    "Status": 3,
+    "Answer": null,
+    "Authority": [
+      {
+        "name": "wiki",
+        "type": 6,
+        "TTL": 900,
+        "data": "a.nic.wiki. admin.tldns.godaddy. 1791727355 1800 300 604800 1800"
+      }
+    ]
+  },
+  {
+    "Type": "TXT",
+    "Status": 3,
+    "Answer": null,
+    "Authority": [
+      {
+        "name": "wiki",
+        "type": 6,
+        "TTL": 900,
+        "data": "a.nic.wiki. admin.tldns.godaddy. 1791727355 1800 300 604800 1800"
+      }
+    ]
+  },
+  {
+    "Type": "CAA",
+    "Status": 3,
+    "Answer": null,
+    "Authority": [
+      {
+        "name": "wiki",
+        "type": 6,
+        "TTL": 900,
+        "data": "a.nic.wiki. admin.tldns.godaddy. 1791727355 1800 300 604800 1800"
+      }
+    ]
+  }
+]

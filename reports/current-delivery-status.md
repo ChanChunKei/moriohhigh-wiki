@@ -1,8 +1,8 @@
 # Current delivery status
 
-Updated 2026-10-11 21:12, Asia/Shanghai. Do not reinitialize.
+Updated 2026-10-11 22:30, Asia/Shanghai. Do not reinitialize.
 
-- 当前阶段：质量合格的窄范围首版已实际部署并验收；完整游戏百科未完成。正式域名和真实邮箱待用户提供。
+- 当前阶段：质量合格的窄范围首版已实际部署并验收；完整游戏百科未完成。正式域名已知，Cloudflare 接入已配置；域名邮箱规则已保存，等待 Spaceship nameserver 切换后启用收信。
 - 历史继承：15 个关键词、原始数字/口径/限制完整保存在 research/user-keywords-2026-10-11.md / .json；未被新研究覆盖。
 - 研究：36 条记录 / 29 相关候选 / 7 排除；相关不等于实测月搜词。当前 Suggest 7 条信号；新月搜/KD 未取得；Trends 7/30 天 HTTP429，实际上涨窗口未验证。
 - 矩阵：20 意图；6 编辑页已上线，4 完整限定答案、2 部分答案；14 暂缓。4 MDX、原生首页/FAQ；政策和归档不计精品攻略。
@@ -14,9 +14,11 @@ Updated 2026-10-11 21:12, Asia/Shanghai. Do not reinitialize.
 - 视觉：真实桌面/移动首页、Stand、社区样板通过；线上共享移动组件/搜索已查；最新Stand桌面/搜索4结果及正确跳转，390px线上截图已验证。最终移动搜索重复检查因浏览器超时没有另报通过。无 Lighthouse /真实Core Web Vitals数值。
 - GSC：URL-prefix 所有权验证；index / child Sitemap均提交成功。报告仍 Couldn't fetch /0 discovered；Google live test20:48:11成功抓取、允许抓取/索引。处理、收录、曝光未验证。
 - GA4：property558434763 / stream16106218705 / G-MLLG5CEMCG，原生同意后加载；线上Allow loader和正确属性Realtime已验证，1测试用户、2page_view及first_visit/session_start/user_engagement。Organic Search未验证。
-- 外部阻塞：正式域名所有权/授权与真实公开域名邮箱未知；contact noindex；未购买、付费、绑定。moriohhigh.wiki已注册不等于属于用户；.wiki续费超预算；.org条件候选实际结账仍未核验。
+- 正式域名：用户已购买 moriohhighguide.wiki / Spaceship；RDAP已确认新注册；CF Free zone c917d0811a9b554a510282eaecdbd91e 已创建，Pages关联+CNAME已验证；zone pending，public NS仍launch1/launch2.spaceship.net，HTTPS正式站未验收。要求切换为 armfazh.ns.cloudflare.com / laura.ns.cloudflare.com。
+- 邮箱：contact@moriohhighguide.wiki 精确转发至用户提供的私有Gmail；目标早已verified；rule d4b11591c9ac45c39caffffd1d50d61e enabled且读回验证。启用服务HTTP403 Active zone required；实际收信未生效/未测试；不公开Gmail，网站contact仍noindex/未填未生效地址。
+- 外部阻塞：Spaceship内置浏览器未登录，已请求用户本机登录或自行改NS；CF zone创建API403已通过现有浏览器授权解决，不需要扩展Token权限。未付款/购买服务，不修改其他域名。
 - 维护：3/7/14/28天单次任务创建/保存已验证，10/14、10/18、10/25、11/8 12:00 Asia/Shanghai；未来执行未发生；不自动重写/生成文章。
-- 下一步：用户提供已拥有并授权域名、真实可用邮箱后绑定，重验Canonical/Sitemap/HTTPS/GSC/GA4及邮箱；观察Sitemap处理；只在新可靠证据或真实Google需求出现时扩展暂缓页。
+- 下一步：Spaceship NS切换且实际CF zone active后启用邮件路由MX/SPF/DKIM，验证收信；确认正式域名Pages/HTTPS active，发布原生contact/正式origin并重验Canonical/Sitemap/GSC/GA4。接入回执和精确恢复步骤：reports/domain-email-handoff.md。观察Sitemap处理；只在新可靠证据或真实Google需求出现时扩展暂缓页。
 - 当前进度已保存，没有声称持续后台研究；未来检查依赖本机/应用及账号可访问。
 
 完整报告：reports/final-delivery-report.md。交付记录 commit fc759e35c4f7983434080e1d34f2c58faf52dcff 的 push 和 CI38142637729 success 另存 reports/repository-delivery.json；该回执可有后续记录提交，不改变已验收线上source。恢复时核对 Git HEAD 与部署来源marker，不重复初始化。

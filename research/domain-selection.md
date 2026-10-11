@@ -20,3 +20,13 @@
 RDAP 原始非个人字段记录：raw/domain-rdap.json、raw/moriohhigh-wiki-rdap.json。已注册名称的 Cloudflare nameservers 不证明本项目所有权。Cloudflare Token 查询同名 zone 没有返回结果，也不能排除 Token 无该 Zone 权限。
 
 名称包含游戏名称及 JoJo 语义关联，存在混淆风险；本站全站标示 unofficial / independent，未冒用官方 Logo 或声称认可。这是明显混淆风险识别，不是商标法律审查或注册权保证。公开联系邮箱需在域名确定并实际可用后填写。
+
+## 增量记录：用户已购买正式域名
+
+2026-10-11 22:28 Asia/Shanghai：用户明确提供已在 Spaceship 购买的 `moriohhighguide.wiki`，并要求使用域名邮箱转发至其提供的 Gmail。以上早期查询及报价保留为历史，不能继续把该名称的早期 RDAP 404 当作当前状态。
+
+- Registry RDAP 已确认注册时间 `2026-10-11T14:03:13Z`，到期 `2027-10-11`，注册商 Spaceship；非个人字段保存于 `raw/moriohhighguide-wiki-rdap.json`。
+- 本项目采用用户已购买域名；没有执行购买或付款。实际付款总价、Premium 状态、订单续费价格仍未取得，不把标准公开价当成订单价格。
+- Cloudflare Free zone 已创建，分配 `armfazh.ns.cloudflare.com` / `laura.ns.cloudflare.com`；Pages custom domain 已关联，apex CNAME 已配置。
+- 22:28 核验 public NS 仍为 `launch1.spaceship.net` / `launch2.spaceship.net`，Cloudflare zone 为 pending；Spaceship 内置浏览器未登录，等待用户本机登录或自行切换 nameservers。
+- `contact@moriohhighguide.wiki` 精确转发规则已保存并读回验证；私有目标是用户提供的已验证 Gmail，没有在公开代码/报告中写出该私人地址。服务启用返回 `Active zone required`，收信尚未生效，也未做投递测试。

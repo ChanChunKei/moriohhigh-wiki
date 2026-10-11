@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-11T14:23:56.748Z",
+  "address": "contact@moriohhighguide.wiki",
+  "destination": "user-provided Gmail (kept private)",
+  "destinationVerifiedAt": "2026-09-13T08:55:54.963443Z",
+  "service": {
+    "httpStatus": 403,
+    "result": null,
+    "success": false,
+    "errors": [
+      {
+        "code": 2009,
+        "message": "Active zone required"
+      }
+    ],
+    "messages": [
+      {
+        "code": 2009,
+        "message": "Active zone required"
+      }
+    ]
+  },
+  "rule": {
+    "httpStatus": 200,
+    "success": true,
+    "result": {
+      "id": "d4b11591c9ac45c39caffffd1d50d61e",
+      "tag": "d4b11591c9ac45c39caffffd1d50d61e",
+      "name": "Morioh High public contact",
+      "matchers": [
+        {
+          "type": "literal",
+          "field": "to",
+          "value": "contact@moriohhighguide.wiki"
+        }
+      ],
+      "actions": [
+        {
+          "type": "forward",
+          "value": [
+            "[private verified destination]"
+          ]
+        }
+      ],
+      "enabled": true,
+      "priority": 0,
+      "source": "api"
+    },
+    "errors": []
+  },
+  "publicDnsActive": false,
+  "deliveryTest": "not_performed",
+  "verifiedAt": "2026-10-11T14:28:03.148Z",
+  "ruleReadbackVerified": true,
+  "status": "rule_saved_service_blocked_until_zone_active"
+}

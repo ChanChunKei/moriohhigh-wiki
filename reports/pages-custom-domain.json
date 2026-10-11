@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-11T14:22:29.716Z",
+  "httpStatus": 200,
+  "result": {
+    "id": "4ca17326-6c68-4527-a593-ae0321284775",
+    "domain_id": "4ca17326-6c68-4527-a593-ae0321284775",
+    "name": "moriohhighguide.wiki",
+    "status": "initializing",
+    "verification_data": {
+      "status": "pending"
+    },
+    "validation_data": {
+      "status": "initializing",
+      "method": "http"
+    },
+    "certificate_authority": "google",
+    "created_on": "2026-10-11T14:22:29.523017Z"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
