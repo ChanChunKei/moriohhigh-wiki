@@ -19,4 +19,4 @@ Updated 2026-10-11 21:12, Asia/Shanghai. Do not reinitialize.
 - 下一步：用户提供已拥有并授权域名、真实可用邮箱后绑定，重验Canonical/Sitemap/HTTPS/GSC/GA4及邮箱；观察Sitemap处理；只在新可靠证据或真实Google需求出现时扩展暂缓页。
 - 当前进度已保存，没有声称持续后台研究；未来检查依赖本机/应用及账号可访问。
 
-完整报告：reports/final-delivery-report.md。恢复时核对 Git HEAD 与部署来源marker，不重复初始化。
+完整报告：reports/final-delivery-report.md。交付记录 commit fc759e35c4f7983434080e1d34f2c58faf52dcff 的 push 和 CI38142637729 success 另存 reports/repository-delivery.json；该回执可有后续记录提交，不改变已验收线上source。恢复时核对 Git HEAD 与部署来源marker，不重复初始化。

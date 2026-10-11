@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-11",
+  "repository": "https://github.com/ChanChunKei/moriohhigh-wiki",
+  "productionSource": "b1d747968377615aa7fe14a36455c9aa4e935d7c",
+  "verifiedDeliveryRecordCommit": "fc759e35c4f7983434080e1d34f2c58faf52dcff",
+  "push": "verified main push success",
+  "recordCi": {
+    "id": 38142637729,
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/ChanChunKei/moriohhigh-wiki/actions/runs/38142637729"
+  },
+  "indexNowWorkflow": "intentionally skipped because automatic submission is opt-in",
+  "productionMarker": "HTTP200 and exactly matches productionSource",
+  "limitation": "This receipt may itself be committed later; it describes the explicitly identified verified commit, not an assumed future HEAD."
+}
