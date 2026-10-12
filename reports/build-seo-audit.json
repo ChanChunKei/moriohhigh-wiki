@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-11T17:43:21.605Z",
+  "checkedAt": "2026-10-12T03:25:17.445Z",
   "origin": "https://moriohhighguide.wiki",
-  "htmlCount": 21,
-  "indexableCount": 11,
-  "sitemapCount": 11,
+  "htmlCount": 22,
+  "indexableCount": 12,
+  "sitemapCount": 12,
   "failures": [],
   "pages": [
     {
@@ -47,6 +47,14 @@
       "errors": []
     },
     {
+      "file": "dist/guides/controls/index.html",
+      "title": "Morioh High PC Controls: Keys Seen in Gameplay",
+      "descriptionLength": 140,
+      "canonical": "https://moriohhighguide.wiki/guides/controls/",
+      "noindex": false,
+      "errors": []
+    },
+    {
       "file": "dist/guides/how-to-get-a-stand/index.html",
       "title": "How to Get a Stand in Morioh High",
       "descriptionLength": 148,
@@ -65,7 +73,7 @@
     {
       "file": "dist/guides/index.html",
       "title": "Morioh High Player Guide",
-      "descriptionLength": 128,
+      "descriptionLength": 130,
       "canonical": "https://moriohhighguide.wiki/guides/",
       "noindex": true,
       "errors": []
@@ -73,7 +81,7 @@
     {
       "file": "dist/index.html",
       "title": "Morioh High Wiki | Stand Guide &amp; Roblox Resources",
-      "descriptionLength": 149,
+      "descriptionLength": 142,
       "canonical": "https://moriohhighguide.wiki/",
       "noindex": false,
       "errors": []

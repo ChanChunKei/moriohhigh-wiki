@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-10-12",
+  "baseline": "research/keywords.json (2026-10-11,36 records/29 related/7 excluded)",
+  "counts": {
+    "reviewedExistingKeywords": 2,
+    "newUniqueCandidates": 1,
+    "combinedResearchRecords": 37,
+    "combinedRelatedCandidates": 30,
+    "excludedUnchanged": 7,
+    "newMeasuredVolumes": 0
+  },
+  "records": [
+    {
+      "keyword": "morioh high controls",
+      "intent": "PC input reference",
+      "existingBaseline": true,
+      "source": "https://www.youtube.com/watch?v=AaOK6j4ts3E",
+      "evidence": "E19 readable game HUD; viewer questions include device controls",
+      "volume": null,
+      "kd": null,
+      "competitionScore": null,
+      "competitionBasis": "Search sample only, not exact Google top-ten audit",
+      "targetUrl": "/guides/controls/",
+      "priority": "P1",
+      "publication": "partial answer: recorded PC keys; current-client and mobile/console unverified"
+    },
+    {
+      "keyword": "morioh high stand rerolls",
+      "intent": "Change an existing Stand and understand recorded cost",
+      "existingBaseline": false,
+      "source": "E17/E20 readable Encyclopedia; viewer question on Iron video asks how to change Stands",
+      "demand": "qualitative question signal, not measured exact-keyword volume",
+      "volume": null,
+      "kd": null,
+      "competitionScore": null,
+      "targetUrl": "/guides/how-to-get-a-stand/#can-you-choose-or-change-the-stand-you-get",
+      "priority": "P1",
+      "separatePage": false,
+      "reason": "Useful cost answer fits an existing closely related section; avoid duplicate thin page"
+    },
+    {
+      "keyword": "morioh high stands",
+      "intent": "Current complete roster and abilities",
+      "existingBaseline": true,
+      "source": "Iron showcase candidate and PGG article",
+      "volume": null,
+      "kd": null,
+      "competitionScore": null,
+      "targetUrl": null,
+      "publication": "deferred: complete current roster and numeric effects not independently verified"
+    }
+  ]
+}

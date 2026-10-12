@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "id": 10768944846,
+      "rootPlaceId": 111838814545019,
+      "name": "Morioh High",
+      "description": "Present Day, Morioh, Japan.\n\nA school life game where pretty much anything can happen.\n\nAttend classes, make friends (or enemies lol), build relationships, join groups, and explore Morioh High. The NPCs aren't just there for decoration either. You can interact with them!\n\nYou can try living a normal school life! (but knowing this is Morioh, that probably won't last very long) ゴゴゴ",
+      "sourceName": null,
+      "sourceDescription": null,
+      "creator": {
+        "id": 403864872,
+        "name": "Not A Stand Game",
+        "type": "Group",
+        "isRNVAccount": false,
+        "hasVerifiedBadge": false
+      },
+      "price": null,
+      "allowedGearGenres": [
+        "All"
+      ],
+      "allowedGearCategories": [],
+      "isGenreEnforced": false,
+      "copyingAllowed": false,
+      "playing": 2367,
+      "visits": 347090,
+      "maxPlayers": 30,
+      "created": "2026-10-02T04:24:42.765Z",
+      "updated": "2026-10-12T01:10:44.709Z",
+      "studioAccessToApisAllowed": false,
+      "createVipServersAllowed": false,
+      "universeAvatarType": "MorphToR6",
+      "genre": "All",
+      "genre_l1": "Action",
+      "genre_l2": "Battlegrounds & Fighting",
+      "untranslated_genre_l1": "action",
+      "isAllGenre": true,
+      "isFavoritedByUser": false,
+      "favoritedCount": 3906,
+      "canonicalUrlPath": "/games/111838814545019/Morioh-High",
+      "isContentRestricted": false
+    }
+  ]
+}

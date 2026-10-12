@@ -54,3 +54,7 @@ Source7f1de4600643729cb6eda26c664c1daeb7a7ffb4 /CI38156101001 success /deploymen
 ## 图片完善正式验收 — 2026-10-12
 
 source a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2 /CI38161154603 success /production部署 b107ac33-3bd5-4415-924d-872cb1ec8ef6 success /marker匹配。新增原创插画、原生响应式图片和MDX流程图。check137files0diagnostics、lint、244passed/1skipped、check-config/check-content/check-i18n/check-links/build通过；本地Sitemap11/11。buildSEO21HTML/11indexable/11Sitemap/0failures；live20HTML/27targets/0failures；images26/26线上资源200且字节与构建一致/0failures。原GA4同意门禁、域名origin和索引规则通过既有审计；Google处理与用户跳过的收信状态未改变。图片是编辑插画，游戏事实没有新增未经核验的信息。
+
+## 攻略增量本地门禁 — 2026-10-12
+
+新增1个限定PC HUD参考和既有Stand100 Rerolls说明；check/lint/test/check-config/check-content/build/check-links/check-i18n及本地check-sitemap通过。137files0诊断；244pass/1skip；5MDX；22HTML/505内链；12可索引/Sitemap；Pagefind5篇；图片32资源0失败。线上尚待实际部署。完整研究/界限见research/guide-expansion-2026-10-12.md。

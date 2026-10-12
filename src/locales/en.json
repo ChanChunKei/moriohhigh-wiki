@@ -124,7 +124,7 @@
   "overview": {
     "guides": {
       "overviewTitle": "Morioh High Player Guide",
-      "overviewDescription": "Find the correct Roblox experience and learn how to launch Morioh High, with game identity checked against official Roblox data."
+      "overviewDescription": "Find Morioh High on Roblox, check documented PC controls, and learn Stand awakening and reroll rules with clear sources and dates."
     },
     "resources": {
       "overviewTitle": "Morioh High Game & Community Resources",
@@ -134,12 +134,12 @@
   "home": {
     "meta": {
       "title": "Morioh High Wiki | Stand Guide & Roblox Resources",
-      "description": "Learn how to get a Stand in Morioh High, find the Roblox game, and check community links. Independent wiki with clear sources and verification dates."
+      "description": "Find Morioh High on Roblox, check PC controls and Stand awakening rules, and follow community links. Independent wiki with dated source notes."
     },
     "hero": {
       "badge": "ROBLOX · INDEPENDENT PLAYER WIKI",
       "title": "Morioh High Wiki",
-      "description": "School life in Morioh, with a bizarre twist. Find the Roblox game, learn the documented Stand awakening methods, and connect with other players. Sources checked October 11, 2026.",
+      "description": "School life in Morioh, with a bizarre twist. Find the Roblox game, check documented PC controls and Stand awakening methods, and connect with other players.",
       "ctaPrimary": "Play on Roblox",
       "ctaSecondary": "Game & community links",
       "videoId": "",
@@ -160,6 +160,10 @@
         {
           "label": "How to get a Stand",
           "href": "/guides/how-to-get-a-stand/"
+        },
+        {
+          "label": "PC controls and Stand keys",
+          "href": "/guides/controls/"
         },
         {
           "label": "Release & availability",
@@ -294,7 +298,7 @@
         },
         {
           "question": "Where are the Stand and codes guides?",
-          "answer": "The Stand guide documents qualifying fight knockouts and holding a Stand Arrow to full compatibility, using readable game Encyclopedia footage. A complete Stand roster and working code redemption remain unverified here."
+          "answer": "The Stand guide documents qualifying fight knockouts, Arrow compatibility, and the recorded reroll cost. A PC controls reference covers the prompts visible in same-game footage. A complete current Stand roster and working code redemption remain unverified here."
         },
         {
           "question": "Is this an official wiki?",

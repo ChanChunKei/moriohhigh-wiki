@@ -27,3 +27,7 @@ Updated 2026-10-11T17:55:13.817Z (UTC), 2026-10-12 Asia/Shanghai. Do not reiniti
 ## 2026-10-12 图片增量（已完成/已验证）
 
 4幅原创AI辅助插画、响应式首页主视觉/正文封面/列表及相关文章缩略图、Stand文字流程图和独立新版分享图已实际在正式域名上线。source a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2 /CI38161154603 success /deployment b107ac33-3bd5-4415-924d-872cb1ec8ef6 success /marker一致。图片专项21HTML/26资源/0failures，26线上资源与构建逐字节一致；线上SEO20HTML/27检查/11Sitemap/0failures。本地桌面1280×720和手机390×844浏览器通过，正式首页主视觉及四图卡片截图已保存。页面数量、事实与用户研究未变；Google收录/曝光、用户明确跳过的实收仍未验证。详见 reports/image-improvements-2026-10-12.md。旧正式初版部署回执另存 pages-deployment-formal-initial-history.json。
+
+## 2026-10-12 攻略补充进行中
+
+新增 controls.mdx（限定早期录像PC键位、部分回答）及原创键盘封面；Stand页补充已读UI的100 Rerolls成本与不同结果，How-to-play/首页/FAQ已接内链。新增E19–E22，研究原快照未改；独立关键词增量37记录/30相关/7排除（其中1新候选，无新增实测月搜）。尚待本地技术、视觉与实际部署验收；线上source仍为a60fa3ce，不冒充已更新。

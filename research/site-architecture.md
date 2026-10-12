@@ -22,3 +22,7 @@
 ## 2026-10-12正式域名增量
 
 正式origin已验证为 https://moriohhighguide.wiki。Canonical/Sitemap/robots/分享元数据已重建并线上验收；11可索引URL。原Pages地址作为平台地址保留，Canonical指向正式域名。原生GA4仅在同意后加载，广告继续关闭。历史localhost/Pages说明保留为初始化记录，不作为当前部署状态。证据：reports/domain-binding.json、online-acceptance.json、analytics-formal.json。
+
+## 2026-10-12攻略补充候选
+
+新增 /guides/controls/：限定已读录像PC HUD参考，覆盖键鼠输入；当前客户端、移动与手柄未测。Stand获取页合并已验证的100 Rerolls更换说明，URL保持不变；不新增重复reroll路由。上线后预计7编辑页、12可索引URL，实际以构建/线上验收为准。页面矩阵13缺证据意图继续暂缓。

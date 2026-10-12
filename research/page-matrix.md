@@ -1,6 +1,6 @@
 # 页面矩阵（增量证据后的状态）
 
-2026-10-11。20 个页面意图：6 个编辑页面已部署并完成线上 HTTP 验收，4 完整回答、2 限定部分回答，14 暂缓。完整回答指文内限定的玩家问题，不代表整站已成为完整游戏百科。法律和归档页不计精品攻略。生产来源 commit 为 b1d747968377615aa7fe14a36455c9aa4e935d7c，线上 origin 为 https://moriohhigh-wiki.pages.dev。
+2026-10-12增量：20个页面意图，7个编辑页面内容已准备（4完整限定答案、3部分答案），13暂缓。已有6页在正式域名上线，新增PC Controls及现有Stand更换说明正在技术/视觉/上线验收。正式origin https://moriohhighguide.wiki；当前线上source仍为a60fa3ceb83b20ddbd4a48ba62ddd2f3868435a2，部署回执见reports/pages-deployment.json。完整回答指文内限定问题，不代表完整游戏百科；政策与归档不计精品攻略。
 
 | 页面 | 主词 | URL | 状态 |
 | --- | --- | --- | --- |
@@ -12,7 +12,7 @@
 | Beginner guide | morioh high beginner guide | /guides/beginner-guide/ | 暂缓 |
 | How to get a Stand | how to get a stand in morioh high | /guides/how-to-get-a-stand/ | 完整回答 |
 | Stands guide | morioh high stands | /guides/stands/ | 暂缓 |
-| Controls | morioh high controls | /guides/controls/ | 暂缓 |
+| Controls | morioh high controls | /guides/controls/ | 部分回答：已读PC HUD；当前客户端/其他设备未测，待部署验收 |
 | Progression | morioh high progression | /guides/progression/ | 暂缓 |
 | Map / locations | morioh high map | /guides/map/ | 暂缓 |
 | NPCs | morioh high npcs | /guides/npcs/ | 暂缓 |
@@ -131,16 +131,17 @@
 
 ## Controls
 
-- 次词：暂无验证变体
-- 独立意图：Actual input mapping by device
-- 最小答案：Actual input mapping by device
-- 所需证据：Current same-game developer documentation or timestamped footage plus independent confirmation
-- 已取得：不足
-- 形式：No page generated
-- 内链：/guides/how-to-play/, /resources/community-links/
-- 更新频率：Unknown until mechanics verified
-- SEO 价值：Candidate only; current demand unmeasured
-- 状态：暂缓；No same-game settings/control evidence
+- 次词：Morioh High PC controls, Stand barrage key, block/dash/withdrawal prompts；精确月搜未取得。
+- 独立意图：Read PC keyboard/mouse action prompts shown in same-game footage
+- URL：/guides/controls/
+- 最小有效答案：9个可读HUD输入及状态边界；F block、Q dash、active-Stand RMB barrage/X skill/Z withdrawal；不推断当前全设备映射。
+- 所需证据：可读同游戏HUD、录像日期与版本边界；手机/手柄需独立画面
+- 已取得：E19录像0:05清晰1080p HUD；E22平台Voice FAQ支持权限区分；当前客户端未实测。
+- 形式：原生MDX Quick Answer、键位表、FAQ、版本说明、原创编辑封面
+- 内链：how-to-play、how-to-get-a-stand、community-links、FAQ；首页/现有两攻略回链
+- 更新频率：实际输入映射/客户端UI改变，或新设备证据出现时
+- SEO价值：已有controls候选、真实玩家设备提问信号；月搜/KD未知，不冒充Google前十完整实查
+- 状态：部分回答；正式候选待本地门禁及线上验收
 
 ## Progression
 
